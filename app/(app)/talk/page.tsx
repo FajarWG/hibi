@@ -47,7 +47,7 @@ export default async function TalkPage() {
               {scenario.stages.map((stage, index) => (
                 <li
                   key={stage}
-                  className="rounded-full border border-border px-2 py-0.5"
+                  className="border border-border px-2 py-0.5"
                 >
                   {index + 1}. {stage}
                 </li>

@@ -223,7 +223,7 @@ export function WritingPanel({ grammar }: { grammar: PracticeGrammar }) {
       {/* Kartu pola tata bahasa + referensi */}
       <section className="space-y-2 rounded-xl border border-border bg-card p-5">
         <div className="flex items-center gap-2">
-          <span className="rounded-full bg-primary/10 px-2 py-0.5 font-mono text-xs text-primary">
+          <span className="border-2 border-foreground bg-primary/10 px-2 py-0.5 font-mono text-xs text-primary">
             {grammar.level}
           </span>
           <h1 lang="ja" className="font-jp text-lg font-semibold">
@@ -263,7 +263,7 @@ export function WritingPanel({ grammar }: { grammar: PracticeGrammar }) {
           <li
             key={id}
             className={cn(
-              "rounded-full border px-3 py-1",
+              "border-2 px-3 py-1",
               step === id
                 ? "border-primary bg-primary/10 text-primary"
                 : "border-border text-muted-foreground",
@@ -477,7 +477,7 @@ export function WritingPanel({ grammar }: { grammar: PracticeGrammar }) {
                   ).map(([label, value]) => (
                     <span
                       key={label}
-                      className="rounded-full bg-muted px-2.5 py-1 font-mono tabular-nums"
+                      className="border-2 border-foreground bg-muted px-2.5 py-1 font-mono tabular-nums"
                     >
                       {label} {value}
                     </span>

@@ -121,7 +121,7 @@ export function StudyTimerDock({ timer, todaySeconds }: Props) {
                 ? `Study timer running, ${formatDuration(display)}. Open timer controls`
                 : "Open study timer controls"
             }
-            className="pointer-events-auto flex items-center gap-2 rounded-full border border-border bg-card/95 py-2 pr-3 pl-2.5 shadow-lg backdrop-blur focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none"
+            className="pointer-events-auto flex items-center gap-2 border-2 border-foreground bg-card py-2 pr-3 pl-2.5 shadow-brutal focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none"
           >
             <Timer
               className={cn("size-4", isRunning ? "text-primary" : "text-muted-foreground")}
@@ -142,7 +142,7 @@ export function StudyTimerDock({ timer, todaySeconds }: Props) {
             transition={transition}
             role="group"
             aria-label="Study timer"
-            className="pointer-events-auto flex items-center gap-3 rounded-2xl border border-border bg-card/95 p-2 pl-3.5 shadow-lg backdrop-blur"
+            className="pointer-events-auto flex items-center gap-3 border-2 border-foreground bg-card p-2 pl-3.5 shadow-brutal"
           >
             <div className="flex flex-col leading-tight">
               <span

@@ -113,7 +113,7 @@ export default async function KanjiPage() {
                 </div>
                 <span
                   className={cn(
-                    "size-2 shrink-0 rounded-full",
+                    "size-2 shrink-0",
                     STATUS_DOT[item.status],
                   )}
                   title={item.status}

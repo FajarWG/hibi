@@ -51,7 +51,9 @@ Do not reuse these for decorative UI.
 - **Hard offset shadows, no blur.** Use `.shadow-brutal` (`4px 4px 0 0 foreground`) or `.shadow-brutal-sm` (`3px 3px 0`). Never soft blurred shadows.
 - **Press-into-shadow.** Interactive elements shift into their shadow on `:active` (Button variants do this; `.press-brutal` is the reusable helper).
 
-A pill/full radius is used only when behavior justifies it (e.g. the floating timer), and is the documented exception.
+- **Native form controls are squared too.** `input[type="checkbox"]` and `input[type="radio"]` are restyled in `globals.css` (`appearance: none`, square, 2px foreground border, flat accent fill). Badges, tags, pills, progress meters, status dots, and the floating study timer are all square with strong borders and hard offset shadows.
+
+There are no pill/`rounded-full` exceptions. Everything is square.
 
 ## Type
 

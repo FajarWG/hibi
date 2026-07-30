@@ -61,7 +61,7 @@ export function GradingBar({ state, onGrade, disabled }: GradingBarProps) {
             )}
           >
             <span className="flex items-center gap-1.5">
-              <span className={cn("size-2 rounded-full", meta.dot)} aria-hidden />
+              <span className={cn("size-2", meta.dot)} aria-hidden />
               {meta.label}
             </span>
             <span className="font-mono text-xs text-muted-foreground tabular-nums">

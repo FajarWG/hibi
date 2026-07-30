@@ -159,14 +159,14 @@ export function ReviewSession({ cards }: { cards: ReviewCardDto[] }) {
         </div>
 
         <div
-          className="h-1 w-full overflow-hidden rounded-full bg-muted"
+          className="h-1 w-full overflow-hidden border border-foreground bg-muted"
           role="progressbar"
           aria-valuenow={index}
           aria-valuemin={0}
           aria-valuemax={total}
         >
           <div
-            className="h-full rounded-full bg-primary transition-[width] duration-300"
+            className="h-full bg-primary transition-[width] duration-300"
             style={{ width: `${(index / total) * 100}%` }}
           />
         </div>

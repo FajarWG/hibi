@@ -22,19 +22,19 @@ export function Avatar({
       aria-hidden
     >
       <div
-        className="absolute size-32 rounded-full bg-primary/15 transition-transform duration-100 ease-out"
+        className="absolute size-32 rounded-none bg-primary/15 transition-transform duration-100 ease-out"
         style={{ transform: `scale(${scale})` }}
       />
       <div
         className={cn(
-          "absolute size-24 rounded-full transition-colors",
+          "absolute size-24 rounded-none transition-colors",
           active ? "bg-primary/30" : "bg-muted",
         )}
         style={{ transform: `scale(${1 + Math.min(0.25, amplitude)})` }}
       />
       <div
         className={cn(
-          "size-16 rounded-full transition-colors",
+          "size-16 rounded-none transition-colors",
           active ? "bg-primary" : "bg-muted-foreground/40",
         )}
       />

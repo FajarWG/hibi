@@ -47,7 +47,7 @@ export function SessionSummary({
             className="flex flex-col items-center gap-1 rounded-lg border border-border py-3"
           >
             <dt className="flex items-center gap-1.5 text-xs text-muted-foreground">
-              <span className={cn("size-2 rounded-full", LABEL[grade].dot)} aria-hidden />
+              <span className={cn("size-2", LABEL[grade].dot)} aria-hidden />
               {LABEL[grade].label}
             </dt>
             <dd className="font-mono text-lg tabular-nums">{counts[grade]}</dd>

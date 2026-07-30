@@ -70,7 +70,7 @@ export default async function KakouPage() {
                 <li key={weak.category}>
                   <Link
                     href={`/kakou/practice/${weak.practiceGrammarId}`}
-                    className="inline-flex items-center gap-1.5 rounded-full bg-destructive/10 px-3 py-1 text-sm text-destructive hover:bg-destructive/20"
+                    className="inline-flex items-center gap-1.5 border-2 border-destructive bg-destructive/10 px-3 py-1 text-sm text-destructive hover:bg-destructive/20"
                   >
                     {weak.category}
                     <span className="font-mono text-xs tabular-nums opacity-70">
@@ -81,7 +81,7 @@ export default async function KakouPage() {
               ) : (
                 <li
                   key={weak.category}
-                  className="inline-flex items-center gap-1.5 rounded-full bg-muted px-3 py-1 text-sm text-muted-foreground"
+                  className="inline-flex items-center gap-1.5 border-2 border-border bg-muted px-3 py-1 text-sm text-muted-foreground"
                 >
                   {weak.category}
                   <span className="font-mono text-xs tabular-nums opacity-70">
@@ -106,7 +106,7 @@ export default async function KakouPage() {
           </div>
 
           <div
-            className="flex h-1.5 w-full overflow-hidden rounded-full bg-muted"
+            className="flex h-3 w-full overflow-hidden border-2 border-foreground bg-muted"
             role="img"
             aria-label={`${level.level}: ${level.counts.mastered} mastered, ${level.counts.learning} learning, ${level.counts.struggling} need work, ${level.counts.untouched} new`}
           >
@@ -141,7 +141,7 @@ export default async function KakouPage() {
                   </div>
                   <span
                     className={cn(
-                      "shrink-0 rounded-full px-2 py-0.5 text-xs font-medium",
+                      "shrink-0 px-2 py-0.5 text-xs font-medium",
                       STATUS_META[point.status].badge,
                     )}
                   >
