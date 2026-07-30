@@ -1,0 +1,191 @@
+// Hibi - schema Prisma
+//
+// PENTING: database ini DIPAKAI BERSAMA dengan Nihongo Flow.
+// Semua tabel Hibi diberi prefix `hibi_` lewat @@map supaya berdampingan
+// dengan tabel lama tanpa bertabrakan. Jangan pernah menjalankan
+// `prisma migrate reset` atau `prisma db push` di database ini.
+
+generator client {
+  provider = "prisma-client"
+  output   = "../lib/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  // url dikonfigurasi di prisma.config.ts (Prisma v7)
+}
+
+enum Role {
+  USER
+  ADMIN
+
+  @@map("hibi_role")
+}
+
+enum ReviewItemKind {
+  VOCAB
+  KANJI
+  GRAMMAR
+
+  @@map("hibi_review_item_kind")
+}
+
+enum ReviewDirection {
+  RECOGNIZE
+  RECALL
+
+  @@map("hibi_review_direction")
+}
+
+// ─────────────────────────────────────────
+// User
+// `legacyId` menyimpan User.id lama (Int) dari Nihongo Flow supaya
+// ETL bisa memetakan progress Anki ke pemiliknya tanpa menebak username.
+// ─────────────────────────────────────────
+model User {
+  id           String   @id @default(cuid())
+  legacyId     Int?     @unique
+  username     String   @unique
+  passwordHash       String
+  legacyPasswordHash String?
+  role               Role     @default(USER)
+  timezone     String   @default("Asia/Tokyo")
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  timers       StudyTimer[]
+  reviewStates ReviewState[]
+
+  @@map("hibi_user")
+}
+
+// ─────────────────────────────────────────
+// Study timer global
+// ─────────────────────────────────────────
+model StudyTimer {
+  id                 String    @id @default(cuid())
+  userId             String
+  user               User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  activeKey          String?   @unique
+  status             String    @default("RUNNING") // RUNNING | PAUSED | ENDED
+  context            String?
+  accumulatedSeconds Int       @default(0)
+  lastStartedAt      DateTime?
+  startedAt          DateTime  @default(now())
+  endedAt            DateTime?
+  updatedAt          DateTime  @updatedAt
+
+  @@index([userId, startedAt])
+  @@index([userId, status])
+  @@map("hibi_study_timer")
+}
+
+// ─────────────────────────────────────────
+// Vocabulary content
+//
+// `legacyKey` is the exact Nihongo Flow cardKey:
+// - custom card: `custom-${AnkiCard.id}`
+// - Dekiru card: the full generated `Bab ...` key
+// Never derive identity by splitting an old cardKey; kanji may be `-`.
+// ─────────────────────────────────────────
+model VocabCard {
+  id                String   @id @default(cuid())
+  legacyKey         String   @unique
+  legacyAnkiId      String?  @unique
+  source            String   // CUSTOM | DEKIRU
+  deck              String
+  chapter           String?
+  sectionIndex      Int?
+  sourceOrder       Int?
+  term              String
+  reading           String
+  meaning           String   @db.Text
+  romaji            String?
+  audioFile         String?
+  imageFile         String?
+  sentence          String?  @db.Text // sanitized, safe HTML subset
+  sentenceMeaning   String?  @db.Text
+  sentenceAudioFile String?
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  reviewItem ReviewItem?
+
+  @@index([deck])
+  @@index([source])
+  @@index([term, reading])
+  @@map("hibi_vocab_card")
+}
+
+// One schedulable entity. Future phases attach KanjiEntry and GrammarPoint
+// to this same model so `/today` can query one unified queue.
+model ReviewItem {
+  id        String         @id @default(cuid())
+  kind      ReviewItemKind
+  vocabId   String?        @unique
+  vocab     VocabCard?     @relation(fields: [vocabId], references: [id], onDelete: Cascade)
+  createdAt DateTime       @default(now())
+  updatedAt DateTime       @updatedAt
+
+  states ReviewState[]
+
+  @@index([kind])
+  @@map("hibi_review_item")
+}
+
+// Per-user FSRS-ready state. Legacy SM-2 values are retained verbatim so
+// conversion can always be audited or recalculated later.
+model ReviewState {
+  id        String          @id @default(cuid())
+  userId    String
+  user      User            @relation(fields: [userId], references: [id], onDelete: Cascade)
+  itemId    String
+  item      ReviewItem      @relation(fields: [itemId], references: [id], onDelete: Cascade)
+  direction ReviewDirection @default(RECOGNIZE)
+
+  legacyProgressId  Int?    @unique
+  legacyCardKey     String?
+  legacyInterval    Int?
+  legacyEase        Float?
+  legacyRepetitions Int?
+
+  // ts-fsrs compatible state: 0 New, 1 Learning, 2 Review, 3 Relearning.
+  stability      Float    @default(0)
+  difficulty     Float    @default(5)
+  state          Int      @default(0)
+  reps           Int      @default(0)
+  lapses         Int      @default(0)
+  scheduledDays  Int      @default(0)
+  elapsedDays    Int      @default(0)
+  lastReviewedAt DateTime?
+  dueAt          DateTime @default(now())
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  logs ReviewLog[]
+
+  @@unique([userId, itemId, direction])
+  @@index([userId, dueAt])
+  @@index([itemId])
+  @@map("hibi_review_state")
+}
+
+// Real review history starts in Hibi. The legacy database only contains
+// aggregate state, so ETL does not invent synthetic ratings.
+model ReviewLog {
+  id            String      @id @default(cuid())
+  stateId       String
+  reviewState   ReviewState @relation(fields: [stateId], references: [id], onDelete: Cascade)
+  rating        Int
+  state         Int
+  stability     Float
+  difficulty    Float
+  elapsedDays   Int
+  scheduledDays Int
+  dueAt         DateTime
+  elapsedMs     Int?
+  reviewedAt    DateTime    @default(now())
+
+  @@index([stateId, reviewedAt])
+  @@map("hibi_review_log")
+}

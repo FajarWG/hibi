@@ -1,0 +1,51 @@
+// Immutable schema snapshot corresponding to db/migrations/0001_foundation.sql.
+// Use this as --from-schema for additive diffs; never diff against the shared DB.
+
+generator client {
+  provider = "prisma-client"
+  output   = "../../lib/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum Role {
+  USER
+  ADMIN
+
+  @@map("hibi_role")
+}
+
+model User {
+  id           String   @id @default(cuid())
+  legacyId     Int?     @unique
+  username     String   @unique
+  passwordHash String
+  role         Role     @default(USER)
+  timezone     String   @default("Asia/Tokyo")
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  timers StudyTimer[]
+
+  @@map("hibi_user")
+}
+
+model StudyTimer {
+  id                 String    @id @default(cuid())
+  userId             String
+  user               User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  activeKey          String?   @unique
+  status             String    @default("RUNNING")
+  context            String?
+  accumulatedSeconds Int       @default(0)
+  lastStartedAt      DateTime?
+  startedAt          DateTime  @default(now())
+  endedAt            DateTime?
+  updatedAt          DateTime  @updatedAt
+
+  @@index([userId, startedAt])
+  @@index([userId, status])
+  @@map("hibi_study_timer")
+}
