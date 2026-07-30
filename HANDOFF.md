@@ -28,6 +28,16 @@ git clone <URL-REPO-HIBI> hibi
 cd hibi
 ```
 
+### Di mana meletakkan folder hasil clone?
+
+- **Untuk menjalankan app (DB shared yang sama):** clone **di mana saja**, berdiri
+  sendiri. TIDAK perlu di dalam folder `read-japan`. App tidak membaca apa pun
+  dari folder induk, dan media sudah ikut di repo ini.
+- **Hanya untuk menjalankan ulang ETL Phase 1 ke DB baru/kosong (Skenario B):**
+  folder `hibi/` HARUS berada di dalam project legacy `read-japan/`, karena skrip
+  `phase1:*` membaca sumber dari `../src/helper/DekiruNihongoGroup.js` dan
+  `../public/anki-media`.
+
 Atau salin folder `hibi/` langsung. **Yang tidak ikut lewat git** (harus disiapkan manual):
 
 - `.env` — kredensial (lihat langkah 3)
