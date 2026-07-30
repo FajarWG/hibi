@@ -85,3 +85,41 @@ export async function getGrammarLibrary(
     (a, b) => LEVEL_ORDER.indexOf(a.level) - LEVEL_ORDER.indexOf(b.level),
   );
 }
+
+
+export type WeakPoint = {
+  category: string;
+  hits: number;
+  practiceGrammarId: string | null;
+};
+
+/** Titik lemah teratas user + satu pola untuk langsung dilatih. Membuat tabel
+ *  Weakness terlihat dan bisa ditindaklanjuti (prompt adaptif, PLAN 7.2b). */
+export async function getWeakPoints(
+  userId: string,
+  limit = 6,
+): Promise<WeakPoint[]> {
+  const weaknesses = await prisma.weakness.findMany({
+    where: { userId },
+    orderBy: [{ hits: "desc" }, { lastSeen: "desc" }],
+    take: limit,
+    select: { category: true, hits: true },
+  });
+  if (weaknesses.length === 0) return [];
+
+  const points = await prisma.grammarPoint.findMany({
+    select: { id: true, weaknessTags: true },
+  });
+  return weaknesses.map((weakness) => {
+    const match = points.find(
+      (point) =>
+        Array.isArray(point.weaknessTags) &&
+        (point.weaknessTags as string[]).includes(weakness.category),
+    );
+    return {
+      category: weakness.category,
+      hits: weakness.hits,
+      practiceGrammarId: match?.id ?? null,
+    };
+  });
+}

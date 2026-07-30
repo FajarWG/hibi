@@ -5,6 +5,7 @@ import { redirect } from "next/navigation";
 import { getSession } from "@/lib/session";
 import {
   getGrammarLibrary,
+  getWeakPoints,
   type GrammarStatus,
 } from "@/features/kakou/library";
 import { cn } from "@/lib/utils";
@@ -35,7 +36,10 @@ export default async function KakouPage() {
   const session = await getSession();
   if (!session) redirect("/login");
 
-  const library = await getGrammarLibrary(session.userId);
+  const [library, weakPoints] = await Promise.all([
+    getGrammarLibrary(session.userId),
+    getWeakPoints(session.userId),
+  ]);
   const grandTotal = library.reduce((sum, level) => sum + level.total, 0);
 
   return (
@@ -56,6 +60,39 @@ export default async function KakouPage() {
           Vocabulary reinforcement →
         </Link>
       </section>
+
+      {weakPoints.length > 0 && (
+        <section className="space-y-3">
+          <h2 className="font-heading text-lg font-semibold">Weak points</h2>
+          <ul className="flex flex-wrap gap-2">
+            {weakPoints.map((weak) =>
+              weak.practiceGrammarId ? (
+                <li key={weak.category}>
+                  <Link
+                    href={`/kakou/practice/${weak.practiceGrammarId}`}
+                    className="inline-flex items-center gap-1.5 rounded-full bg-destructive/10 px-3 py-1 text-sm text-destructive hover:bg-destructive/20"
+                  >
+                    {weak.category}
+                    <span className="font-mono text-xs tabular-nums opacity-70">
+                      {weak.hits}
+                    </span>
+                  </Link>
+                </li>
+              ) : (
+                <li
+                  key={weak.category}
+                  className="inline-flex items-center gap-1.5 rounded-full bg-muted px-3 py-1 text-sm text-muted-foreground"
+                >
+                  {weak.category}
+                  <span className="font-mono text-xs tabular-nums opacity-70">
+                    {weak.hits}
+                  </span>
+                </li>
+              ),
+            )}
+          </ul>
+        </section>
+      )}
 
       {library.map((level) => (
         <section key={level.level} className="space-y-3">
