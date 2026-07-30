@@ -1,0 +1,4082 @@
+[
+  {
+    "chapter": "1",
+    "topic": "どうぞよろしく！",
+    "category": "teishutsu_kanji",
+    "character": "私",
+    "readings": "わたし (watashi)",
+    "meaning": "saya",
+    "examples": [
+      {
+        "word": "私立",
+        "yomi": "しりつ",
+        "imi": "swasta (sekolah/lembaga)"
+      },
+      {
+        "word": "私生活",
+        "yomi": "しせいかつ",
+        "imi": "kehidupan pribadi"
+      }
+    ]
+  },
+  {
+    "chapter": "1",
+    "topic": "どうぞよろしく！",
+    "category": "teishutsu_kanji",
+    "character": "人",
+    "readings": "ひと (hito) / じん (jin) / にん (nin)",
+    "meaning": "orang (にん dipakai saat menghitung orang, misal 三人 = さんにん)",
+    "examples": [
+      {
+        "word": "日本人",
+        "yomi": "にほんじん",
+        "imi": "orang Jepang"
+      },
+      {
+        "word": "人気",
+        "yomi": "にんき",
+        "imi": "populer/popularitas"
+      }
+    ]
+  },
+  {
+    "chapter": "1",
+    "topic": "どうぞよろしく！",
+    "category": "teishutsu_kanji",
+    "character": "才",
+    "readings": "さい (sai)",
+    "meaning": "usia/umur",
+    "examples": [
+      {
+        "word": "天才",
+        "yomi": "てんさい",
+        "imi": "jenius"
+      },
+      {
+        "word": "才能",
+        "yomi": "さいのう",
+        "imi": "bakat"
+      }
+    ]
+  },
+  {
+    "chapter": "1",
+    "topic": "どうぞよろしく！",
+    "category": "teishutsu_kanji",
+    "character": "学生",
+    "readings": "がくせい (gakusei)",
+    "meaning": "mahasiswa/pelajar",
+    "examples": [
+      {
+        "word": "大学",
+        "yomi": "だいがく",
+        "imi": "universitas"
+      },
+      {
+        "word": "先生",
+        "yomi": "せんせい",
+        "imi": "guru"
+      },
+      {
+        "word": "学校",
+        "yomi": "がっこう",
+        "imi": "sekolah"
+      }
+    ]
+  },
+  {
+    "chapter": "1",
+    "topic": "どうぞよろしく！",
+    "category": "teishutsu_kanji",
+    "character": "校",
+    "readings": "こう (kou)",
+    "meaning": "sekolah",
+    "examples": [
+      {
+        "word": "学校",
+        "yomi": "がっこう",
+        "imi": "sekolah"
+      },
+      {
+        "word": "校長",
+        "yomi": "こうちょう",
+        "imi": "kepala sekolah"
+      }
+    ]
+  },
+  {
+    "chapter": "1",
+    "topic": "どうぞよろしく！",
+    "category": "teishutsu_kanji",
+    "character": "日本",
+    "readings": "にほん (nihon)",
+    "meaning": "Jepang",
+    "examples": [
+      {
+        "word": "毎日",
+        "yomi": "まいにち",
+        "imi": "setiap hari"
+      },
+      {
+        "word": "本屋",
+        "yomi": "ほんや",
+        "imi": "toko buku"
+      },
+      {
+        "word": "今日",
+        "yomi": "きょう",
+        "imi": "hari ini"
+      }
+    ]
+  },
+  {
+    "chapter": "1",
+    "topic": "どうぞよろしく！",
+    "category": "teishutsu_kanji",
+    "character": "語",
+    "readings": "ご (go)",
+    "meaning": "bahasa",
+    "examples": [
+      {
+        "word": "英語",
+        "yomi": "えいご",
+        "imi": "bahasa Inggris"
+      },
+      {
+        "word": "単語",
+        "yomi": "たんご",
+        "imi": "kosakata"
+      }
+    ]
+  },
+  {
+    "chapter": "1",
+    "topic": "どうぞよろしく！",
+    "category": "yomeru",
+    "character": "牛肉",
+    "readings": "ぎゅうにく (gyuuniku)",
+    "meaning": "daging sapi",
+    "examples": [
+      {
+        "word": "牛乳",
+        "yomi": "ぎゅうにゅう",
+        "imi": "susu sapi"
+      },
+      {
+        "word": "焼肉",
+        "yomi": "やきにく",
+        "imi": "daging panggang"
+      }
+    ]
+  },
+  {
+    "chapter": "1",
+    "topic": "どうぞよろしく！",
+    "category": "yomeru",
+    "character": "豚肉",
+    "readings": "ぶたにく (butaniku)",
+    "meaning": "daging babi",
+    "examples": [
+      {
+        "word": "豚汁",
+        "yomi": "とんじる",
+        "imi": "sup miso dengan daging babi"
+      }
+    ]
+  },
+  {
+    "chapter": "1",
+    "topic": "どうぞよろしく！",
+    "category": "yomeru",
+    "character": "鶏肉",
+    "readings": "とりにく (toriniku)",
+    "meaning": "daging ayam",
+    "examples": [
+      {
+        "word": "鶏卵",
+        "yomi": "けいらん",
+        "imi": "telur ayam"
+      }
+    ]
+  },
+  {
+    "chapter": "1",
+    "topic": "どうぞよろしく！",
+    "category": "mite_wakaru",
+    "character": "〜産",
+    "readings": "〜さん (〜san)",
+    "meaning": "produksi/buatan (daerah)〜",
+    "examples": [
+      {
+        "word": "生産",
+        "yomi": "せいさん",
+        "imi": "produksi"
+      },
+      {
+        "word": "出産",
+        "yomi": "しゅっさん",
+        "imi": "melahirkan"
+      }
+    ]
+  },
+  {
+    "chapter": "1",
+    "topic": "どうぞよろしく！",
+    "category": "mite_wakaru",
+    "character": "〜引き",
+    "readings": "〜びき (〜biki)",
+    "meaning": "diskon〜",
+    "examples": [
+      {
+        "word": "引く",
+        "yomi": "ひく",
+        "imi": "menarik"
+      },
+      {
+        "word": "割引",
+        "yomi": "わりびき",
+        "imi": "diskon"
+      }
+    ]
+  },
+  {
+    "chapter": "1",
+    "topic": "どうぞよろしく！",
+    "category": "mite_wakaru",
+    "character": "酒",
+    "readings": "さけ (sake)",
+    "meaning": "alkohol/sake",
+    "examples": [
+      {
+        "word": "居酒屋",
+        "yomi": "いざかや",
+        "imi": "warung minum ala Jepang"
+      },
+      {
+        "word": "酒屋",
+        "yomi": "さかや",
+        "imi": "toko minuman keras"
+      }
+    ]
+  },
+  {
+    "chapter": "2",
+    "topic": "買い物",
+    "category": "teishutsu_kanji",
+    "character": "一",
+    "readings": "いち (ichi)",
+    "meaning": "satu",
+    "examples": [
+      {
+        "word": "一番",
+        "yomi": "いちばん",
+        "imi": "nomor satu/paling"
+      }
+    ]
+  },
+  {
+    "chapter": "2",
+    "topic": "買い物",
+    "category": "teishutsu_kanji",
+    "character": "二",
+    "readings": "に (ni)",
+    "meaning": "dua",
+    "examples": [
+      {
+        "word": "二人",
+        "yomi": "ふたり",
+        "imi": "dua orang"
+      }
+    ]
+  },
+  {
+    "chapter": "2",
+    "topic": "買い物",
+    "category": "teishutsu_kanji",
+    "character": "三",
+    "readings": "さん (san)",
+    "meaning": "tiga",
+    "examples": [
+      {
+        "word": "三日",
+        "yomi": "みっか",
+        "imi": "tanggal tiga/tiga hari"
+      }
+    ]
+  },
+  {
+    "chapter": "2",
+    "topic": "買い物",
+    "category": "teishutsu_kanji",
+    "character": "四",
+    "readings": "よん (yon) / し (shi)",
+    "meaning": "empat",
+    "examples": [
+      {
+        "word": "四月",
+        "yomi": "しがつ",
+        "imi": "bulan April"
+      }
+    ]
+  },
+  {
+    "chapter": "2",
+    "topic": "買い物",
+    "category": "teishutsu_kanji",
+    "character": "五",
+    "readings": "ご (go)",
+    "meaning": "lima",
+    "examples": [
+      {
+        "word": "五月",
+        "yomi": "ごがつ",
+        "imi": "bulan Mei"
+      }
+    ]
+  },
+  {
+    "chapter": "2",
+    "topic": "買い物",
+    "category": "teishutsu_kanji",
+    "character": "六",
+    "readings": "ろく (roku)",
+    "meaning": "enam",
+    "examples": [
+      {
+        "word": "六月",
+        "yomi": "ろくがつ",
+        "imi": "bulan Juni"
+      }
+    ]
+  },
+  {
+    "chapter": "2",
+    "topic": "買い物",
+    "category": "teishutsu_kanji",
+    "character": "七",
+    "readings": "なな (nana) / しち (shichi)",
+    "meaning": "tujuh",
+    "examples": [
+      {
+        "word": "七月",
+        "yomi": "しちがつ",
+        "imi": "bulan Juli"
+      }
+    ]
+  },
+  {
+    "chapter": "2",
+    "topic": "買い物",
+    "category": "teishutsu_kanji",
+    "character": "八",
+    "readings": "はち (hachi)",
+    "meaning": "delapan",
+    "examples": [
+      {
+        "word": "八月",
+        "yomi": "はちがつ",
+        "imi": "bulan Agustus"
+      }
+    ]
+  },
+  {
+    "chapter": "2",
+    "topic": "買い物",
+    "category": "teishutsu_kanji",
+    "character": "九",
+    "readings": "きゅう (kyuu) / く (ku)",
+    "meaning": "sembilan",
+    "examples": [
+      {
+        "word": "九月",
+        "yomi": "くがつ",
+        "imi": "bulan September"
+      }
+    ]
+  },
+  {
+    "chapter": "2",
+    "topic": "買い物",
+    "category": "teishutsu_kanji",
+    "character": "十",
+    "readings": "じゅう (juu)",
+    "meaning": "sepuluh",
+    "examples": [
+      {
+        "word": "十月",
+        "yomi": "じゅうがつ",
+        "imi": "bulan Oktober"
+      }
+    ]
+  },
+  {
+    "chapter": "2",
+    "topic": "買い物",
+    "category": "teishutsu_kanji",
+    "character": "百",
+    "readings": "ひゃく (hyaku)",
+    "meaning": "ratus",
+    "examples": [
+      {
+        "word": "百円",
+        "yomi": "ひゃくえん",
+        "imi": "seratus yen"
+      },
+      {
+        "word": "八百屋",
+        "yomi": "やおや",
+        "imi": "toko sayur"
+      }
+    ]
+  },
+  {
+    "chapter": "2",
+    "topic": "買い物",
+    "category": "teishutsu_kanji",
+    "character": "千",
+    "readings": "せん (sen)",
+    "meaning": "ribu",
+    "examples": [
+      {
+        "word": "千円",
+        "yomi": "せんえん",
+        "imi": "seribu yen"
+      }
+    ]
+  },
+  {
+    "chapter": "2",
+    "topic": "買い物",
+    "category": "teishutsu_kanji",
+    "character": "万",
+    "readings": "まん (man)",
+    "meaning": "puluh ribu",
+    "examples": [
+      {
+        "word": "一万円",
+        "yomi": "いちまんえん",
+        "imi": "sepuluh ribu yen"
+      }
+    ]
+  },
+  {
+    "chapter": "2",
+    "topic": "買い物",
+    "category": "teishutsu_kanji",
+    "character": "円",
+    "readings": "えん (en)",
+    "meaning": "yen",
+    "examples": [
+      {
+        "word": "円高",
+        "yomi": "えんだか",
+        "imi": "yen menguat"
+      },
+      {
+        "word": "円安",
+        "yomi": "えんやす",
+        "imi": "yen melemah"
+      }
+    ]
+  },
+  {
+    "chapter": "2",
+    "topic": "買い物",
+    "category": "yomeru",
+    "character": "雨",
+    "readings": "あめ (ame)",
+    "meaning": "hujan",
+    "examples": [
+      {
+        "word": "雨天",
+        "yomi": "うてん",
+        "imi": "cuaca hujan"
+      },
+      {
+        "word": "大雨",
+        "yomi": "おおあめ",
+        "imi": "hujan lebat"
+      }
+    ]
+  },
+  {
+    "chapter": "2",
+    "topic": "買い物",
+    "category": "yomeru",
+    "character": "場所",
+    "readings": "ばしょ (basho)",
+    "meaning": "tempat",
+    "examples": [
+      {
+        "word": "会場",
+        "yomi": "かいじょう",
+        "imi": "tempat acara"
+      },
+      {
+        "word": "台所",
+        "yomi": "だいどころ",
+        "imi": "dapur"
+      }
+    ]
+  },
+  {
+    "chapter": "2",
+    "topic": "買い物",
+    "category": "mite_wakaru",
+    "character": "平日",
+    "readings": "へいじつ (heijitsu)",
+    "meaning": "hari kerja",
+    "examples": [
+      {
+        "word": "平和",
+        "yomi": "へいわ",
+        "imi": "damai"
+      },
+      {
+        "word": "日曜日",
+        "yomi": "にちようび",
+        "imi": "hari Minggu"
+      }
+    ]
+  },
+  {
+    "chapter": "2",
+    "topic": "買い物",
+    "category": "mite_wakaru",
+    "character": "祝日",
+    "readings": "しゅくじつ (shukujitsu)",
+    "meaning": "hari libur nasional",
+    "examples": [
+      {
+        "word": "祝う",
+        "yomi": "いわう",
+        "imi": "merayakan"
+      },
+      {
+        "word": "誕生日",
+        "yomi": "たんじょうび",
+        "imi": "ulang tahun"
+      }
+    ]
+  },
+  {
+    "chapter": "3",
+    "topic": "いつ、どこで？",
+    "category": "teishutsu_kanji",
+    "character": "月",
+    "readings": "つき (tsuki) / げつ (getsu)",
+    "meaning": "bulan",
+    "examples": [
+      {
+        "word": "月曜日",
+        "yomi": "げつようび",
+        "imi": "hari Senin"
+      },
+      {
+        "word": "今月",
+        "yomi": "こんげつ",
+        "imi": "bulan ini"
+      }
+    ]
+  },
+  {
+    "chapter": "3",
+    "topic": "いつ、どこで？",
+    "category": "teishutsu_kanji",
+    "character": "火",
+    "readings": "ひ (hi) / か (ka)",
+    "meaning": "api",
+    "examples": [
+      {
+        "word": "火曜日",
+        "yomi": "かようび",
+        "imi": "hari Selasa"
+      },
+      {
+        "word": "花火",
+        "yomi": "はなび",
+        "imi": "kembang api"
+      }
+    ]
+  },
+  {
+    "chapter": "3",
+    "topic": "いつ、どこで？",
+    "category": "teishutsu_kanji",
+    "character": "水",
+    "readings": "みず (mizu) / すい (sui)",
+    "meaning": "air",
+    "examples": [
+      {
+        "word": "水曜日",
+        "yomi": "すいようび",
+        "imi": "hari Rabu"
+      },
+      {
+        "word": "水泳",
+        "yomi": "すいえい",
+        "imi": "berenang"
+      }
+    ]
+  },
+  {
+    "chapter": "3",
+    "topic": "いつ、どこで？",
+    "category": "teishutsu_kanji",
+    "character": "木",
+    "readings": "き (ki) / もく (moku)",
+    "meaning": "pohon",
+    "examples": [
+      {
+        "word": "木曜日",
+        "yomi": "もくようび",
+        "imi": "hari Kamis"
+      },
+      {
+        "word": "木材",
+        "yomi": "もくざい",
+        "imi": "kayu/bahan kayu"
+      }
+    ]
+  },
+  {
+    "chapter": "3",
+    "topic": "いつ、どこで？",
+    "category": "teishutsu_kanji",
+    "character": "金",
+    "readings": "かね (kane) / きん (kin)",
+    "meaning": "emas/uang",
+    "examples": [
+      {
+        "word": "金曜日",
+        "yomi": "きんようび",
+        "imi": "hari Jumat"
+      },
+      {
+        "word": "お金",
+        "yomi": "おかね",
+        "imi": "uang"
+      }
+    ]
+  },
+  {
+    "chapter": "3",
+    "topic": "いつ、どこで？",
+    "category": "teishutsu_kanji",
+    "character": "土",
+    "readings": "つち (tsuchi) / ど (do)",
+    "meaning": "tanah",
+    "examples": [
+      {
+        "word": "土曜日",
+        "yomi": "どようび",
+        "imi": "hari Sabtu"
+      },
+      {
+        "word": "土地",
+        "yomi": "とち",
+        "imi": "tanah/lahan"
+      }
+    ]
+  },
+  {
+    "chapter": "3",
+    "topic": "いつ、どこで？",
+    "category": "teishutsu_kanji",
+    "character": "曜",
+    "readings": "よう (you)",
+    "meaning": "hari (dalam seminggu)",
+    "examples": [
+      {
+        "word": "何曜日",
+        "yomi": "なんようび",
+        "imi": "hari apa"
+      }
+    ]
+  },
+  {
+    "chapter": "3",
+    "topic": "いつ、どこで？",
+    "category": "teishutsu_kanji",
+    "character": "何",
+    "readings": "なに (nani) / なん (nan)",
+    "meaning": "apa",
+    "examples": [
+      {
+        "word": "何時",
+        "yomi": "なんじ",
+        "imi": "jam berapa"
+      },
+      {
+        "word": "何回",
+        "yomi": "なんかい",
+        "imi": "berapa kali"
+      }
+    ]
+  },
+  {
+    "chapter": "3",
+    "topic": "いつ、どこで？",
+    "category": "teishutsu_kanji",
+    "character": "年",
+    "readings": "とし (toshi) / ねん (nen)",
+    "meaning": "tahun",
+    "examples": [
+      {
+        "word": "今年",
+        "yomi": "ことし",
+        "imi": "tahun ini"
+      },
+      {
+        "word": "来年",
+        "yomi": "らいねん",
+        "imi": "tahun depan"
+      }
+    ]
+  },
+  {
+    "chapter": "3",
+    "topic": "いつ、どこで？",
+    "category": "teishutsu_kanji",
+    "character": "時",
+    "readings": "とき (toki) / じ (ji)",
+    "meaning": "waktu/jam",
+    "examples": [
+      {
+        "word": "時計",
+        "yomi": "とけい",
+        "imi": "jam/arloji"
+      },
+      {
+        "word": "一時",
+        "yomi": "いちじ",
+        "imi": "jam satu"
+      }
+    ]
+  },
+  {
+    "chapter": "3",
+    "topic": "いつ、どこで？",
+    "category": "teishutsu_kanji",
+    "character": "間",
+    "readings": "あいだ (aida) / かん (kan)",
+    "meaning": "antara/durasi",
+    "examples": [
+      {
+        "word": "時間",
+        "yomi": "じかん",
+        "imi": "waktu"
+      },
+      {
+        "word": "人間",
+        "yomi": "にんげん",
+        "imi": "manusia"
+      }
+    ]
+  },
+  {
+    "chapter": "3",
+    "topic": "いつ、どこで？",
+    "category": "teishutsu_kanji",
+    "character": "分",
+    "readings": "わ・かる (wa-karu) / ふん (fun) / ぷん (pun)",
+    "meaning": "menit/mengerti (bunyi berubah jadi ぷん setelah angka tertentu, misal 3分=さんぷん)",
+    "examples": [
+      {
+        "word": "分かる",
+        "yomi": "わかる",
+        "imi": "mengerti"
+      },
+      {
+        "word": "自分",
+        "yomi": "じぶん",
+        "imi": "diri sendiri"
+      }
+    ]
+  },
+  {
+    "chapter": "3",
+    "topic": "いつ、どこで？",
+    "category": "yomeru",
+    "character": "電話",
+    "readings": "でんわ (denwa)",
+    "meaning": "telepon",
+    "examples": [
+      {
+        "word": "電車",
+        "yomi": "でんしゃ",
+        "imi": "kereta listrik"
+      },
+      {
+        "word": "会話",
+        "yomi": "かいわ",
+        "imi": "percakapan"
+      }
+    ]
+  },
+  {
+    "chapter": "3",
+    "topic": "いつ、どこで？",
+    "category": "yomeru",
+    "character": "住所",
+    "readings": "じゅうしょ (juusho)",
+    "meaning": "alamat",
+    "examples": [
+      {
+        "word": "住む",
+        "yomi": "すむ",
+        "imi": "tinggal (di suatu tempat)"
+      },
+      {
+        "word": "場所",
+        "yomi": "ばしょ",
+        "imi": "tempat"
+      }
+    ]
+  },
+  {
+    "chapter": "3",
+    "topic": "いつ、どこで？",
+    "category": "yomeru",
+    "character": "〜歳",
+    "readings": "〜さい (〜sai)",
+    "meaning": "usia 〜 tahun",
+    "examples": [
+      {
+        "word": "二十歳",
+        "yomi": "はたち",
+        "imi": "usia dua puluh tahun"
+      }
+    ]
+  },
+  {
+    "chapter": "3",
+    "topic": "いつ、どこで？",
+    "category": "mite_wakaru",
+    "character": "性別",
+    "readings": "せいべつ (seibetsu)",
+    "meaning": "jenis kelamin",
+    "examples": [
+      {
+        "word": "女性",
+        "yomi": "じょせい",
+        "imi": "perempuan"
+      },
+      {
+        "word": "特別",
+        "yomi": "とくべつ",
+        "imi": "istimewa"
+      }
+    ]
+  },
+  {
+    "chapter": "4",
+    "topic": "新しい町で",
+    "category": "teishutsu_kanji",
+    "character": "東",
+    "readings": "ひがし (higashi) / とう (tou)",
+    "meaning": "timur",
+    "examples": [
+      {
+        "word": "東京",
+        "yomi": "とうきょう",
+        "imi": "Tokyo"
+      },
+      {
+        "word": "東口",
+        "yomi": "ひがしぐち",
+        "imi": "pintu keluar timur"
+      }
+    ]
+  },
+  {
+    "chapter": "4",
+    "topic": "新しい町で",
+    "category": "teishutsu_kanji",
+    "character": "京",
+    "readings": "きょう (kyou)",
+    "meaning": "ibu kota",
+    "examples": [
+      {
+        "word": "東京",
+        "yomi": "とうきょう",
+        "imi": "Tokyo"
+      },
+      {
+        "word": "京都",
+        "yomi": "きょうと",
+        "imi": "Kyoto"
+      }
+    ]
+  },
+  {
+    "chapter": "4",
+    "topic": "新しい町で",
+    "category": "teishutsu_kanji",
+    "character": "名",
+    "readings": "な (na) / めい (mei)",
+    "meaning": "nama",
+    "examples": [
+      {
+        "word": "名前",
+        "yomi": "なまえ",
+        "imi": "nama"
+      },
+      {
+        "word": "有名",
+        "yomi": "ゆうめい",
+        "imi": "terkenal"
+      }
+    ]
+  },
+  {
+    "chapter": "4",
+    "topic": "新しい町で",
+    "category": "teishutsu_kanji",
+    "character": "前",
+    "readings": "まえ (mae) / ぜん (zen)",
+    "meaning": "depan/sebelum",
+    "examples": [
+      {
+        "word": "名前",
+        "yomi": "なまえ",
+        "imi": "nama"
+      },
+      {
+        "word": "午前",
+        "yomi": "ごぜん",
+        "imi": "sebelum siang/pagi (AM)"
+      }
+    ]
+  },
+  {
+    "chapter": "4",
+    "topic": "新しい町で",
+    "category": "teishutsu_kanji",
+    "character": "国",
+    "readings": "くに (kuni) / こく (koku)",
+    "meaning": "negara",
+    "examples": [
+      {
+        "word": "外国",
+        "yomi": "がいこく",
+        "imi": "luar negeri"
+      },
+      {
+        "word": "中国",
+        "yomi": "ちゅうごく",
+        "imi": "Tiongkok"
+      }
+    ]
+  },
+  {
+    "chapter": "4",
+    "topic": "新しい町で",
+    "category": "teishutsu_kanji",
+    "character": "男",
+    "readings": "おとこ (otoko) / だん (dan)",
+    "meaning": "laki-laki",
+    "examples": [
+      {
+        "word": "男性",
+        "yomi": "だんせい",
+        "imi": "laki-laki"
+      },
+      {
+        "word": "男の子",
+        "yomi": "おとこのこ",
+        "imi": "anak laki-laki"
+      }
+    ]
+  },
+  {
+    "chapter": "4",
+    "topic": "新しい町で",
+    "category": "teishutsu_kanji",
+    "character": "女",
+    "readings": "おんな (onna) / じょ (jo)",
+    "meaning": "perempuan",
+    "examples": [
+      {
+        "word": "女性",
+        "yomi": "じょせい",
+        "imi": "perempuan"
+      },
+      {
+        "word": "女の子",
+        "yomi": "おんなのこ",
+        "imi": "anak perempuan"
+      }
+    ]
+  },
+  {
+    "chapter": "4",
+    "topic": "新しい町で",
+    "category": "teishutsu_kanji",
+    "character": "区",
+    "readings": "く (ku)",
+    "meaning": "distrik/wilayah",
+    "examples": [
+      {
+        "word": "地区",
+        "yomi": "ちく",
+        "imi": "wilayah/kawasan"
+      },
+      {
+        "word": "区役所",
+        "yomi": "くやくしょ",
+        "imi": "kantor distrik"
+      }
+    ]
+  },
+  {
+    "chapter": "4",
+    "topic": "新しい町で",
+    "category": "teishutsu_kanji",
+    "character": "市",
+    "readings": "し (shi) / いち (ichi)",
+    "meaning": "kota/pasar",
+    "examples": [
+      {
+        "word": "市役所",
+        "yomi": "しやくしょ",
+        "imi": "balai kota"
+      },
+      {
+        "word": "市場",
+        "yomi": "いちば",
+        "imi": "pasar"
+      }
+    ]
+  },
+  {
+    "chapter": "4",
+    "topic": "新しい町で",
+    "category": "yomeru",
+    "character": "〜放題",
+    "readings": "〜ほうだい (〜houdai)",
+    "meaning": "sepuasnya (contoh: makan sepuasnya)",
+    "examples": [
+      {
+        "word": "放送",
+        "yomi": "ほうそう",
+        "imi": "siaran"
+      }
+    ]
+  },
+  {
+    "chapter": "4",
+    "topic": "新しい町で",
+    "category": "mite_wakaru",
+    "character": "営業",
+    "readings": "えいぎょう (eigyou)",
+    "meaning": "bisnis/buka (toko)",
+    "examples": [
+      {
+        "word": "卒業",
+        "yomi": "そつぎょう",
+        "imi": "lulus (sekolah)"
+      },
+      {
+        "word": "経営",
+        "yomi": "けいえい",
+        "imi": "manajemen/pengelolaan"
+      }
+    ]
+  },
+  {
+    "chapter": "4",
+    "topic": "新しい町で",
+    "category": "mite_wakaru",
+    "character": "徒歩",
+    "readings": "とほ (toho)",
+    "meaning": "berjalan kaki",
+    "examples": [
+      {
+        "word": "生徒",
+        "yomi": "せいと",
+        "imi": "murid"
+      },
+      {
+        "word": "歩く",
+        "yomi": "あるく",
+        "imi": "berjalan"
+      }
+    ]
+  },
+  {
+    "chapter": "5",
+    "topic": "楽しい週末",
+    "category": "teishutsu_kanji",
+    "character": "先",
+    "readings": "さき (saki) / せん (sen)",
+    "meaning": "sebelumnya/lalu",
+    "examples": [
+      {
+        "word": "先生",
+        "yomi": "せんせい",
+        "imi": "guru"
+      },
+      {
+        "word": "先週",
+        "yomi": "せんしゅう",
+        "imi": "minggu lalu"
+      }
+    ]
+  },
+  {
+    "chapter": "5",
+    "topic": "楽しい週末",
+    "category": "teishutsu_kanji",
+    "character": "週",
+    "readings": "しゅう (shuu)",
+    "meaning": "minggu",
+    "examples": [
+      {
+        "word": "今週",
+        "yomi": "こんしゅう",
+        "imi": "minggu ini"
+      },
+      {
+        "word": "週末",
+        "yomi": "しゅうまつ",
+        "imi": "akhir pekan"
+      }
+    ]
+  },
+  {
+    "chapter": "5",
+    "topic": "楽しい週末",
+    "category": "teishutsu_kanji",
+    "character": "毎",
+    "readings": "まい (mai)",
+    "meaning": "setiap",
+    "examples": [
+      {
+        "word": "毎日",
+        "yomi": "まいにち",
+        "imi": "setiap hari"
+      },
+      {
+        "word": "毎年",
+        "yomi": "まいとし",
+        "imi": "setiap tahun"
+      }
+    ]
+  },
+  {
+    "chapter": "5",
+    "topic": "楽しい週末",
+    "category": "teishutsu_kanji",
+    "character": "午",
+    "readings": "ご (go)",
+    "meaning": "siang",
+    "examples": [
+      {
+        "word": "午前",
+        "yomi": "ごぜん",
+        "imi": "pagi (AM)"
+      },
+      {
+        "word": "午後",
+        "yomi": "ごご",
+        "imi": "siang/sore (PM)"
+      }
+    ]
+  },
+  {
+    "chapter": "5",
+    "topic": "楽しい週末",
+    "category": "teishutsu_kanji",
+    "character": "後",
+    "readings": "うしろ (ushiro) / ご (go)",
+    "meaning": "belakang/setelah",
+    "examples": [
+      {
+        "word": "午後",
+        "yomi": "ごご",
+        "imi": "siang/sore (PM)"
+      },
+      {
+        "word": "後ろ",
+        "yomi": "うしろ",
+        "imi": "belakang"
+      }
+    ]
+  },
+  {
+    "chapter": "5",
+    "topic": "楽しい週末",
+    "category": "teishutsu_kanji",
+    "character": "見",
+    "readings": "み・る (mi-ru) / けん (ken)",
+    "meaning": "melihat",
+    "examples": [
+      {
+        "word": "意見",
+        "yomi": "いけん",
+        "imi": "pendapat"
+      },
+      {
+        "word": "見学",
+        "yomi": "けんがく",
+        "imi": "kunjungan studi"
+      }
+    ]
+  },
+  {
+    "chapter": "5",
+    "topic": "楽しい週末",
+    "category": "teishutsu_kanji",
+    "character": "食",
+    "readings": "た・べる (ta-beru) / しょく (shoku)",
+    "meaning": "makan",
+    "examples": [
+      {
+        "word": "食事",
+        "yomi": "しょくじ",
+        "imi": "makan (kata benda)"
+      },
+      {
+        "word": "朝食",
+        "yomi": "ちょうしょく",
+        "imi": "sarapan"
+      }
+    ]
+  },
+  {
+    "chapter": "5",
+    "topic": "楽しい週末",
+    "category": "teishutsu_kanji",
+    "character": "代",
+    "readings": "か・わる (ka-waru) / だい (dai)",
+    "meaning": "biaya/menggantikan",
+    "examples": [
+      {
+        "word": "時代",
+        "yomi": "じだい",
+        "imi": "zaman"
+      },
+      {
+        "word": "電気代",
+        "yomi": "でんきだい",
+        "imi": "biaya listrik"
+      }
+    ]
+  },
+  {
+    "chapter": "5",
+    "topic": "楽しい週末",
+    "category": "teishutsu_kanji",
+    "character": "買",
+    "readings": "か・う (ka-u) / ばい (bai)",
+    "meaning": "membeli",
+    "examples": [
+      {
+        "word": "買い物",
+        "yomi": "かいもの",
+        "imi": "belanja"
+      },
+      {
+        "word": "売買",
+        "yomi": "ばいばい",
+        "imi": "jual-beli"
+      }
+    ]
+  },
+  {
+    "chapter": "5",
+    "topic": "楽しい週末",
+    "category": "teishutsu_kanji",
+    "character": "物",
+    "readings": "もの (mono) / ぶつ (butsu)",
+    "meaning": "barang/benda",
+    "examples": [
+      {
+        "word": "買い物",
+        "yomi": "かいもの",
+        "imi": "belanja"
+      },
+      {
+        "word": "動物",
+        "yomi": "どうぶつ",
+        "imi": "hewan"
+      }
+    ]
+  },
+  {
+    "chapter": "5",
+    "topic": "楽しい週末",
+    "category": "teishutsu_kanji",
+    "character": "行",
+    "readings": "い・く (i-ku) / こう (kou)",
+    "meaning": "pergi",
+    "examples": [
+      {
+        "word": "旅行",
+        "yomi": "りょこう",
+        "imi": "perjalanan/wisata"
+      },
+      {
+        "word": "銀行",
+        "yomi": "ぎんこう",
+        "imi": "bank"
+      }
+    ]
+  },
+  {
+    "chapter": "5",
+    "topic": "楽しい週末",
+    "category": "teishutsu_kanji",
+    "character": "休",
+    "readings": "やす・む (yasu-mu) / きゅう (kyuu)",
+    "meaning": "istirahat/libur",
+    "examples": [
+      {
+        "word": "休む",
+        "yomi": "やすむ",
+        "imi": "beristirahat"
+      },
+      {
+        "word": "休日",
+        "yomi": "きゅうじつ",
+        "imi": "hari libur"
+      }
+    ]
+  },
+  {
+    "chapter": "5",
+    "topic": "楽しい週末",
+    "category": "yomeru",
+    "character": "新聞",
+    "readings": "しんぶん (shinbun)",
+    "meaning": "koran",
+    "examples": [
+      {
+        "word": "新しい",
+        "yomi": "あたらしい",
+        "imi": "baru"
+      },
+      {
+        "word": "聞く",
+        "yomi": "きく",
+        "imi": "mendengar/bertanya"
+      }
+    ]
+  },
+  {
+    "chapter": "5",
+    "topic": "楽しい週末",
+    "category": "yomeru",
+    "character": "図書館",
+    "readings": "としょかん (toshokan)",
+    "meaning": "perpustakaan",
+    "examples": [
+      {
+        "word": "地図",
+        "yomi": "ちず",
+        "imi": "peta"
+      },
+      {
+        "word": "映画館",
+        "yomi": "えいがかん",
+        "imi": "bioskop"
+      }
+    ]
+  },
+  {
+    "chapter": "5",
+    "topic": "楽しい週末",
+    "category": "yomeru",
+    "character": "辞書",
+    "readings": "じしょ (jisho)",
+    "meaning": "kamus",
+    "examples": [
+      {
+        "word": "辞める",
+        "yomi": "やめる",
+        "imi": "berhenti (kerja/sekolah)"
+      },
+      {
+        "word": "読書",
+        "yomi": "どくしょ",
+        "imi": "membaca buku"
+      }
+    ]
+  },
+  {
+    "chapter": "5",
+    "topic": "楽しい週末",
+    "category": "mite_wakaru",
+    "character": "受付",
+    "readings": "うけつけ (uketsuke)",
+    "meaning": "resepsionis/pendaftaran",
+    "examples": [
+      {
+        "word": "受ける",
+        "yomi": "うける",
+        "imi": "menerima"
+      },
+      {
+        "word": "付ける",
+        "yomi": "つける",
+        "imi": "memasang/menempelkan"
+      }
+    ]
+  },
+  {
+    "chapter": "6",
+    "topic": "一緒に！",
+    "category": "teishutsu_kanji",
+    "character": "今",
+    "readings": "いま (ima) / こん (kon)",
+    "meaning": "sekarang",
+    "examples": [
+      {
+        "word": "今日",
+        "yomi": "きょう",
+        "imi": "hari ini"
+      },
+      {
+        "word": "今年",
+        "yomi": "ことし",
+        "imi": "tahun ini"
+      }
+    ]
+  },
+  {
+    "chapter": "6",
+    "topic": "一緒に！",
+    "category": "teishutsu_kanji",
+    "character": "来",
+    "readings": "く・る (ku-ru) / らい (rai)",
+    "meaning": "datang",
+    "examples": [
+      {
+        "word": "来年",
+        "yomi": "らいねん",
+        "imi": "tahun depan"
+      },
+      {
+        "word": "未来",
+        "yomi": "みらい",
+        "imi": "masa depan"
+      }
+    ]
+  },
+  {
+    "chapter": "6",
+    "topic": "一緒に！",
+    "category": "teishutsu_kanji",
+    "character": "帰",
+    "readings": "かえ・る (kae-ru) / き (ki)",
+    "meaning": "pulang",
+    "examples": [
+      {
+        "word": "帰国",
+        "yomi": "きこく",
+        "imi": "pulang ke negara asal"
+      },
+      {
+        "word": "帰り",
+        "yomi": "かえり",
+        "imi": "perjalanan pulang"
+      }
+    ]
+  },
+  {
+    "chapter": "6",
+    "topic": "一緒に！",
+    "category": "teishutsu_kanji",
+    "character": "会",
+    "readings": "あ・う (a-u) / かい (kai)",
+    "meaning": "bertemu",
+    "examples": [
+      {
+        "word": "会社",
+        "yomi": "かいしゃ",
+        "imi": "perusahaan"
+      },
+      {
+        "word": "社会",
+        "yomi": "しゃかい",
+        "imi": "masyarakat"
+      }
+    ]
+  },
+  {
+    "chapter": "6",
+    "topic": "一緒に！",
+    "category": "teishutsu_kanji",
+    "character": "社",
+    "readings": "しゃ (sha)",
+    "meaning": "perusahaan/kuil",
+    "examples": [
+      {
+        "word": "会社",
+        "yomi": "かいしゃ",
+        "imi": "perusahaan"
+      },
+      {
+        "word": "神社",
+        "yomi": "じんじゃ",
+        "imi": "kuil Shinto"
+      }
+    ]
+  },
+  {
+    "chapter": "6",
+    "topic": "一緒に！",
+    "category": "teishutsu_kanji",
+    "character": "閉",
+    "readings": "し・める (shi-meru) / へい (hei)",
+    "meaning": "tutup",
+    "examples": [
+      {
+        "word": "閉店",
+        "yomi": "へいてん",
+        "imi": "toko tutup"
+      }
+    ]
+  },
+  {
+    "chapter": "6",
+    "topic": "一緒に！",
+    "category": "teishutsu_kanji",
+    "character": "読",
+    "readings": "よ・む (yo-mu) / どく (doku)",
+    "meaning": "membaca",
+    "examples": [
+      {
+        "word": "読書",
+        "yomi": "どくしょ",
+        "imi": "membaca buku"
+      }
+    ]
+  },
+  {
+    "chapter": "6",
+    "topic": "一緒に！",
+    "category": "teishutsu_kanji",
+    "character": "書",
+    "readings": "か・く (ka-ku) / しょ (sho)",
+    "meaning": "menulis",
+    "examples": [
+      {
+        "word": "辞書",
+        "yomi": "じしょ",
+        "imi": "kamus"
+      },
+      {
+        "word": "図書館",
+        "yomi": "としょかん",
+        "imi": "perpustakaan"
+      }
+    ]
+  },
+  {
+    "chapter": "6",
+    "topic": "一緒に！",
+    "category": "teishutsu_kanji",
+    "character": "話",
+    "readings": "はな・す (hana-su) / わ (wa)",
+    "meaning": "berbicara",
+    "examples": [
+      {
+        "word": "電話",
+        "yomi": "でんわ",
+        "imi": "telepon"
+      },
+      {
+        "word": "会話",
+        "yomi": "かいわ",
+        "imi": "percakapan"
+      }
+    ]
+  },
+  {
+    "chapter": "漢字のパーツ",
+    "topic": "Bagian Kanji (Radikal)",
+    "category": "teishutsu_kanji",
+    "character": "寺",
+    "readings": "てら (tera) / じ (ji)",
+    "meaning": "kuil buddha",
+    "examples": [
+      {
+        "word": "お寺",
+        "yomi": "おてら",
+        "imi": "kuil Buddha"
+      },
+      {
+        "word": "寺院",
+        "yomi": "じいん",
+        "imi": "kuil (formal)"
+      }
+    ]
+  },
+  {
+    "chapter": "漢字のパーツ",
+    "topic": "Bagian Kanji (Radikal)",
+    "category": "teishutsu_kanji",
+    "character": "言",
+    "readings": "こと (koto) / げん (gen)",
+    "meaning": "kata/berbicara",
+    "examples": [
+      {
+        "word": "言う",
+        "yomi": "いう",
+        "imi": "mengatakan"
+      },
+      {
+        "word": "言葉",
+        "yomi": "ことば",
+        "imi": "kata/bahasa"
+      }
+    ]
+  },
+  {
+    "chapter": "漢字のパーツ",
+    "topic": "Bagian Kanji (Radikal)",
+    "category": "teishutsu_kanji",
+    "character": "貝",
+    "readings": "かい (kai)",
+    "meaning": "kerang",
+    "examples": [
+      {
+        "word": "貝殻",
+        "yomi": "かいがら",
+        "imi": "cangkang kerang"
+      }
+    ]
+  },
+  {
+    "chapter": "漢字のパーツ",
+    "topic": "Bagian Kanji (Radikal)",
+    "category": "teishutsu_kanji",
+    "character": "田",
+    "readings": "た (ta) / でん (den)",
+    "meaning": "sawah",
+    "examples": [
+      {
+        "word": "田んぼ",
+        "yomi": "たんぼ",
+        "imi": "sawah"
+      },
+      {
+        "word": "水田",
+        "yomi": "すいでん",
+        "imi": "sawah berair"
+      }
+    ]
+  },
+  {
+    "chapter": "漢字のパーツ",
+    "topic": "Bagian Kanji (Radikal)",
+    "category": "teishutsu_kanji",
+    "character": "力",
+    "readings": "ちから (chikara) / りょく (ryoku)",
+    "meaning": "kekuatan",
+    "examples": [
+      {
+        "word": "力持ち",
+        "yomi": "ちからもち",
+        "imi": "orang yang kuat"
+      },
+      {
+        "word": "協力",
+        "yomi": "きょうりょく",
+        "imi": "kerja sama"
+      }
+    ]
+  },
+  {
+    "chapter": "漢字のパーツ",
+    "topic": "Bagian Kanji (Radikal)",
+    "category": "teishutsu_kanji",
+    "character": "門",
+    "readings": "かど (kado) / もん (mon)",
+    "meaning": "gerbang",
+    "examples": [
+      {
+        "word": "正門",
+        "yomi": "せいもん",
+        "imi": "gerbang utama"
+      },
+      {
+        "word": "専門",
+        "yomi": "せんもん",
+        "imi": "spesialisasi/jurusan"
+      }
+    ]
+  },
+  {
+    "chapter": "7",
+    "topic": "何を食べますか？",
+    "category": "teishutsu_kanji",
+    "character": "肉",
+    "readings": "にく (niku)",
+    "meaning": "daging",
+    "examples": [
+      {
+        "word": "焼肉",
+        "yomi": "やきにく",
+        "imi": "daging panggang"
+      },
+      {
+        "word": "肉料理",
+        "yomi": "にくりょうり",
+        "imi": "masakan daging"
+      }
+    ]
+  },
+  {
+    "chapter": "7",
+    "topic": "何を食べますか？",
+    "category": "teishutsu_kanji",
+    "character": "料理",
+    "readings": "りょうり (ryouri)",
+    "meaning": "masakan",
+    "examples": [
+      {
+        "word": "料金",
+        "yomi": "りょうきん",
+        "imi": "biaya/tarif"
+      },
+      {
+        "word": "無理",
+        "yomi": "むり",
+        "imi": "tidak mungkin/memaksakan"
+      }
+    ]
+  },
+  {
+    "chapter": "7",
+    "topic": "何を食べますか？",
+    "category": "teishutsu_kanji",
+    "character": "野",
+    "readings": "の (no) / や (ya)",
+    "meaning": "ladang",
+    "examples": [
+      {
+        "word": "野菜",
+        "yomi": "やさい",
+        "imi": "sayuran"
+      },
+      {
+        "word": "野球",
+        "yomi": "やきゅう",
+        "imi": "bisbol"
+      }
+    ]
+  },
+  {
+    "chapter": "7",
+    "topic": "何を食べますか？",
+    "category": "teishutsu_kanji",
+    "character": "半",
+    "readings": "はん (han)",
+    "meaning": "setengah",
+    "examples": [
+      {
+        "word": "半分",
+        "yomi": "はんぶん",
+        "imi": "setengah"
+      },
+      {
+        "word": "半年",
+        "yomi": "はんとし",
+        "imi": "setengah tahun"
+      }
+    ]
+  },
+  {
+    "chapter": "7",
+    "topic": "何を食べますか？",
+    "category": "teishutsu_kanji",
+    "character": "大",
+    "readings": "おお・きい (oo-kii) / だい (dai)",
+    "meaning": "besar",
+    "examples": [
+      {
+        "word": "大学",
+        "yomi": "だいがく",
+        "imi": "universitas"
+      },
+      {
+        "word": "大変",
+        "yomi": "たいへん",
+        "imi": "berat/susah"
+      }
+    ]
+  },
+  {
+    "chapter": "7",
+    "topic": "何を食べますか？",
+    "category": "teishutsu_kanji",
+    "character": "小",
+    "readings": "ちい・さい (chii-sai) / しょう (shou)",
+    "meaning": "kecil",
+    "examples": [
+      {
+        "word": "小学校",
+        "yomi": "しょうがっこう",
+        "imi": "sekolah dasar"
+      },
+      {
+        "word": "小説",
+        "yomi": "しょうせつ",
+        "imi": "novel"
+      }
+    ]
+  },
+  {
+    "chapter": "7",
+    "topic": "何を食べますか？",
+    "category": "yomeru",
+    "character": "魚",
+    "readings": "さかな (sakana)",
+    "meaning": "ikan",
+    "examples": [
+      {
+        "word": "魚屋",
+        "yomi": "さかなや",
+        "imi": "toko ikan"
+      },
+      {
+        "word": "金魚",
+        "yomi": "きんぎょ",
+        "imi": "ikan mas"
+      }
+    ]
+  },
+  {
+    "chapter": "7",
+    "topic": "何を食べますか？",
+    "category": "yomeru",
+    "character": "野菜",
+    "readings": "やさい (yasai)",
+    "meaning": "sayuran",
+    "examples": [
+      {
+        "word": "野球",
+        "yomi": "やきゅう",
+        "imi": "bisbol"
+      },
+      {
+        "word": "白菜",
+        "yomi": "はくさい",
+        "imi": "sawi putih"
+      }
+    ]
+  },
+  {
+    "chapter": "7",
+    "topic": "何を食べますか？",
+    "category": "yomeru",
+    "character": "ご飯",
+    "readings": "ごはん (gohan)",
+    "meaning": "nasi/makanan",
+    "examples": [
+      {
+        "word": "朝ご飯",
+        "yomi": "あさごはん",
+        "imi": "sarapan"
+      },
+      {
+        "word": "夕飯",
+        "yomi": "ゆうはん",
+        "imi": "makan malam"
+      }
+    ]
+  },
+  {
+    "chapter": "7",
+    "topic": "何を食べますか？",
+    "category": "yomeru",
+    "character": "酒",
+    "readings": "さけ (sake)",
+    "meaning": "sake/alkohol",
+    "examples": [
+      {
+        "word": "居酒屋",
+        "yomi": "いざかや",
+        "imi": "warung minum ala Jepang"
+      },
+      {
+        "word": "酒屋",
+        "yomi": "さかや",
+        "imi": "toko minuman keras"
+      }
+    ]
+  },
+  {
+    "chapter": "7",
+    "topic": "何を食べますか？",
+    "category": "yomeru",
+    "character": "〜丼",
+    "readings": "〜どん (〜don)",
+    "meaning": "mangkuk nasi dengan lauk di atasnya〜",
+    "examples": [
+      {
+        "word": "牛丼",
+        "yomi": "ぎゅうどん",
+        "imi": "nasi dengan daging sapi"
+      }
+    ]
+  },
+  {
+    "chapter": "7",
+    "topic": "何を食べますか？",
+    "category": "yomeru",
+    "character": "半額",
+    "readings": "はんがく (hangaku)",
+    "meaning": "setengah harga",
+    "examples": [
+      {
+        "word": "半分",
+        "yomi": "はんぶん",
+        "imi": "setengah"
+      },
+      {
+        "word": "金額",
+        "yomi": "きんがく",
+        "imi": "jumlah uang"
+      }
+    ]
+  },
+  {
+    "chapter": "7",
+    "topic": "何を食べますか？",
+    "category": "mite_wakaru",
+    "character": "定食",
+    "readings": "ていしょく (teishoku)",
+    "meaning": "menu paket/set makanan",
+    "examples": [
+      {
+        "word": "予定",
+        "yomi": "よてい",
+        "imi": "rencana"
+      },
+      {
+        "word": "食事",
+        "yomi": "しょくじ",
+        "imi": "makan"
+      }
+    ]
+  },
+  {
+    "chapter": "8",
+    "topic": "家族のこと",
+    "category": "teishutsu_kanji",
+    "character": "家族",
+    "readings": "かぞく (kazoku)",
+    "meaning": "keluarga",
+    "examples": [
+      {
+        "word": "家",
+        "yomi": "いえ",
+        "imi": "rumah"
+      },
+      {
+        "word": "民族",
+        "yomi": "みんぞく",
+        "imi": "suku bangsa"
+      }
+    ]
+  },
+  {
+    "chapter": "8",
+    "topic": "家族のこと",
+    "category": "teishutsu_kanji",
+    "character": "父母",
+    "readings": "ふぼ (fubo) / ちちはは (chichi haha)",
+    "meaning": "orang tua (ayah & ibu)",
+    "examples": [
+      {
+        "word": "お父さん",
+        "yomi": "おとうさん",
+        "imi": "ayah"
+      },
+      {
+        "word": "お母さん",
+        "yomi": "おかあさん",
+        "imi": "ibu"
+      }
+    ]
+  },
+  {
+    "chapter": "8",
+    "topic": "家族のこと",
+    "category": "teishutsu_kanji",
+    "character": "兄弟",
+    "readings": "きょうだい (kyoudai)",
+    "meaning": "saudara (laki-laki)",
+    "examples": [
+      {
+        "word": "お兄さん",
+        "yomi": "おにいさん",
+        "imi": "kakak laki-laki"
+      },
+      {
+        "word": "弟",
+        "yomi": "おとうと",
+        "imi": "adik laki-laki"
+      }
+    ]
+  },
+  {
+    "chapter": "8",
+    "topic": "家族のこと",
+    "category": "teishutsu_kanji",
+    "character": "姉妹",
+    "readings": "しまい (shimai)",
+    "meaning": "saudara (perempuan)",
+    "examples": [
+      {
+        "word": "お姉さん",
+        "yomi": "おねえさん",
+        "imi": "kakak perempuan"
+      },
+      {
+        "word": "妹",
+        "yomi": "いもうと",
+        "imi": "adik perempuan"
+      }
+    ]
+  },
+  {
+    "chapter": "8",
+    "topic": "家族のこと",
+    "category": "teishutsu_kanji",
+    "character": "犬",
+    "readings": "いぬ (inu)",
+    "meaning": "anjing",
+    "examples": [
+      {
+        "word": "子犬",
+        "yomi": "こいぬ",
+        "imi": "anak anjing"
+      },
+      {
+        "word": "番犬",
+        "yomi": "ばんけん",
+        "imi": "anjing penjaga"
+      }
+    ]
+  },
+  {
+    "chapter": "8",
+    "topic": "家族のこと",
+    "category": "teishutsu_kanji",
+    "character": "高",
+    "readings": "たか・い (taka-i) / こう (kou)",
+    "meaning": "tinggi/mahal",
+    "examples": [
+      {
+        "word": "高校",
+        "yomi": "こうこう",
+        "imi": "SMA"
+      },
+      {
+        "word": "最高",
+        "yomi": "さいこう",
+        "imi": "tertinggi/terbaik"
+      }
+    ]
+  },
+  {
+    "chapter": "8",
+    "topic": "家族のこと",
+    "category": "teishutsu_kanji",
+    "character": "長",
+    "readings": "なが・い (naga-i) / ちょう (chou)",
+    "meaning": "panjang/pemimpin",
+    "examples": [
+      {
+        "word": "校長",
+        "yomi": "こうちょう",
+        "imi": "kepala sekolah"
+      },
+      {
+        "word": "社長",
+        "yomi": "しゃちょう",
+        "imi": "direktur perusahaan"
+      }
+    ]
+  },
+  {
+    "chapter": "8",
+    "topic": "家族のこと",
+    "category": "teishutsu_kanji",
+    "character": "短",
+    "readings": "みじか・い (mijika-i) / たん (tan)",
+    "meaning": "pendek",
+    "examples": [
+      {
+        "word": "短期",
+        "yomi": "たんき",
+        "imi": "jangka pendek"
+      }
+    ]
+  },
+  {
+    "chapter": "8",
+    "topic": "家族のこと",
+    "category": "yomeru",
+    "character": "趣味",
+    "readings": "しゅみ (shumi)",
+    "meaning": "hobi",
+    "examples": [
+      {
+        "word": "興味",
+        "yomi": "きょうみ",
+        "imi": "minat"
+      },
+      {
+        "word": "意味",
+        "yomi": "いみ",
+        "imi": "arti"
+      }
+    ]
+  },
+  {
+    "chapter": "8",
+    "topic": "家族のこと",
+    "category": "mite_wakaru",
+    "character": "出身地",
+    "readings": "しゅっしんち (shusshinchi)",
+    "meaning": "tempat kelahiran/asal",
+    "examples": [
+      {
+        "word": "出る",
+        "yomi": "でる",
+        "imi": "keluar"
+      },
+      {
+        "word": "地図",
+        "yomi": "ちず",
+        "imi": "peta"
+      }
+    ]
+  },
+  {
+    "chapter": "8",
+    "topic": "家族のこと",
+    "category": "mite_wakaru",
+    "character": "職業",
+    "readings": "しょくぎょう (shokugyou)",
+    "meaning": "pekerjaan",
+    "examples": [
+      {
+        "word": "就職",
+        "yomi": "しゅうしょく",
+        "imi": "mendapat pekerjaan"
+      },
+      {
+        "word": "授業",
+        "yomi": "じゅぎょう",
+        "imi": "pelajaran/kelas"
+      }
+    ]
+  },
+  {
+    "chapter": "9",
+    "topic": "好きなこと",
+    "category": "teishutsu_kanji",
+    "character": "好",
+    "readings": "す・き (su-ki) / こう (kou)",
+    "meaning": "suka",
+    "examples": [
+      {
+        "word": "好物",
+        "yomi": "こうぶつ",
+        "imi": "makanan favorit"
+      },
+      {
+        "word": "大好き",
+        "yomi": "だいすき",
+        "imi": "sangat suka"
+      }
+    ]
+  },
+  {
+    "chapter": "9",
+    "topic": "好きなこと",
+    "category": "teishutsu_kanji",
+    "character": "歌",
+    "readings": "うた (uta) / か (ka)",
+    "meaning": "lagu/menyanyi",
+    "examples": [
+      {
+        "word": "歌手",
+        "yomi": "かしゅ",
+        "imi": "penyanyi"
+      }
+    ]
+  },
+  {
+    "chapter": "9",
+    "topic": "好きなこと",
+    "category": "teishutsu_kanji",
+    "character": "音",
+    "readings": "おと (oto) / おん (on)",
+    "meaning": "bunyi/suara",
+    "examples": [
+      {
+        "word": "音楽",
+        "yomi": "おんがく",
+        "imi": "musik"
+      },
+      {
+        "word": "発音",
+        "yomi": "はつおん",
+        "imi": "pengucapan"
+      }
+    ]
+  },
+  {
+    "chapter": "9",
+    "topic": "好きなこと",
+    "category": "teishutsu_kanji",
+    "character": "楽",
+    "readings": "たの・しい (tano-shii) / がく (gaku)",
+    "meaning": "menyenangkan/musik",
+    "examples": [
+      {
+        "word": "音楽",
+        "yomi": "おんがく",
+        "imi": "musik"
+      },
+      {
+        "word": "気楽",
+        "yomi": "きらく",
+        "imi": "santai/tanpa beban"
+      }
+    ]
+  },
+  {
+    "chapter": "9",
+    "topic": "好きなこと",
+    "category": "teishutsu_kanji",
+    "character": "車",
+    "readings": "くるま (kuruma) / しゃ (sha)",
+    "meaning": "mobil/kendaraan",
+    "examples": [
+      {
+        "word": "電車",
+        "yomi": "でんしゃ",
+        "imi": "kereta listrik"
+      },
+      {
+        "word": "自転車",
+        "yomi": "じてんしゃ",
+        "imi": "sepeda"
+      }
+    ]
+  },
+  {
+    "chapter": "9",
+    "topic": "好きなこと",
+    "category": "teishutsu_kanji",
+    "character": "映画",
+    "readings": "えいが (eiga)",
+    "meaning": "film",
+    "examples": [
+      {
+        "word": "上映",
+        "yomi": "じょうえい",
+        "imi": "pemutaran (film)"
+      },
+      {
+        "word": "画家",
+        "yomi": "がか",
+        "imi": "pelukis"
+      }
+    ]
+  },
+  {
+    "chapter": "9",
+    "topic": "好きなこと",
+    "category": "teishutsu_kanji",
+    "character": "旅",
+    "readings": "たび (tabi) / りょ (ryo)",
+    "meaning": "perjalanan",
+    "examples": [
+      {
+        "word": "旅行",
+        "yomi": "りょこう",
+        "imi": "perjalanan/wisata"
+      },
+      {
+        "word": "旅館",
+        "yomi": "りょかん",
+        "imi": "penginapan tradisional Jepang"
+      }
+    ]
+  },
+  {
+    "chapter": "9",
+    "topic": "好きなこと",
+    "category": "teishutsu_kanji",
+    "character": "海外",
+    "readings": "かいがい (kaigai)",
+    "meaning": "luar negeri",
+    "examples": [
+      {
+        "word": "海",
+        "yomi": "うみ",
+        "imi": "laut"
+      },
+      {
+        "word": "外国",
+        "yomi": "がいこく",
+        "imi": "luar negeri"
+      }
+    ]
+  },
+  {
+    "chapter": "9",
+    "topic": "好きなこと",
+    "category": "yomeru",
+    "character": "雑誌",
+    "readings": "ざっし (zasshi)",
+    "meaning": "majalah",
+    "examples": [
+      {
+        "word": "雑貨",
+        "yomi": "ざっか",
+        "imi": "barang-barang keperluan sehari-hari"
+      },
+      {
+        "word": "雑音",
+        "yomi": "ざつおん",
+        "imi": "suara bising"
+      }
+    ]
+  },
+  {
+    "chapter": "9",
+    "topic": "好きなこと",
+    "category": "yomeru",
+    "character": "漢字",
+    "readings": "かんじ (kanji)",
+    "meaning": "kanji",
+    "examples": [
+      {
+        "word": "数字",
+        "yomi": "すうじ",
+        "imi": "angka"
+      },
+      {
+        "word": "文字",
+        "yomi": "もじ",
+        "imi": "huruf/karakter"
+      }
+    ]
+  },
+  {
+    "chapter": "9",
+    "topic": "好きなこと",
+    "category": "mite_wakaru",
+    "character": "書店",
+    "readings": "しょてん (shoten)",
+    "meaning": "toko buku",
+    "examples": [
+      {
+        "word": "図書館",
+        "yomi": "としょかん",
+        "imi": "perpustakaan"
+      },
+      {
+        "word": "店員",
+        "yomi": "てんいん",
+        "imi": "pegawai toko"
+      }
+    ]
+  },
+  {
+    "chapter": "10",
+    "topic": "待ち合わせ",
+    "category": "teishutsu_kanji",
+    "character": "駅",
+    "readings": "えき (eki)",
+    "meaning": "stasiun",
+    "examples": [
+      {
+        "word": "駅員",
+        "yomi": "えきいん",
+        "imi": "petugas stasiun"
+      },
+      {
+        "word": "駅前",
+        "yomi": "えきまえ",
+        "imi": "depan stasiun"
+      }
+    ]
+  },
+  {
+    "chapter": "10",
+    "topic": "待ち合わせ",
+    "category": "teishutsu_kanji",
+    "character": "上",
+    "readings": "うえ (ue) / じょう (jou)",
+    "meaning": "atas",
+    "examples": [
+      {
+        "word": "上手",
+        "yomi": "じょうず",
+        "imi": "pandai/mahir"
+      },
+      {
+        "word": "屋上",
+        "yomi": "おくじょう",
+        "imi": "atap gedung"
+      }
+    ]
+  },
+  {
+    "chapter": "10",
+    "topic": "待ち合わせ",
+    "category": "teishutsu_kanji",
+    "character": "下",
+    "readings": "した (shita) / か (ka)",
+    "meaning": "bawah",
+    "examples": [
+      {
+        "word": "下手",
+        "yomi": "へた",
+        "imi": "tidak pandai"
+      },
+      {
+        "word": "地下",
+        "yomi": "ちか",
+        "imi": "bawah tanah"
+      }
+    ]
+  },
+  {
+    "chapter": "10",
+    "topic": "待ち合わせ",
+    "category": "teishutsu_kanji",
+    "character": "地",
+    "readings": "ち (chi) / じ (ji)",
+    "meaning": "bumi/tanah",
+    "examples": [
+      {
+        "word": "地図",
+        "yomi": "ちず",
+        "imi": "peta"
+      },
+      {
+        "word": "地下鉄",
+        "yomi": "ちかてつ",
+        "imi": "kereta bawah tanah"
+      }
+    ]
+  },
+  {
+    "chapter": "10",
+    "topic": "待ち合わせ",
+    "category": "teishutsu_kanji",
+    "character": "図",
+    "readings": "ず (zu) / と (to)",
+    "meaning": "gambar/peta",
+    "examples": [
+      {
+        "word": "地図",
+        "yomi": "ちず",
+        "imi": "peta"
+      },
+      {
+        "word": "図書館",
+        "yomi": "としょかん",
+        "imi": "perpustakaan"
+      }
+    ]
+  },
+  {
+    "chapter": "10",
+    "topic": "待ち合わせ",
+    "category": "teishutsu_kanji",
+    "character": "館",
+    "readings": "かん (kan)",
+    "meaning": "gedung/bangunan",
+    "examples": [
+      {
+        "word": "図書館",
+        "yomi": "としょかん",
+        "imi": "perpustakaan"
+      },
+      {
+        "word": "映画館",
+        "yomi": "えいがかん",
+        "imi": "bioskop"
+      }
+    ]
+  },
+  {
+    "chapter": "10",
+    "topic": "待ち合わせ",
+    "category": "teishutsu_kanji",
+    "character": "右",
+    "readings": "みぎ (migi)",
+    "meaning": "kanan",
+    "examples": [
+      {
+        "word": "右手",
+        "yomi": "みぎて",
+        "imi": "tangan kanan"
+      },
+      {
+        "word": "右側",
+        "yomi": "みぎがわ",
+        "imi": "sisi kanan"
+      }
+    ]
+  },
+  {
+    "chapter": "10",
+    "topic": "待ち合わせ",
+    "category": "teishutsu_kanji",
+    "character": "左",
+    "readings": "ひだり (hidari)",
+    "meaning": "kiri",
+    "examples": [
+      {
+        "word": "左手",
+        "yomi": "ひだりて",
+        "imi": "tangan kiri"
+      },
+      {
+        "word": "左側",
+        "yomi": "ひだりがわ",
+        "imi": "sisi kiri"
+      }
+    ]
+  },
+  {
+    "chapter": "10",
+    "topic": "待ち合わせ",
+    "category": "teishutsu_kanji",
+    "character": "道",
+    "readings": "みち (michi) / どう (dou)",
+    "meaning": "jalan",
+    "examples": [
+      {
+        "word": "道路",
+        "yomi": "どうろ",
+        "imi": "jalan raya"
+      },
+      {
+        "word": "北海道",
+        "yomi": "ほっかいどう",
+        "imi": "Hokkaido"
+      }
+    ]
+  },
+  {
+    "chapter": "10",
+    "topic": "待ち合わせ",
+    "category": "yomeru",
+    "character": "北口",
+    "readings": "きたぐち (kitaguchi)",
+    "meaning": "pintu keluar utara",
+    "examples": [
+      {
+        "word": "北海道",
+        "yomi": "ほっかいどう",
+        "imi": "Hokkaido"
+      },
+      {
+        "word": "入り口",
+        "yomi": "いりぐち",
+        "imi": "pintu masuk"
+      }
+    ]
+  },
+  {
+    "chapter": "10",
+    "topic": "待ち合わせ",
+    "category": "yomeru",
+    "character": "南口",
+    "readings": "みなみぐち (minamiguchi)",
+    "meaning": "pintu keluar selatan",
+    "examples": [
+      {
+        "word": "南米",
+        "yomi": "なんべい",
+        "imi": "Amerika Selatan"
+      },
+      {
+        "word": "出口",
+        "yomi": "でぐち",
+        "imi": "pintu keluar"
+      }
+    ]
+  },
+  {
+    "chapter": "10",
+    "topic": "待ち合わせ",
+    "category": "yomeru",
+    "character": "西口",
+    "readings": "にしぐち (nishiguchi)",
+    "meaning": "pintu keluar barat",
+    "examples": [
+      {
+        "word": "関西",
+        "yomi": "かんさい",
+        "imi": "wilayah Kansai"
+      },
+      {
+        "word": "窓口",
+        "yomi": "まどぐち",
+        "imi": "loket"
+      }
+    ]
+  },
+  {
+    "chapter": "10",
+    "topic": "待ち合わせ",
+    "category": "yomeru",
+    "character": "銀行",
+    "readings": "ぎんこう (ginkou)",
+    "meaning": "bank",
+    "examples": [
+      {
+        "word": "銀",
+        "yomi": "ぎん",
+        "imi": "perak"
+      },
+      {
+        "word": "旅行",
+        "yomi": "りょこう",
+        "imi": "perjalanan/wisata"
+      }
+    ]
+  },
+  {
+    "chapter": "10",
+    "topic": "待ち合わせ",
+    "category": "yomeru",
+    "character": "地下鉄",
+    "readings": "ちかてつ (chikatetsu)",
+    "meaning": "kereta bawah tanah",
+    "examples": [
+      {
+        "word": "地図",
+        "yomi": "ちず",
+        "imi": "peta"
+      },
+      {
+        "word": "鉄道",
+        "yomi": "てつどう",
+        "imi": "perkeretaapian"
+      }
+    ]
+  },
+  {
+    "chapter": "10",
+    "topic": "待ち合わせ",
+    "category": "mite_wakaru",
+    "character": "駐車場",
+    "readings": "ちゅうしゃじょう (chuushajou)",
+    "meaning": "tempat parkir",
+    "examples": [
+      {
+        "word": "電車",
+        "yomi": "でんしゃ",
+        "imi": "kereta listrik"
+      },
+      {
+        "word": "場所",
+        "yomi": "ばしょ",
+        "imi": "tempat"
+      }
+    ]
+  },
+  {
+    "chapter": "11",
+    "topic": "何時に、何をする？",
+    "category": "teishutsu_kanji",
+    "character": "起",
+    "readings": "お・きる (o-kiru) / き (ki)",
+    "meaning": "bangun",
+    "examples": [
+      {
+        "word": "起立",
+        "yomi": "きりつ",
+        "imi": "berdiri (aba-aba)"
+      }
+    ]
+  },
+  {
+    "chapter": "11",
+    "topic": "何時に、何をする？",
+    "category": "teishutsu_kanji",
+    "character": "歩",
+    "readings": "ある・く (aru-ku) / ほ (ho)",
+    "meaning": "berjalan",
+    "examples": [
+      {
+        "word": "散歩",
+        "yomi": "さんぽ",
+        "imi": "jalan-jalan"
+      }
+    ]
+  },
+  {
+    "chapter": "11",
+    "topic": "何時に、何をする？",
+    "category": "teishutsu_kanji",
+    "character": "乗",
+    "readings": "の・る (no-ru) / じょう (jou)",
+    "meaning": "naik kendaraan",
+    "examples": [
+      {
+        "word": "乗車",
+        "yomi": "じょうしゃ",
+        "imi": "naik kendaraan (formal)"
+      }
+    ]
+  },
+  {
+    "chapter": "11",
+    "topic": "何時に、何をする？",
+    "category": "teishutsu_kanji",
+    "character": "始",
+    "readings": "はじ・まる (haji-maru) / し (shi)",
+    "meaning": "mulai",
+    "examples": [
+      {
+        "word": "開始",
+        "yomi": "かいし",
+        "imi": "permulaan"
+      }
+    ]
+  },
+  {
+    "chapter": "11",
+    "topic": "何時に、何をする？",
+    "category": "teishutsu_kanji",
+    "character": "終",
+    "readings": "お・わる (o-waru) / しゅう (shuu)",
+    "meaning": "selesai",
+    "examples": [
+      {
+        "word": "最終",
+        "yomi": "さいしゅう",
+        "imi": "terakhir"
+      }
+    ]
+  },
+  {
+    "chapter": "11",
+    "topic": "何時に、何をする？",
+    "category": "teishutsu_kanji",
+    "character": "勉強",
+    "readings": "べんきょう (benkyou)",
+    "meaning": "belajar",
+    "examples": [
+      {
+        "word": "強い",
+        "yomi": "つよい",
+        "imi": "kuat"
+      }
+    ]
+  },
+  {
+    "chapter": "11",
+    "topic": "何時に、何をする？",
+    "category": "teishutsu_kanji",
+    "character": "朝",
+    "readings": "あさ (asa) / ちょう (chou)",
+    "meaning": "pagi",
+    "examples": [
+      {
+        "word": "朝ご飯",
+        "yomi": "あさごはん",
+        "imi": "sarapan"
+      },
+      {
+        "word": "毎朝",
+        "yomi": "まいあさ",
+        "imi": "setiap pagi"
+      }
+    ]
+  },
+  {
+    "chapter": "11",
+    "topic": "何時に、何をする？",
+    "category": "teishutsu_kanji",
+    "character": "昼",
+    "readings": "ひる (hiru) / ちゅう (chuu)",
+    "meaning": "siang",
+    "examples": [
+      {
+        "word": "昼ご飯",
+        "yomi": "ひるごはん",
+        "imi": "makan siang"
+      },
+      {
+        "word": "昼休み",
+        "yomi": "ひるやすみ",
+        "imi": "istirahat siang"
+      }
+    ]
+  },
+  {
+    "chapter": "11",
+    "topic": "何時に、何をする？",
+    "category": "teishutsu_kanji",
+    "character": "夜",
+    "readings": "よる (yoru) / や (ya)",
+    "meaning": "malam",
+    "examples": [
+      {
+        "word": "夜中",
+        "yomi": "よなか",
+        "imi": "tengah malam"
+      },
+      {
+        "word": "今夜",
+        "yomi": "こんや",
+        "imi": "malam ini"
+      }
+    ]
+  },
+  {
+    "chapter": "11",
+    "topic": "何時に、何をする？",
+    "category": "yomeru",
+    "character": "自転車",
+    "readings": "じてんしゃ (jitensha)",
+    "meaning": "sepeda",
+    "examples": [
+      {
+        "word": "自分",
+        "yomi": "じぶん",
+        "imi": "diri sendiri"
+      },
+      {
+        "word": "運転",
+        "yomi": "うんてん",
+        "imi": "mengemudi"
+      }
+    ]
+  },
+  {
+    "chapter": "11",
+    "topic": "何時に、何をする？",
+    "category": "yomeru",
+    "character": "寝る",
+    "readings": "ねる (neru)",
+    "meaning": "tidur",
+    "examples": [
+      {
+        "word": "寝坊",
+        "yomi": "ねぼう",
+        "imi": "bangun kesiangan"
+      },
+      {
+        "word": "昼寝",
+        "yomi": "ひるね",
+        "imi": "tidur siang"
+      }
+    ]
+  },
+  {
+    "chapter": "11",
+    "topic": "何時に、何をする？",
+    "category": "mite_wakaru",
+    "character": "集合",
+    "readings": "しゅうごう (shuugou)",
+    "meaning": "berkumpul",
+    "examples": [
+      {
+        "word": "集める",
+        "yomi": "あつめる",
+        "imi": "mengumpulkan"
+      },
+      {
+        "word": "都合",
+        "yomi": "つごう",
+        "imi": "keadaan/kecocokan waktu"
+      }
+    ]
+  },
+  {
+    "chapter": "12",
+    "topic": "病気のとき",
+    "category": "teishutsu_kanji",
+    "character": "体",
+    "readings": "からだ (karada) / たい (tai)",
+    "meaning": "tubuh",
+    "examples": [
+      {
+        "word": "体育",
+        "yomi": "たいいく",
+        "imi": "olahraga (pelajaran)"
+      },
+      {
+        "word": "体調",
+        "yomi": "たいちょう",
+        "imi": "kondisi tubuh"
+      }
+    ]
+  },
+  {
+    "chapter": "12",
+    "topic": "病気のとき",
+    "category": "teishutsu_kanji",
+    "character": "目",
+    "readings": "め (me) / もく (moku)",
+    "meaning": "mata",
+    "examples": [
+      {
+        "word": "目的",
+        "yomi": "もくてき",
+        "imi": "tujuan"
+      },
+      {
+        "word": "目玉",
+        "yomi": "めだま",
+        "imi": "biji mata"
+      }
+    ]
+  },
+  {
+    "chapter": "12",
+    "topic": "病気のとき",
+    "category": "teishutsu_kanji",
+    "character": "耳",
+    "readings": "みみ (mimi) / じ (ji)",
+    "meaning": "telinga",
+    "examples": [
+      {
+        "word": "耳鼻科",
+        "yomi": "じびか",
+        "imi": "klinik THT"
+      }
+    ]
+  },
+  {
+    "chapter": "12",
+    "topic": "病気のとき",
+    "category": "teishutsu_kanji",
+    "character": "口",
+    "readings": "くち (kuchi) / こう (kou)",
+    "meaning": "mulut",
+    "examples": [
+      {
+        "word": "入り口",
+        "yomi": "いりぐち",
+        "imi": "pintu masuk"
+      },
+      {
+        "word": "人口",
+        "yomi": "じんこう",
+        "imi": "populasi"
+      }
+    ]
+  },
+  {
+    "chapter": "12",
+    "topic": "病気のとき",
+    "category": "teishutsu_kanji",
+    "character": "歯",
+    "readings": "は (ha) / し (shi)",
+    "meaning": "gigi",
+    "examples": [
+      {
+        "word": "歯医者",
+        "yomi": "はいしゃ",
+        "imi": "dokter gigi"
+      },
+      {
+        "word": "歯磨き",
+        "yomi": "はみがき",
+        "imi": "sikat gigi"
+      }
+    ]
+  },
+  {
+    "chapter": "12",
+    "topic": "病気のとき",
+    "category": "teishutsu_kanji",
+    "character": "病院",
+    "readings": "びょういん (byouin)",
+    "meaning": "rumah sakit",
+    "examples": [
+      {
+        "word": "病気",
+        "yomi": "びょうき",
+        "imi": "sakit/penyakit"
+      },
+      {
+        "word": "入院",
+        "yomi": "にゅういん",
+        "imi": "rawat inap"
+      }
+    ]
+  },
+  {
+    "chapter": "12",
+    "topic": "病気のとき",
+    "category": "teishutsu_kanji",
+    "character": "薬",
+    "readings": "くすり (kusuri) / やく (yaku)",
+    "meaning": "obat",
+    "examples": [
+      {
+        "word": "薬局",
+        "yomi": "やっきょく",
+        "imi": "apotek"
+      },
+      {
+        "word": "薬屋",
+        "yomi": "くすりや",
+        "imi": "toko obat"
+      }
+    ]
+  },
+  {
+    "chapter": "12",
+    "topic": "病気のとき",
+    "category": "teishutsu_kanji",
+    "character": "局",
+    "readings": "きょく (kyoku)",
+    "meaning": "biro/kantor (seperti di apotek)",
+    "examples": [
+      {
+        "word": "薬局",
+        "yomi": "やっきょく",
+        "imi": "apotek"
+      },
+      {
+        "word": "郵便局",
+        "yomi": "ゆうびんきょく",
+        "imi": "kantor pos"
+      }
+    ]
+  },
+  {
+    "chapter": "12",
+    "topic": "病気のとき",
+    "category": "yomeru",
+    "character": "体重",
+    "readings": "たいじゅう (taijuu)",
+    "meaning": "berat badan",
+    "examples": [
+      {
+        "word": "重い",
+        "yomi": "おもい",
+        "imi": "berat"
+      },
+      {
+        "word": "大体",
+        "yomi": "だいたい",
+        "imi": "kira-kira/pada umumnya"
+      }
+    ]
+  },
+  {
+    "chapter": "12",
+    "topic": "病気のとき",
+    "category": "yomeru",
+    "character": "受付",
+    "readings": "うけつけ (uketsuke)",
+    "meaning": "resepsionis/pendaftaran",
+    "examples": [
+      {
+        "word": "受ける",
+        "yomi": "うける",
+        "imi": "menerima"
+      },
+      {
+        "word": "付ける",
+        "yomi": "つける",
+        "imi": "memasang/menempelkan"
+      }
+    ]
+  },
+  {
+    "chapter": "12",
+    "topic": "病気のとき",
+    "category": "yomeru",
+    "character": "熱",
+    "readings": "ねつ (netsu)",
+    "meaning": "demam/panas",
+    "examples": [
+      {
+        "word": "情熱",
+        "yomi": "じょうねつ",
+        "imi": "semangat/passion"
+      }
+    ]
+  },
+  {
+    "chapter": "12",
+    "topic": "病気のとき",
+    "category": "mite_wakaru",
+    "character": "内科",
+    "readings": "ないか (naika)",
+    "meaning": "klinik penyakit dalam",
+    "examples": [
+      {
+        "word": "内側",
+        "yomi": "うちがわ",
+        "imi": "sisi dalam"
+      },
+      {
+        "word": "科目",
+        "yomi": "かもく",
+        "imi": "mata pelajaran"
+      }
+    ]
+  },
+  {
+    "chapter": "12",
+    "topic": "病気のとき",
+    "category": "mite_wakaru",
+    "character": "外科",
+    "readings": "げか (geka)",
+    "meaning": "klinik bedah",
+    "examples": [
+      {
+        "word": "外国",
+        "yomi": "がいこく",
+        "imi": "luar negeri"
+      },
+      {
+        "word": "外側",
+        "yomi": "そとがわ",
+        "imi": "sisi luar"
+      }
+    ]
+  },
+  {
+    "chapter": "13",
+    "topic": "旅行に行こう",
+    "category": "teishutsu_kanji",
+    "character": "世界",
+    "readings": "せかい (sekai)",
+    "meaning": "dunia",
+    "examples": [
+      {
+        "word": "世紀",
+        "yomi": "せいき",
+        "imi": "abad"
+      },
+      {
+        "word": "業界",
+        "yomi": "ぎょうかい",
+        "imi": "industri/kalangan bisnis"
+      }
+    ]
+  },
+  {
+    "chapter": "13",
+    "topic": "旅行に行こう",
+    "category": "teishutsu_kanji",
+    "character": "春",
+    "readings": "はる (haru) / しゅん (shun)",
+    "meaning": "musim semi",
+    "examples": [
+      {
+        "word": "春休み",
+        "yomi": "はるやすみ",
+        "imi": "libur musim semi"
+      },
+      {
+        "word": "青春",
+        "yomi": "せいしゅん",
+        "imi": "masa muda"
+      }
+    ]
+  },
+  {
+    "chapter": "13",
+    "topic": "旅行に行こう",
+    "category": "teishutsu_kanji",
+    "character": "夏",
+    "readings": "なつ (natsu) / か (ka)",
+    "meaning": "musim panas",
+    "examples": [
+      {
+        "word": "夏休み",
+        "yomi": "なつやすみ",
+        "imi": "libur musim panas"
+      },
+      {
+        "word": "真夏",
+        "yomi": "まなつ",
+        "imi": "puncak musim panas"
+      }
+    ]
+  },
+  {
+    "chapter": "13",
+    "topic": "旅行に行こう",
+    "category": "teishutsu_kanji",
+    "character": "秋",
+    "readings": "あき (aki) / しゅう (shuu)",
+    "meaning": "musim gugur",
+    "examples": [
+      {
+        "word": "秋分の日",
+        "yomi": "しゅうぶんのひ",
+        "imi": "hari ekuinoks musim gugur"
+      },
+      {
+        "word": "晩秋",
+        "yomi": "ばんしゅう",
+        "imi": "akhir musim gugur"
+      }
+    ]
+  },
+  {
+    "chapter": "13",
+    "topic": "旅行に行こう",
+    "category": "teishutsu_kanji",
+    "character": "冬",
+    "readings": "ふゆ (fuyu) / とう (tou)",
+    "meaning": "musim dingin",
+    "examples": [
+      {
+        "word": "冬休み",
+        "yomi": "ふゆやすみ",
+        "imi": "libur musim dingin"
+      },
+      {
+        "word": "真冬",
+        "yomi": "まふゆ",
+        "imi": "puncak musim dingin"
+      }
+    ]
+  },
+  {
+    "chapter": "13",
+    "topic": "旅行に行こう",
+    "category": "teishutsu_kanji",
+    "character": "早",
+    "readings": "はや・い (haya-i) / そう (sou)",
+    "meaning": "cepat/awal",
+    "examples": [
+      {
+        "word": "早朝",
+        "yomi": "そうちょう",
+        "imi": "pagi-pagi sekali"
+      }
+    ]
+  },
+  {
+    "chapter": "13",
+    "topic": "旅行に行こう",
+    "category": "teishutsu_kanji",
+    "character": "夕",
+    "readings": "ゆう (yuu) / せき (seki)",
+    "meaning": "sore/senja",
+    "examples": [
+      {
+        "word": "夕方",
+        "yomi": "ゆうがた",
+        "imi": "sore hari"
+      },
+      {
+        "word": "夕食",
+        "yomi": "ゆうしょく",
+        "imi": "makan malam"
+      }
+    ]
+  },
+  {
+    "chapter": "13",
+    "topic": "旅行に行こう",
+    "category": "teishutsu_kanji",
+    "character": "予",
+    "readings": "よ (yo)",
+    "meaning": "sebelumnya/rencana",
+    "examples": [
+      {
+        "word": "予定",
+        "yomi": "よてい",
+        "imi": "rencana"
+      },
+      {
+        "word": "予約",
+        "yomi": "よやく",
+        "imi": "reservasi"
+      }
+    ]
+  },
+  {
+    "chapter": "13",
+    "topic": "旅行に行こう",
+    "category": "teishutsu_kanji",
+    "character": "約",
+    "readings": "やく (yaku)",
+    "meaning": "janji/kira-kira",
+    "examples": [
+      {
+        "word": "予約",
+        "yomi": "よやく",
+        "imi": "reservasi"
+      },
+      {
+        "word": "約束",
+        "yomi": "やくそく",
+        "imi": "janji"
+      }
+    ]
+  },
+  {
+    "chapter": "13",
+    "topic": "旅行に行こう",
+    "category": "teishutsu_kanji",
+    "character": "光",
+    "readings": "ひかり (hikari) / こう (kou)",
+    "meaning": "cahaya",
+    "examples": [
+      {
+        "word": "観光",
+        "yomi": "かんこう",
+        "imi": "pariwisata"
+      }
+    ]
+  },
+  {
+    "chapter": "13",
+    "topic": "旅行に行こう",
+    "category": "yomeru",
+    "character": "観光",
+    "readings": "かんこう (kankou)",
+    "meaning": "pariwisata",
+    "examples": [
+      {
+        "word": "観客",
+        "yomi": "かんきゃく",
+        "imi": "penonton"
+      },
+      {
+        "word": "日光",
+        "yomi": "にっこう",
+        "imi": "sinar matahari"
+      }
+    ]
+  },
+  {
+    "chapter": "13",
+    "topic": "旅行に行こう",
+    "category": "yomeru",
+    "character": "出発",
+    "readings": "しゅっぱつ (shuppatsu)",
+    "meaning": "keberangkatan",
+    "examples": [
+      {
+        "word": "出口",
+        "yomi": "でぐち",
+        "imi": "pintu keluar"
+      },
+      {
+        "word": "発表",
+        "yomi": "はっぴょう",
+        "imi": "presentasi/pengumuman"
+      }
+    ]
+  },
+  {
+    "chapter": "13",
+    "topic": "旅行に行こう",
+    "category": "yomeru",
+    "character": "到着",
+    "readings": "とうちゃく (touchaku)",
+    "meaning": "kedatangan",
+    "examples": [
+      {
+        "word": "着く",
+        "yomi": "つく",
+        "imi": "tiba/sampai"
+      },
+      {
+        "word": "着る",
+        "yomi": "きる",
+        "imi": "memakai (baju)"
+      }
+    ]
+  },
+  {
+    "chapter": "13",
+    "topic": "旅行に行こう",
+    "category": "mite_wakaru",
+    "character": "〜泊〜日",
+    "readings": "〜はく〜か (〜haku 〜ka/nichi)",
+    "meaning": "〜 malam 〜 hari (durasi menginap)",
+    "examples": [
+      {
+        "word": "宿泊",
+        "yomi": "しゅくはく",
+        "imi": "menginap"
+      },
+      {
+        "word": "一泊",
+        "yomi": "いっぱく",
+        "imi": "satu malam menginap"
+      }
+    ]
+  },
+  {
+    "chapter": "13",
+    "topic": "旅行に行こう",
+    "category": "mite_wakaru",
+    "character": "〜付き",
+    "readings": "〜つき (〜tsuki)",
+    "meaning": "termasuk/dengan 〜",
+    "examples": [
+      {
+        "word": "付ける",
+        "yomi": "つける",
+        "imi": "memasang/menempelkan"
+      },
+      {
+        "word": "気付く",
+        "yomi": "きづく",
+        "imi": "menyadari"
+      }
+    ]
+  },
+  {
+    "chapter": "13",
+    "topic": "旅行に行こう",
+    "category": "mite_wakaru",
+    "character": "〜券",
+    "readings": "〜けん (〜ken)",
+    "meaning": "tiket/kupon 〜",
+    "examples": [
+      {
+        "word": "入場券",
+        "yomi": "にゅうじょうけん",
+        "imi": "tiket masuk"
+      },
+      {
+        "word": "定期券",
+        "yomi": "ていきけん",
+        "imi": "tiket berlangganan"
+      }
+    ]
+  },
+  {
+    "chapter": "14",
+    "topic": "気をつけて！",
+    "category": "teishutsu_kanji",
+    "character": "入",
+    "readings": "はい・る (hai-ru) / にゅう (nyuu)",
+    "meaning": "masuk",
+    "examples": [
+      {
+        "word": "入学",
+        "yomi": "にゅうがく",
+        "imi": "masuk sekolah"
+      },
+      {
+        "word": "輸入",
+        "yomi": "ゆにゅう",
+        "imi": "impor"
+      }
+    ]
+  },
+  {
+    "chapter": "14",
+    "topic": "気をつけて！",
+    "category": "teishutsu_kanji",
+    "character": "出",
+    "readings": "で・る (de-ru) / しゅつ (shutsu)",
+    "meaning": "keluar",
+    "examples": [
+      {
+        "word": "出発",
+        "yomi": "しゅっぱつ",
+        "imi": "keberangkatan"
+      },
+      {
+        "word": "出口",
+        "yomi": "でぐち",
+        "imi": "pintu keluar"
+      }
+    ]
+  },
+  {
+    "chapter": "14",
+    "topic": "気をつけて！",
+    "category": "teishutsu_kanji",
+    "character": "持",
+    "readings": "も・つ (mo-tsu) / じ (ji)",
+    "meaning": "membawa/memiliki",
+    "examples": [
+      {
+        "word": "気持ち",
+        "yomi": "きもち",
+        "imi": "perasaan"
+      }
+    ]
+  },
+  {
+    "chapter": "14",
+    "topic": "気をつけて！",
+    "category": "teishutsu_kanji",
+    "character": "立",
+    "readings": "た・つ (ta-tsu) / りつ (ritsu)",
+    "meaning": "berdiri",
+    "examples": [
+      {
+        "word": "私立",
+        "yomi": "しりつ",
+        "imi": "swasta"
+      },
+      {
+        "word": "独立",
+        "yomi": "どくりつ",
+        "imi": "kemerdekaan"
+      }
+    ]
+  },
+  {
+    "chapter": "14",
+    "topic": "気をつけて！",
+    "category": "teishutsu_kanji",
+    "character": "使用",
+    "readings": "しよう (shiyou)",
+    "meaning": "penggunaan",
+    "examples": [
+      {
+        "word": "使う",
+        "yomi": "つかう",
+        "imi": "menggunakan"
+      },
+      {
+        "word": "用事",
+        "yomi": "ようじ",
+        "imi": "urusan/keperluan"
+      }
+    ]
+  },
+  {
+    "chapter": "14",
+    "topic": "気をつけて！",
+    "category": "teishutsu_kanji",
+    "character": "中",
+    "readings": "なか (naka) / ちゅう (chuu)",
+    "meaning": "dalam/tengah/sedang melakukan",
+    "examples": [
+      {
+        "word": "中国",
+        "yomi": "ちゅうごく",
+        "imi": "Tiongkok"
+      },
+      {
+        "word": "中学校",
+        "yomi": "ちゅうがっこう",
+        "imi": "SMP"
+      }
+    ]
+  },
+  {
+    "chapter": "14",
+    "topic": "気をつけて！",
+    "category": "teishutsu_kanji",
+    "character": "新",
+    "readings": "あたら・しい (atara-shii) / しん (shin)",
+    "meaning": "baru",
+    "examples": [
+      {
+        "word": "新聞",
+        "yomi": "しんぶん",
+        "imi": "koran"
+      },
+      {
+        "word": "新幹線",
+        "yomi": "しんかんせん",
+        "imi": "kereta cepat shinkansen"
+      }
+    ]
+  },
+  {
+    "chapter": "14",
+    "topic": "気をつけて！",
+    "category": "teishutsu_kanji",
+    "character": "古",
+    "readings": "ふる・い (furu-i) / こ (ko)",
+    "meaning": "lama/kuno",
+    "examples": [
+      {
+        "word": "中古",
+        "yomi": "ちゅうこ",
+        "imi": "bekas/second-hand"
+      }
+    ]
+  },
+  {
+    "chapter": "14",
+    "topic": "気をつけて！",
+    "category": "teishutsu_kanji",
+    "character": "注意",
+    "readings": "ちゅうい (chuui)",
+    "meaning": "perhatian/peringatan",
+    "examples": [
+      {
+        "word": "注文",
+        "yomi": "ちゅうもん",
+        "imi": "memesan"
+      },
+      {
+        "word": "意味",
+        "yomi": "いみ",
+        "imi": "arti"
+      }
+    ]
+  },
+  {
+    "chapter": "14",
+    "topic": "気をつけて！",
+    "category": "teishutsu_kanji",
+    "character": "止",
+    "readings": "と・まる (to-maru) / し (shi)",
+    "meaning": "berhenti",
+    "examples": [
+      {
+        "word": "中止",
+        "yomi": "ちゅうし",
+        "imi": "dibatalkan"
+      },
+      {
+        "word": "停止",
+        "yomi": "ていし",
+        "imi": "berhenti"
+      }
+    ]
+  },
+  {
+    "chapter": "14",
+    "topic": "気をつけて！",
+    "category": "yomeru",
+    "character": "禁止",
+    "readings": "きんし (kinshi)",
+    "meaning": "larangan",
+    "examples": [
+      {
+        "word": "禁煙",
+        "yomi": "きんえん",
+        "imi": "dilarang merokok"
+      },
+      {
+        "word": "中止",
+        "yomi": "ちゅうし",
+        "imi": "dibatalkan"
+      }
+    ]
+  },
+  {
+    "chapter": "14",
+    "topic": "気をつけて！",
+    "category": "yomeru",
+    "character": "降りる",
+    "readings": "おりる (oriru)",
+    "meaning": "turun (dari kendaraan)",
+    "examples": [
+      {
+        "word": "降る",
+        "yomi": "ふる",
+        "imi": "turun (hujan/salju)"
+      },
+      {
+        "word": "乗り降り",
+        "yomi": "のりおり",
+        "imi": "naik turun (kendaraan)"
+      }
+    ]
+  },
+  {
+    "chapter": "14",
+    "topic": "気をつけて！",
+    "category": "mite_wakaru",
+    "character": "最〜",
+    "readings": "さい〜 (sai〜)",
+    "meaning": "paling 〜 (paling depan, paling baru, dll)",
+    "examples": [
+      {
+        "word": "最高",
+        "yomi": "さいこう",
+        "imi": "tertinggi/terbaik"
+      },
+      {
+        "word": "最初",
+        "yomi": "さいしょ",
+        "imi": "pertama kali"
+      }
+    ]
+  },
+  {
+    "chapter": "14",
+    "topic": "気をつけて！",
+    "category": "mite_wakaru",
+    "character": "優先席",
+    "readings": "ゆうせんせき (yuusenseki)",
+    "meaning": "kursi prioritas",
+    "examples": [
+      {
+        "word": "優しい",
+        "yomi": "やさしい",
+        "imi": "baik hati"
+      },
+      {
+        "word": "座席",
+        "yomi": "ざせき",
+        "imi": "tempat duduk"
+      }
+    ]
+  },
+  {
+    "chapter": "14",
+    "topic": "気をつけて！",
+    "category": "mite_wakaru",
+    "character": "禁煙",
+    "readings": "きんえん (kinen)",
+    "meaning": "dilarang merokok",
+    "examples": [
+      {
+        "word": "禁止",
+        "yomi": "きんし",
+        "imi": "larangan"
+      },
+      {
+        "word": "煙草",
+        "yomi": "たばこ",
+        "imi": "rokok"
+      }
+    ]
+  },
+  {
+    "chapter": "15",
+    "topic": "どんなニュース？",
+    "category": "teishutsu_kanji",
+    "character": "天",
+    "readings": "てん (ten)",
+    "meaning": "langit/surga",
+    "examples": [
+      {
+        "word": "天気",
+        "yomi": "てんき",
+        "imi": "cuaca"
+      },
+      {
+        "word": "天国",
+        "yomi": "てんごく",
+        "imi": "surga"
+      }
+    ]
+  },
+  {
+    "chapter": "15",
+    "topic": "どんなニュース？",
+    "category": "teishutsu_kanji",
+    "character": "気",
+    "readings": "き (ki)",
+    "meaning": "perasaan/energi/udara",
+    "examples": [
+      {
+        "word": "天気",
+        "yomi": "てんき",
+        "imi": "cuaca"
+      },
+      {
+        "word": "元気",
+        "yomi": "げんき",
+        "imi": "sehat/bersemangat"
+      }
+    ]
+  },
+  {
+    "chapter": "15",
+    "topic": "どんなニュース？",
+    "category": "teishutsu_kanji",
+    "character": "雨",
+    "readings": "あめ (ame) / う (u)",
+    "meaning": "hujan",
+    "examples": [
+      {
+        "word": "雨天",
+        "yomi": "うてん",
+        "imi": "cuaca hujan"
+      },
+      {
+        "word": "大雨",
+        "yomi": "おおあめ",
+        "imi": "hujan lebat"
+      }
+    ]
+  },
+  {
+    "chapter": "15",
+    "topic": "どんなニュース？",
+    "category": "teishutsu_kanji",
+    "character": "台",
+    "readings": "だい (dai) / たい (tai)",
+    "meaning": "landasan/mesin/panggung",
+    "examples": [
+      {
+        "word": "台風",
+        "yomi": "たいふう",
+        "imi": "topan"
+      },
+      {
+        "word": "台所",
+        "yomi": "だいどころ",
+        "imi": "dapur"
+      }
+    ]
+  },
+  {
+    "chapter": "15",
+    "topic": "どんなニュース？",
+    "category": "teishutsu_kanji",
+    "character": "風",
+    "readings": "かぜ (kaze) / ふう (fuu)",
+    "meaning": "angin/gaya",
+    "examples": [
+      {
+        "word": "台風",
+        "yomi": "たいふう",
+        "imi": "topan"
+      },
+      {
+        "word": "風邪",
+        "yomi": "かぜ",
+        "imi": "masuk angin/flu"
+      }
+    ]
+  },
+  {
+    "chapter": "15",
+    "topic": "どんなニュース？",
+    "category": "teishutsu_kanji",
+    "character": "多",
+    "readings": "おお・い (oo-i) / た (ta)",
+    "meaning": "banyak",
+    "examples": [
+      {
+        "word": "多分",
+        "yomi": "たぶん",
+        "imi": "mungkin"
+      }
+    ]
+  },
+  {
+    "chapter": "15",
+    "topic": "どんなニュース？",
+    "category": "teishutsu_kanji",
+    "character": "低",
+    "readings": "ひく・い (hiku-i) / てい (tei)",
+    "meaning": "rendah",
+    "examples": [
+      {
+        "word": "最低",
+        "yomi": "さいてい",
+        "imi": "paling rendah/terburuk"
+      }
+    ]
+  },
+  {
+    "chapter": "15",
+    "topic": "どんなニュース？",
+    "category": "teishutsu_kanji",
+    "character": "度",
+    "readings": "ど (do)",
+    "meaning": "derajat/kali",
+    "examples": [
+      {
+        "word": "今度",
+        "yomi": "こんど",
+        "imi": "kali ini/lain kali"
+      },
+      {
+        "word": "温度",
+        "yomi": "おんど",
+        "imi": "suhu"
+      }
+    ]
+  },
+  {
+    "chapter": "15",
+    "topic": "どんなニュース？",
+    "category": "teishutsu_kanji",
+    "character": "交",
+    "readings": "まじ・わる (maji-waru) / こう (kou)",
+    "meaning": "berpotongan/asosiasi",
+    "examples": [
+      {
+        "word": "交通",
+        "yomi": "こうつう",
+        "imi": "lalu lintas"
+      },
+      {
+        "word": "交換",
+        "yomi": "こうかん",
+        "imi": "pertukaran"
+      }
+    ]
+  },
+  {
+    "chapter": "15",
+    "topic": "どんなニュース？",
+    "category": "teishutsu_kanji",
+    "character": "通",
+    "readings": "とお・る (too-ru) / つう (tsuu)",
+    "meaning": "melewati/lalu lintas",
+    "examples": [
+      {
+        "word": "交通",
+        "yomi": "こうつう",
+        "imi": "lalu lintas"
+      },
+      {
+        "word": "普通",
+        "yomi": "ふつう",
+        "imi": "biasa/normal"
+      }
+    ]
+  },
+  {
+    "chapter": "15",
+    "topic": "どんなニュース？",
+    "category": "teishutsu_kanji",
+    "character": "死",
+    "readings": "し・ぬ (shi-nu) / し (shi)",
+    "meaning": "mati/meninggal",
+    "examples": [
+      {
+        "word": "死亡",
+        "yomi": "しぼう",
+        "imi": "kematian (formal)"
+      }
+    ]
+  },
+  {
+    "chapter": "15",
+    "topic": "どんなニュース？",
+    "category": "yomeru",
+    "character": "気温",
+    "readings": "きおん (kion)",
+    "meaning": "suhu udara",
+    "examples": [
+      {
+        "word": "天気",
+        "yomi": "てんき",
+        "imi": "cuaca"
+      },
+      {
+        "word": "温泉",
+        "yomi": "おんせん",
+        "imi": "onsen/pemandian air panas"
+      }
+    ]
+  },
+  {
+    "chapter": "15",
+    "topic": "どんなニュース？",
+    "category": "yomeru",
+    "character": "事故",
+    "readings": "じこ (jiko)",
+    "meaning": "kecelakaan",
+    "examples": [
+      {
+        "word": "仕事",
+        "yomi": "しごと",
+        "imi": "pekerjaan"
+      },
+      {
+        "word": "事件",
+        "yomi": "じけん",
+        "imi": "insiden/kasus"
+      }
+    ]
+  },
+  {
+    "chapter": "15",
+    "topic": "どんなニュース？",
+    "category": "yomeru",
+    "character": "地震",
+    "readings": "じしん (jishin)",
+    "meaning": "gempa bumi",
+    "examples": [
+      {
+        "word": "地図",
+        "yomi": "ちず",
+        "imi": "peta"
+      },
+      {
+        "word": "震える",
+        "yomi": "ふるえる",
+        "imi": "gemetar"
+      }
+    ]
+  },
+  {
+    "chapter": "15",
+    "topic": "どんなニュース？",
+    "category": "mite_wakaru",
+    "character": "晴",
+    "readings": "はれ (hare)",
+    "meaning": "cerah",
+    "examples": [
+      {
+        "word": "晴れる",
+        "yomi": "はれる",
+        "imi": "menjadi cerah"
+      },
+      {
+        "word": "快晴",
+        "yomi": "かいせい",
+        "imi": "cuaca sangat cerah"
+      }
+    ]
+  },
+  {
+    "chapter": "15",
+    "topic": "どんなニュース？",
+    "category": "mite_wakaru",
+    "character": "曇",
+    "readings": "くもり (kumori)",
+    "meaning": "berawan",
+    "examples": [
+      {
+        "word": "曇る",
+        "yomi": "くもる",
+        "imi": "menjadi mendung"
+      },
+      {
+        "word": "曇り空",
+        "yomi": "くもりぞら",
+        "imi": "langit berawan"
+      }
+    ]
+  },
+  {
+    "chapter": "15",
+    "topic": "どんなニュース？",
+    "category": "mite_wakaru",
+    "character": "雪",
+    "readings": "ゆき (yuki)",
+    "meaning": "salju",
+    "examples": [
+      {
+        "word": "雪だるま",
+        "yomi": "ゆきだるま",
+        "imi": "manusia salju"
+      },
+      {
+        "word": "大雪",
+        "yomi": "おおゆき",
+        "imi": "salju lebat"
+      }
+    ]
+  }
+]

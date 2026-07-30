@@ -126,6 +126,8 @@ model ReviewItem {
   vocab     VocabCard?     @relation(fields: [vocabId], references: [id], onDelete: Cascade)
   grammarId String?        @unique
   grammar   GrammarPoint?  @relation(fields: [grammarId], references: [id], onDelete: Cascade)
+  kanjiId   String?        @unique
+  kanji     KanjiEntry?    @relation(fields: [kanjiId], references: [id], onDelete: Cascade)
   createdAt DateTime       @default(now())
   updatedAt DateTime       @updatedAt
 
@@ -224,4 +226,33 @@ model GrammarPoint {
   @@index([level])
   @@index([provenance])
   @@map("hibi_grammar_point")
+}
+
+
+// ─────────────────────────────────────────
+// Kanji Tamago
+//
+// Data dasar dari legacy kanji_tamago.json (chapter/topic/category + moji).
+// `radicals` (KRADFILE/IDS) dan `strokeSvg` (KanjiVG) diisi di fase lanjutan;
+// keduanya nullable supaya seed dasar tidak menunggu dataset eksternal.
+// ─────────────────────────────────────────
+model KanjiEntry {
+  id        String   @id @default(cuid())
+  chapter   String
+  topic     String
+  category  String // teishutsu_kanji | yomeru | mite_wakaru
+  character String
+  readings  String
+  meaning   String   @db.Text
+  examples  Json? // [{ word, yomi, imi }]
+  radicals  Json? // dekomposisi komponen (fase lanjutan)
+  strokeSvg String?  @db.Text // path KanjiVG (fase lanjutan)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  reviewItem ReviewItem?
+
+  @@unique([chapter, category, character])
+  @@index([chapter])
+  @@map("hibi_kanji_entry")
 }
