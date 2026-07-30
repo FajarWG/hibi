@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
-import { redirect } from "next/navigation";
 
-import { getSession } from "@/lib/session";
 import { LandingHeader } from "@/components/landing/landing-header";
 import { LandingHero } from "@/components/landing/landing-hero";
 import { LandingFeatures } from "@/components/landing/landing-features";
@@ -14,10 +12,12 @@ export const metadata: Metadata = {
     "Four focused practices in one calm space: spaced repetition, guided writing, kanji study, and AI conversation. Migrate your Anki data without losing progress.",
 };
 
-export default async function HomePage() {
-  const session = await getSession();
-  if (session) redirect("/today");
-
+/**
+ * Landing publik statis. Redirect untuk user yang sudah login ditangani di
+ * proxy.ts (middleware), jadi halaman ini tidak membaca cookie dan bisa
+ * dirender sebagai konten statis (disajikan dari CDN, tanpa serverless).
+ */
+export default function HomePage() {
   return (
     <>
       <LandingHeader />

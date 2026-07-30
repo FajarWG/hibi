@@ -20,8 +20,12 @@ export async function proxy(request: NextRequest) {
     (prefix) => pathname === prefix || pathname.startsWith(`${prefix}/`),
   );
   const isAuthPage = AUTH_PAGES.includes(pathname);
+  // Landing publik. Redirect user yang sudah login ke /today di sini supaya
+  // app/page.tsx tidak perlu membaca cookie sesi dan bisa dirender statis
+  // (disajikan dari CDN Vercel, tanpa komputasi serverless).
+  const isRoot = pathname === "/";
 
-  if (!isProtected && !isAuthPage) {
+  if (!isProtected && !isAuthPage && !isRoot) {
     return NextResponse.next();
   }
 
@@ -35,7 +39,7 @@ export async function proxy(request: NextRequest) {
     return NextResponse.redirect(url);
   }
 
-  if (isAuthPage && session) {
+  if ((isAuthPage || isRoot) && session) {
     return NextResponse.redirect(new URL("/today", request.nextUrl));
   }
 
