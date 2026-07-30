@@ -175,12 +175,13 @@ function kanjiCard(
   stateId: string,
   kanji: KanjiRow,
   state: SrsStateDto,
+  direction: ReviewDirection,
 ): ReviewCardDto {
   return {
     stateId,
     itemId,
     kind: "KANJI",
-    direction: "RECOGNIZE",
+    direction,
     kanji: {
       character: kanji.character,
       readings: kanji.readings,
@@ -200,14 +201,19 @@ function kanjiCard(
 export async function getKanjiReviewQueue(
   userId: string,
   timezone: string,
-  options: { limit?: number; newLimit?: number } = {},
+  options: {
+    limit?: number;
+    newLimit?: number;
+    direction?: ReviewDirection;
+  } = {},
 ): Promise<ReviewCardDto[]> {
+  const direction = options.direction ?? "RECOGNIZE";
   const cutoff = endOfTodayInZone(new Date(), timezone);
 
   const dueStates = await prisma.reviewState.findMany({
     where: {
       userId,
-      direction: "RECOGNIZE",
+      direction,
       dueAt: { lt: cutoff },
       item: { kind: "KANJI" },
     },
@@ -217,7 +223,15 @@ export async function getKanjiReviewQueue(
   });
   const due = dueStates.flatMap((row) =>
     row.item.kanji
-      ? [kanjiCard(row.itemId, row.id, row.item.kanji, serializeState(row))]
+      ? [
+          kanjiCard(
+            row.itemId,
+            row.id,
+            row.item.kanji,
+            serializeState(row),
+            direction,
+          ),
+        ]
       : [],
   );
 
@@ -226,7 +240,7 @@ export async function getKanjiReviewQueue(
     where: {
       kind: "KANJI",
       kanji: { isNot: null },
-      states: { none: { userId, direction: "RECOGNIZE" } },
+      states: { none: { userId, direction } },
     },
     orderBy: { createdAt: "asc" },
     take: options.newLimit ?? 15,
@@ -234,7 +248,7 @@ export async function getKanjiReviewQueue(
   });
   const fresh = newItems.flatMap((item) =>
     item.kanji
-      ? [kanjiCard(item.id, `new:${item.id}`, item.kanji, freshState)]
+      ? [kanjiCard(item.id, `new:${item.id}`, item.kanji, freshState, direction)]
       : [],
   );
 
@@ -244,22 +258,15 @@ export async function getKanjiReviewQueue(
 export async function getKanjiSessionCounts(
   userId: string,
   timezone: string,
+  direction: ReviewDirection = "RECOGNIZE",
 ): Promise<{ due: number; fresh: number }> {
   const cutoff = endOfTodayInZone(new Date(), timezone);
   const [due, fresh] = await Promise.all([
     prisma.reviewState.count({
-      where: {
-        userId,
-        direction: "RECOGNIZE",
-        dueAt: { lt: cutoff },
-        item: { kind: "KANJI" },
-      },
+      where: { userId, direction, dueAt: { lt: cutoff }, item: { kind: "KANJI" } },
     }),
     prisma.reviewItem.count({
-      where: {
-        kind: "KANJI",
-        states: { none: { userId, direction: "RECOGNIZE" } },
-      },
+      where: { kind: "KANJI", states: { none: { userId, direction } } },
     }),
   ]);
   return { due, fresh };

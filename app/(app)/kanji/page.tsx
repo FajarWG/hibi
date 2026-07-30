@@ -60,13 +60,18 @@ export default async function KanjiPage() {
             </p>
           </div>
         </div>
-        <Button asChild={toReview > 0} size="lg" disabled={toReview === 0}>
-          {toReview > 0 ? (
-            <Link href="/kanji/session">Start review</Link>
-          ) : (
-            <span>All caught up</span>
-          )}
-        </Button>
+        <div className="flex gap-2">
+          <Button asChild={toReview > 0} size="lg" disabled={toReview === 0}>
+            {toReview > 0 ? (
+              <Link href="/kanji/session">Recognition</Link>
+            ) : (
+              <span>All caught up</span>
+            )}
+          </Button>
+          <Button asChild variant="outline" size="lg">
+            <Link href="/kanji/session?mode=recall">Recall (write)</Link>
+          </Button>
+        </div>
       </section>
 
       {chapters.map((chapter) => (

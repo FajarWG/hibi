@@ -38,7 +38,12 @@ type FlashcardProps = {
 export function Flashcard({ card, revealed, onReveal }: FlashcardProps) {
   if (card.kind === "KANJI" && card.kanji) {
     return (
-      <KanjiCard kanji={card.kanji} revealed={revealed} onReveal={onReveal} />
+      <KanjiCard
+        kanji={card.kanji}
+        direction={card.direction}
+        revealed={revealed}
+        onReveal={onReveal}
+      />
     );
   }
   const vocab = card.vocab;
@@ -122,13 +127,30 @@ export function Flashcard({ card, revealed, onReveal }: FlashcardProps) {
 
 function KanjiCard({
   kanji,
+  direction,
   revealed,
   onReveal,
 }: {
   kanji: NonNullable<ReviewCardDto["kanji"]>;
+  direction: "RECOGNIZE" | "RECALL";
   revealed: boolean;
   onReveal: () => void;
 }) {
+  const recall = direction === "RECALL";
+  const examples =
+    kanji.examples && kanji.examples.length > 0 ? (
+      <ul className="mx-auto max-w-[40ch] space-y-1 border-t border-border pt-3 text-sm">
+        {kanji.examples.slice(0, 4).map((ex, index) => (
+          <li key={index} lang="ja" className="font-jp">
+            {ex.word} <span className="text-muted-foreground">{ex.yomi}</span>
+            <span className="ml-1 font-sans text-xs text-muted-foreground">
+              {ex.imi}
+            </span>
+          </li>
+        ))}
+      </ul>
+    ) : null;
+
   return (
     <div className="flex min-h-[16rem] flex-col rounded-xl border border-border bg-card p-6 sm:p-8">
       <p className="font-mono text-[0.7rem] tracking-wide text-muted-foreground">
@@ -136,38 +158,53 @@ function KanjiCard({
         <span lang="ja" className="font-jp">
           {kanji.topic}
         </span>
+        {recall && " · Recall"}
       </p>
 
       <div className="flex flex-1 flex-col items-center justify-center gap-3 py-6 text-center">
-        <h2 lang="ja" className="font-jp text-6xl font-semibold sm:text-7xl">
-          {kanji.character}
-        </h2>
-
-        {revealed && (
-          <motion.div
-            initial={{ opacity: 0, y: 6 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.18 }}
-            className="w-full space-y-3"
-          >
-            <p lang="ja" className="font-jp text-lg text-primary">
-              {kanji.readings}
-            </p>
-            <p className="text-base">{kanji.meaning}</p>
-            {kanji.examples && kanji.examples.length > 0 && (
-              <ul className="mx-auto max-w-[40ch] space-y-1 border-t border-border pt-3 text-sm">
-                {kanji.examples.slice(0, 4).map((ex, index) => (
-                  <li key={index} lang="ja" className="font-jp">
-                    {ex.word}{" "}
-                    <span className="text-muted-foreground">{ex.yomi}</span>
-                    <span className="ml-1 font-sans text-xs text-muted-foreground">
-                      {ex.imi}
-                    </span>
-                  </li>
-                ))}
-              </ul>
+        {recall ? (
+          <>
+            <p className="text-sm text-muted-foreground">Tulis kanji untuk:</p>
+            <h2 className="text-balance text-2xl font-semibold">
+              {kanji.meaning}
+            </h2>
+            {revealed && (
+              <motion.div
+                initial={{ opacity: 0, y: 6 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.18 }}
+                className="w-full space-y-2"
+              >
+                <p lang="ja" className="font-jp text-6xl font-semibold">
+                  {kanji.character}
+                </p>
+                <p lang="ja" className="font-jp text-lg text-primary">
+                  {kanji.readings}
+                </p>
+                {examples}
+              </motion.div>
             )}
-          </motion.div>
+          </>
+        ) : (
+          <>
+            <h2 lang="ja" className="font-jp text-6xl font-semibold sm:text-7xl">
+              {kanji.character}
+            </h2>
+            {revealed && (
+              <motion.div
+                initial={{ opacity: 0, y: 6 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.18 }}
+                className="w-full space-y-3"
+              >
+                <p lang="ja" className="font-jp text-lg text-primary">
+                  {kanji.readings}
+                </p>
+                <p className="text-base">{kanji.meaning}</p>
+                {examples}
+              </motion.div>
+            )}
+          </>
         )}
       </div>
 
@@ -179,7 +216,7 @@ function KanjiCard({
           className="w-full"
           onClick={onReveal}
         >
-          Show reading
+          {recall ? "Show kanji" : "Show reading"}
           <span className="ml-1.5 font-mono text-[0.65rem] opacity-60">
             Space
           </span>

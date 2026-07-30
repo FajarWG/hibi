@@ -8,10 +8,16 @@ import { ReviewSession } from "@/features/anki/ReviewSession";
 
 export const metadata: Metadata = { title: "Reviewing kanji" };
 
-export default async function KanjiSessionPage() {
+export default async function KanjiSessionPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ mode?: string }>;
+}) {
   const session = await getSession();
   if (!session) redirect("/login");
 
+  const { mode } = await searchParams;
+  const direction = mode === "recall" ? "RECALL" : "RECOGNIZE";
   const user = await prisma.user.findUnique({
     where: { id: session.userId },
     select: { timezone: true },
@@ -19,6 +25,7 @@ export default async function KanjiSessionPage() {
   const cards = await getKanjiReviewQueue(
     session.userId,
     user?.timezone ?? "Asia/Tokyo",
+    { direction },
   );
 
   return (
