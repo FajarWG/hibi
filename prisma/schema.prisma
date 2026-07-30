@@ -57,6 +57,7 @@ model User {
   reviewStates    ReviewState[]
   writingSessions WritingSession[]
   weaknesses      Weakness[]
+  talkSessions    TalkSession[]
 
   @@map("hibi_user")
 }
@@ -308,4 +309,25 @@ model Weakness {
   @@unique([userId, category])
   @@index([userId, hits])
   @@map("hibi_weakness")
+}
+
+
+// ─────────────────────────────────────────
+// AI Conversation (Talk) transcripts
+// Nihongo Flow punya model ChatMessage tapi transkrip percakapan tidak pernah
+// disimpan. Hibi menyimpannya + ringkasan pasca-sesi.
+// ─────────────────────────────────────────
+model TalkSession {
+  id        String    @id @default(cuid())
+  userId    String
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  scenario  String
+  level     String // N5 | N4 | N3
+  turns     Json // [{ role, text, at }]
+  summary   Json? // { newVocab, corrections, score }
+  startedAt DateTime  @default(now())
+  endedAt   DateTime?
+
+  @@index([userId, startedAt])
+  @@map("hibi_talk_session")
 }

@@ -110,3 +110,25 @@ export async function reviewWriting(input: {
     },
   };
 }
+
+
+/** Model Gemini Live untuk percakapan suara real-time. */
+export const TALK_MODEL = "gemini-2.0-flash-live-001";
+
+/**
+ * Buat ephemeral auth token berumur pendek untuk Gemini Live. Token inilah —
+ * bukan kunci API asli — yang dipakai browser untuk menyambung ke Live API.
+ * Kunci asli tetap di server.
+ */
+export async function createTalkToken(): Promise<string> {
+  const ai = getClient();
+  const token = await ai.authTokens.create({
+    config: {
+      uses: 1,
+      expireTime: new Date(Date.now() + 30 * 60_000).toISOString(),
+      newSessionExpireTime: new Date(Date.now() + 2 * 60_000).toISOString(),
+    },
+  });
+  if (!token.name) throw new Error("Failed to mint Live auth token");
+  return token.name;
+}
