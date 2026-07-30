@@ -18,7 +18,9 @@
     "phase1:apply": "bun scripts/etl-anki.ts --apply",
     "phase1:media": "bun scripts/copy-anki-media.ts",
     "phase1:media:apply": "bun scripts/copy-anki-media.ts --apply",
-    "phase1:verify": "bun scripts/verify-phase1.ts"
+    "phase1:verify": "bun scripts/verify-phase1.ts",
+    "grammar:build": "bun scripts/grammar/build-bank.ts",
+    "grammar:seed": "bun scripts/grammar/seed-bank.ts"
   },
   "dependencies": {
     "@phosphor-icons/react": "2.1.10",

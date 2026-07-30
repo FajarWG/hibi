@@ -124,6 +124,8 @@ model ReviewItem {
   kind      ReviewItemKind
   vocabId   String?        @unique
   vocab     VocabCard?     @relation(fields: [vocabId], references: [id], onDelete: Cascade)
+  grammarId String?        @unique
+  grammar   GrammarPoint?  @relation(fields: [grammarId], references: [id], onDelete: Cascade)
   createdAt DateTime       @default(now())
   updatedAt DateTime       @updatedAt
 
@@ -188,4 +190,38 @@ model ReviewLog {
 
   @@index([stateId, reviewedAt])
   @@map("hibi_review_log")
+}
+
+
+// ─────────────────────────────────────────
+// Grammar bank (Kakou + Library)
+//
+// Bunpou/Katsuyou legacy = REFERENSI. Hibi butuh LATIHAN PRODUKSI, jadi field
+// ditransformasi, bukan disalin (lihat PLAN 7.2.3 dan features/kakou/grammar).
+// `provenance` melacak asal: bunpou | katsuyou | authored.
+// ─────────────────────────────────────────
+model GrammarPoint {
+  id             String   @id @default(cuid())
+  legacyId       String?  @unique // id pola dari sumber legacy, untuk ETL idempoten
+  level          String // N5 | N4 | N3 | N2 | N1
+  chapter        Int? // asal bab Bunpou, kalau ada
+  pattern        String
+  meaningId      String   @db.Text
+  frame          String? // kerangka kalimat, mis. ___は___より___です
+  writingTask    String   @db.Text
+  constraints    Json? // string[]
+  expectedForms  Json? // [{ kind, match, label }]
+  weaknessTags   Json // string[]
+  commonMistakes Json? // [{ bad, good, noteId }]
+  examples       Json // [{ jp, kana, meaningId, highlight }]
+  provenance     String // bunpou | katsuyou | authored
+  verified       Boolean  @default(false)
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  reviewItem ReviewItem?
+
+  @@index([level])
+  @@index([provenance])
+  @@map("hibi_grammar_point")
 }

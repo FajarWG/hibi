@@ -1,7 +1,15 @@
 import "dotenv/config";
 
 import { randomUUID } from "node:crypto";
+import { readdirSync } from "node:fs";
+import { join } from "node:path";
 import { Client } from "pg";
+
+// Jumlah migrasi yang diharapkan mengikuti file di db/migrations, jadi
+// smoke test tidak perlu diperbarui manual setiap menambah migrasi.
+const expectedMigrations = readdirSync(
+  join(process.cwd(), "db", "migrations"),
+).filter((name) => name.endsWith(".sql")).length;
 
 const connectionString = process.env.DATABASE_URL;
 if (!connectionString) throw new Error("DATABASE_URL is required");
@@ -23,8 +31,14 @@ try {
   `);
 
   const state = schema.rows[0];
-  if (!state.user_table || !state.timer_table || state.migration_count !== "1") {
-    throw new Error(`Unexpected schema state: ${JSON.stringify(state)}`);
+  if (
+    !state.user_table ||
+    !state.timer_table ||
+    Number(state.migration_count) !== expectedMigrations
+  ) {
+    throw new Error(
+      `Unexpected schema state: ${JSON.stringify(state)} (expected ${expectedMigrations} migrations)`,
+    );
   }
 
   await client.query("BEGIN");

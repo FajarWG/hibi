@@ -1,0 +1,5579 @@
+[
+  {
+    "legacyId": "bunpou:n1-wa-n2-desu",
+    "level": "N5",
+    "chapter": 1,
+    "pattern": "N1 は N2 です",
+    "meaningId": "Menyatakan bahwa N1 adalah N2 ('N1 adalah N2').",
+    "frame": "___ は ___ です",
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N1 は N2 です」. Makna: Menyatakan bahwa N1 adalah N2 ('N1 adalah N2').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-de",
+      "copula"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "私は学生です。",
+        "kana": "わたしはがくせいです。",
+        "meaningId": "Saya adalah seorang pelajar.",
+        "highlight": null
+      },
+      {
+        "jp": "これは私の本です。",
+        "kana": "これはわたしのほんです。",
+        "meaningId": "Ini adalah buku saya.",
+        "highlight": null
+      },
+      {
+        "jp": "それは日本の車です。",
+        "kana": "それはにほんのくるまです。",
+        "meaningId": "Itu adalah mobil Jepang.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n1-wa-n2-desuka",
+    "level": "N5",
+    "chapter": 1,
+    "pattern": "N1 は N2 ですか",
+    "meaningId": "Menanyakan apakah N1 adalah N2.",
+    "frame": "___ は ___ ですか",
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N1 は N2 ですか」. Makna: Menanyakan apakah N1 adalah N2.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-de",
+      "copula"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "あなたは学生ですか。",
+        "kana": "あなたはがくせいですか。",
+        "meaningId": "Apakah Anda seorang pelajar?",
+        "highlight": null
+      },
+      {
+        "jp": "それはあなたの本ですか。",
+        "kana": "それはあなたのほんですか。",
+        "meaningId": "Apakah itu buku Anda?",
+        "highlight": null
+      },
+      {
+        "jp": "それは日本の車ですか。",
+        "kana": "それはにほんのくるまですか。",
+        "meaningId": "Apakah itu mobil Jepang?",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n-wa-dochira-itsu-nandesuka",
+    "level": "N5",
+    "chapter": 1,
+    "pattern": "N は どちら／いつ／何ですか",
+    "meaningId": "Menanyakan di mana / kapan / apa itu N.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N は どちら／いつ／何ですか」. Makna: Menanyakan di mana / kapan / apa itu N.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-de",
+      "copula"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "トイレはどこですか。",
+        "kana": "トイレはどこですか。",
+        "meaningId": "Di mana toiletnya?",
+        "highlight": null
+      },
+      {
+        "jp": "あなたの誕生日はいつですか。",
+        "kana": "あなたのたんじょうびはいつですか。",
+        "meaningId": "Kapan ulang tahun Anda?",
+        "highlight": null
+      },
+      {
+        "jp": "これは何ですか。",
+        "kana": "これはなんですか。",
+        "meaningId": "Apa ini?",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n1-no-n2",
+    "level": "N5",
+    "chapter": 1,
+    "pattern": "N1 の N2",
+    "meaningId": "Menunjukkan kepemilikan, asal, atau hubungan.",
+    "frame": "___ の ___",
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N1 の N2」. Makna: Menunjukkan kepemilikan, asal, atau hubungan.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "これは私の先生の辞書です。",
+        "kana": "これはわたしのせんせいのじしょです。",
+        "meaningId": "Ini adalah kamus guru saya.",
+        "highlight": null
+      },
+      {
+        "jp": "それは日本の大学の本ですか。",
+        "kana": "それはにほんだいがくのほんですか。",
+        "meaningId": "Apakah itu buku dari universitas Jepang?",
+        "highlight": null
+      },
+      {
+        "jp": "田中さんの車はどれですか。",
+        "kana": "たなかさんのくるまはどれですか。",
+        "meaningId": "Yang mana mobil milik Pak Tanaka?",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n1-to-n2",
+    "level": "N5",
+    "chapter": 1,
+    "pattern": "N1 と N2",
+    "meaningId": "Menghubungkan kata benda ('N1 dan N2').",
+    "frame": "___ と ___",
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N1 と N2」. Makna: Menghubungkan kata benda ('N1 dan N2').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "ペンとノートを買いました。",
+        "kana": "ぺんとのおーとをかいました。",
+        "meaningId": "Saya membeli pulpen dan buku catatan.",
+        "highlight": null
+      },
+      {
+        "jp": "机の上に本とペンがあります。",
+        "kana": "つくえのうえにほんとぺんがあります。",
+        "meaningId": "Ada buku dan pulpen di atas meja.",
+        "highlight": null
+      },
+      {
+        "jp": "明日、田中さんと佐藤さんと会います。",
+        "kana": "あした、たなかさんとさとうさんとあいます。",
+        "meaningId": "Besok, saya akan bertemu dengan Pak Tanaka dan Pak Sato.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n-mo",
+    "level": "N5",
+    "chapter": 1,
+    "pattern": "N も",
+    "meaningId": "Menunjukkan arti 'juga' atau 'pun'.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N も」. Makna: Menunjukkan arti 'juga' atau 'pun'.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "私も行きます。",
+        "kana": "わたしもいきます。",
+        "meaningId": "Saya juga akan pergi.",
+        "highlight": null
+      },
+      {
+        "jp": "ペンを買いました。ノートも買いました。",
+        "kana": "ぺんをかいました。のおーともかいました。",
+        "meaningId": "Saya membeli pulpen. Saya juga membeli buku catatan.",
+        "highlight": null
+      },
+      {
+        "jp": "机の上に本があります。ペンもあります。",
+        "kana": "つくえのうえにほんがあります。ぺんもあります。",
+        "meaningId": "Ada buku di atas meja. Ada pulpen juga.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:kore-sore-are",
+    "level": "N5",
+    "chapter": 2,
+    "pattern": "これ／それ／あれ",
+    "meaningId": "Kata tunjuk benda dekat pembicara, lawan bicara, atau jauh dari keduanya.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「これ／それ／あれ」. Makna: Kata tunjuk benda dekat pembicara, lawan bicara, atau jauh dari keduanya.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "これは私の本です。",
+        "kana": "これはわたし　の　ほん　です。",
+        "meaningId": "Ini adalah buku saya.",
+        "highlight": null
+      },
+      {
+        "jp": "それは何ですか。",
+        "kana": "それ　は　なん　です　か。",
+        "meaningId": "Apa itu (di dekat Anda)?",
+        "highlight": null
+      },
+      {
+        "jp": "あれは学校です。",
+        "kana": "あれ　は　がっこう　です。",
+        "meaningId": "Itu (di sana) adalah sekolah.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:kono-sono-ano",
+    "level": "N5",
+    "chapter": 2,
+    "pattern": "この／その／あの N",
+    "meaningId": "Kata tunjuk yang memodifikasi kata benda secara langsung.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「この／その／あの N」. Makna: Kata tunjuk yang memodifikasi kata benda secara langsung.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "この本は面白いです。",
+        "kana": "この　ほん　は　おもしろい　です。",
+        "meaningId": "Buku ini menarik.",
+        "highlight": null
+      },
+      {
+        "jp": "そのペンは誰のですか。",
+        "kana": "その　ぺん　は　だれ　の　です　か。",
+        "meaningId": "Pena itu milik siapa?",
+        "highlight": null
+      },
+      {
+        "jp": "あの車はとても速いです。",
+        "kana": "あの　くるま　は　とても　はやい　です。",
+        "meaningId": "Mobil di sana itu sangat cepat.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:koko-soko-asoko-doko",
+    "level": "N5",
+    "chapter": 2,
+    "pattern": "ここ／そこ／あそこ／どこ",
+    "meaningId": "Kata tunjuk tempat (sini, situ, sana, mana).",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「ここ／そこ／あそこ／どこ」. Makna: Kata tunjuk tempat (sini, situ, sana, mana).",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "ここは私の教室です。",
+        "kana": "ここ　は　わたし　の　きょうしつ　です。",
+        "meaningId": "Ini adalah ruang kelas saya.",
+        "highlight": null
+      },
+      {
+        "jp": "トイレはどこですか。",
+        "kana": "といれ　は　どこ　です　か。",
+        "meaningId": "Di mana toiletnya?",
+        "highlight": null
+      },
+      {
+        "jp": "そこはあそこより近いです。",
+        "kana": "そこ　は　あそこ　より　ちかい　です。",
+        "meaningId": "Tempat di situ lebih dekat daripada tempat di sana.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n-o-kudasai",
+    "level": "N5",
+    "chapter": 2,
+    "pattern": "N をください",
+    "meaningId": "Meminta barang secara sopan ('Tolong berikan N').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N をください」. Makna: Meminta barang secara sopan ('Tolong berikan N').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-wo"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "水をください。",
+        "kana": "みず　を　ください。",
+        "meaningId": "Tolong beri saya air.",
+        "highlight": null
+      },
+      {
+        "jp": "このペンをください。",
+        "kana": "この　ぺん　を　ください。",
+        "meaningId": "Tolong beri saya pena ini.",
+        "highlight": null
+      },
+      {
+        "jp": "あそこのパンをください。",
+        "kana": "あそこ　の　ぱん　を　ください。",
+        "meaningId": "Tolong beri saya roti yang di sana itu.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:ikura",
+    "level": "N5",
+    "chapter": 2,
+    "pattern": "いくら",
+    "meaningId": "Menanyakan harga barang ('Berapa harganya?').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「いくら」. Makna: Menanyakan harga barang ('Berapa harganya?').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "この辞書はいくらですか。",
+        "kana": "このじしょはいくらですか。",
+        "meaningId": "Berapa harga kamus ini?",
+        "highlight": null
+      },
+      {
+        "jp": "その赤い時計はいくらですか。",
+        "kana": "そのあかいとけいはいくらですか。",
+        "meaningId": "Berapa harga jam tangan merah itu?",
+        "highlight": null
+      },
+      {
+        "jp": "あの新しいカメラはいくらですか。",
+        "kana": "あのあたらしいかめらはいくらですか。",
+        "meaningId": "Berapa harga kamera baru di sana itu?",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:nan-no-n",
+    "level": "N5",
+    "chapter": 2,
+    "pattern": "何の N",
+    "meaningId": "Menanyakan isi atau jenis ('N apa? / N tentang apa?').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「何の N」. Makna: Menanyakan isi atau jenis ('N apa? / N tentang apa?').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "それは何の本ですか。",
+        "kana": "それはなんのほんですか。",
+        "meaningId": "Itu buku tentang apa?",
+        "highlight": null
+      },
+      {
+        "jp": "これは何の雑誌ですか。",
+        "kana": "これはなんのざっしですか。",
+        "meaningId": "Ini majalah tentang apa?",
+        "highlight": null
+      },
+      {
+        "jp": "その高い辞書は何の辞書ですか。",
+        "kana": "そのたかいじしょはなんのじしょですか。",
+        "meaningId": "Kamus apa kamus mahal itu?",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:doko-no-n",
+    "level": "N5",
+    "chapter": 2,
+    "pattern": "どこの N",
+    "meaningId": "Menanyakan asal negara atau pembuat ('N buatan mana?').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「どこの N」. Makna: Menanyakan asal negara atau pembuat ('N buatan mana?').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "それはどこの靴ですか。",
+        "kana": "それはどこのくつですか。",
+        "meaningId": "Sepatu itu buatan mana?",
+        "highlight": null
+      },
+      {
+        "jp": "このパソコンはどこのパソコンですか。",
+        "kana": "このぱそこんはどこのぱそこんですか。",
+        "meaningId": "Komputer ini buatan mana?",
+        "highlight": null
+      },
+      {
+        "jp": "そのどこのカメラもいくらですか。",
+        "kana": "そのどこのかめらもいくらですか。",
+        "meaningId": "Berapa harga kamera dari mana pun itu?",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:dare-no-n",
+    "level": "N5",
+    "chapter": 2,
+    "pattern": "誰の N",
+    "meaningId": "Menanyakan kepemilikan ('N milik siapa?').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「誰の N」. Makna: Menanyakan kepemilikan ('N milik siapa?').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "それは誰の傘ですか。",
+        "kana": "それはだれのかさですか。",
+        "meaningId": "Itu payung milik siapa?",
+        "highlight": null
+      },
+      {
+        "jp": "このどこの時計が誰の時計ですか。",
+        "kana": "このどこのとけいがだれのとけいですか。",
+        "meaningId": "Jam tangan dari tempat itu ini milik siapa?",
+        "highlight": null
+      },
+      {
+        "jp": "その何の雑誌は誰の雑誌ですか。",
+        "kana": "そのなんのざっしはだれのざっしですか。",
+        "meaningId": "Majalah tentang itu milik siapa?",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n-de-language",
+    "level": "N5",
+    "chapter": 2,
+    "pattern": "N(～語) で",
+    "meaningId": "Menyatakan sesuatu menggunakan bahasa tertentu ('dalam [bahasa]').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N(～語) で」. Makna: Menyatakan sesuatu menggunakan bahasa tertentu ('dalam [bahasa]').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-de"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "日本語で話してください。",
+        "kana": "にほんごで はなして ください。",
+        "meaningId": "Tolong bicara dalam bahasa Jepang.",
+        "highlight": null
+      },
+      {
+        "jp": "この本は英語で書いてあります。",
+        "kana": "この ほんは えいごで かいて あります。",
+        "meaningId": "Buku ini ditulis dalam bahasa Inggris.",
+        "highlight": null
+      },
+      {
+        "jp": "日本語で手紙を書きたいです。",
+        "kana": "にほんごで てがみを かきたいです。",
+        "meaningId": "Saya ingin menulis surat dalam bahasa Jepang.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:v-masu-masen",
+    "level": "N5",
+    "chapter": 3,
+    "pattern": "V ます／ません",
+    "meaningId": "Bentuk sopan kata kerja (positif / negatif).",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「V ます／ません」. Makna: Bentuk sopan kata kerja (positif / negatif).",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "negation"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "毎日、日本語を勉強します。",
+        "kana": "まいにち、にほんごをべんきょうします。",
+        "meaningId": "Saya belajar bahasa Jepang setiap hari.",
+        "highlight": null
+      },
+      {
+        "jp": "朝、コーヒーを飲みません。",
+        "kana": "あさ、こーひーをのみません。",
+        "meaningId": "Saya tidak minum kopi di pagi hari.",
+        "highlight": null
+      },
+      {
+        "jp": "明日、新しい本を読みます。",
+        "kana": "あした、あたらしいほんをよみます。",
+        "meaningId": "Saya akan membaca buku baru besok.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n-basho-e-ikimasu",
+    "level": "N5",
+    "chapter": 3,
+    "pattern": "N(場所) へ 行きます",
+    "meaningId": "Menunjukkan tempat tujuan atau arah perpindahan ('pergi ke N').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N(場所) へ 行きます」. Makna: Menunjukkan tempat tujuan atau arah perpindahan ('pergi ke N').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-e"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "学校へ行きます。",
+        "kana": "がっこうへいきます。",
+        "meaningId": "Saya pergi ke sekolah.",
+        "highlight": null
+      },
+      {
+        "jp": "図書館へ行きません。",
+        "kana": "としょかんへいきません。",
+        "meaningId": "Saya tidak pergi ke perpustakaan.",
+        "highlight": null
+      },
+      {
+        "jp": "明日、友達とデパートへ行きます。",
+        "kana": "あした、ともだちとでぱーとへいきます。",
+        "meaningId": "Besok saya pergi ke toserba bersama teman.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n-o-verb",
+    "level": "N5",
+    "chapter": 3,
+    "pattern": "N を V",
+    "meaningId": "Menunjukkan objek langsung dari kata kerja.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N を V」. Makna: Menunjukkan objek langsung dari kata kerja.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-wo"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "パンを食べます。",
+        "kana": "ぱんをたべます。",
+        "meaningId": "Saya makan roti.",
+        "highlight": null
+      },
+      {
+        "jp": "公園で手紙を書きません。",
+        "kana": "こうえんでてがみをかきません。",
+        "meaningId": "Saya tidak menulis surat di taman.",
+        "highlight": null
+      },
+      {
+        "jp": "学校へ行って、日本語の本を読みます。",
+        "kana": "がっこうへいって、にほんごのほんをよみます。",
+        "meaningId": "Saya pergi ke sekolah dan membaca buku bahasa Jepang.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n-time-ni",
+    "level": "N5",
+    "chapter": 3,
+    "pattern": "N(時間) に",
+    "meaningId": "Menunjukkan waktu spesifik terjadinya suatu aksi.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N(時間) に」. Makna: Menunjukkan waktu spesifik terjadinya suatu aksi.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-ni"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "七時に起きます。",
+        "kana": "しちじにおきます。",
+        "meaningId": "Saya bangun jam 7.",
+        "highlight": null
+      },
+      {
+        "jp": "八時に学校へ行きません。",
+        "kana": "はちじにがっこうへいきません。",
+        "meaningId": "Saya tidak pergi ke sekolah jam 8.",
+        "highlight": null
+      },
+      {
+        "jp": "九時にデパートへ行って、パンを食べます。",
+        "kana": "くじにでぱーとへいって、ぱんをたべます。",
+        "meaningId": "Saya pergi ke toserba jam 9 dan makan roti.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n-basho-de",
+    "level": "N5",
+    "chapter": 3,
+    "pattern": "N(場所) で",
+    "meaningId": "Menunjukkan tempat terjadinya suatu aksi.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N(場所) で」. Makna: Menunjukkan tempat terjadinya suatu aksi.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-de"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "図書館で本を読みます。",
+        "kana": "としょかんでほんをよみます。",
+        "meaningId": "Saya membaca buku di perpustakaan.",
+        "highlight": null
+      },
+      {
+        "jp": "公園で友達と遊びます。",
+        "kana": "こうえんでともだちとあそびます。",
+        "meaningId": "Saya bermain dengan teman di taman.",
+        "highlight": null
+      },
+      {
+        "jp": "レストランで晩ご飯を食べます。",
+        "kana": "れすとらんでばんごはんをたべます。",
+        "meaningId": "Saya makan malam di restoran.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n-kara-n-made",
+    "level": "N5",
+    "chapter": 3,
+    "pattern": "N から N まで",
+    "meaningId": "Menunjukkan titik awal dan akhir waktu atau ruang ('dari N sampai N').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N から N まで」. Makna: Menunjukkan titik awal dan akhir waktu atau ruang ('dari N sampai N').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-de"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "家から学校まで歩きます。",
+        "kana": "いえからがっこうまであるきます。",
+        "meaningId": "Saya berjalan kaki dari rumah sampai sekolah.",
+        "highlight": null
+      },
+      {
+        "jp": "九時から五時まで働きます。",
+        "kana": "くじからごじまではたらきます。",
+        "meaningId": "Saya bekerja dari jam sembilan sampai jam lima.",
+        "highlight": null
+      },
+      {
+        "jp": "ここから駅まで歩いて行きます。",
+        "kana": "ここからえきまであるいていきます。",
+        "meaningId": "Saya berjalan kaki dari sini sampai stasiun.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n1-ya-n2-nado",
+    "level": "N5",
+    "chapter": 3,
+    "pattern": "N1 や N2 など",
+    "meaningId": "Menyebutkan kata benda secara tidak menyeluruh ('N1, N2, dan lain-lain').",
+    "frame": "___ や ___ など",
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N1 や N2 など」. Makna: Menyebutkan kata benda secara tidak menyeluruh ('N1, N2, dan lain-lain').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "カバンの中に本やペンなどがあります。",
+        "kana": "かばんのなかにほんやぺんなどがあります。",
+        "meaningId": "Di dalam tas ada buku, pena, dan lain-lain.",
+        "highlight": null
+      },
+      {
+        "jp": "デパートで服や靴などを買います。",
+        "kana": "でぱーとでふくやくつなどをかいます。",
+        "meaningId": "Saya membeli baju, sepatu, dan lain-lain di toserba.",
+        "highlight": null
+      },
+      {
+        "jp": "公園でリンゴやバナナなどを食べます。",
+        "kana": "こうえんでりんごやばなななどをたべます。",
+        "meaningId": "Saya makan apel, pisang, dan lain-lain di taman.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:nanimo-dokoe-mo-verb-negative",
+    "level": "N5",
+    "chapter": 3,
+    "pattern": "何も／どこへも V ません",
+    "meaningId": "Penyangkalan menyeluruh terhadap benda atau tujuan ('tidak... apapun / kemanapun').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「何も／どこへも V ません」. Makna: Penyangkalan menyeluruh terhadap benda atau tujuan ('tidak... apapun / kemanapun').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-e",
+      "negation"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "今日はどこへも行きません。",
+        "kana": "きょうはどこへもいきません。",
+        "meaningId": "Hari ini saya tidak pergi ke mana pun.",
+        "highlight": null
+      },
+      {
+        "jp": "お腹がすいていませんから、何も食べません。",
+        "kana": "おなかがすいていませんから、なにもたべません。",
+        "meaningId": "Karena saya tidak lapar, saya tidak makan apa pun.",
+        "highlight": null
+      },
+      {
+        "jp": "どこへも行きたくないので、家で何も買いません。",
+        "kana": "どこへもいきたくないので、いえでなにもかいません。",
+        "meaningId": "Karena saya tidak ingin pergi ke mana pun, saya tidak membeli apa pun di rumah.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n-wa-a-desu",
+    "level": "N5",
+    "chapter": 4,
+    "pattern": "N は A です",
+    "meaningId": "Kata sifat yang menerangkan kata benda.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N は A です」. Makna: Kata sifat yang menerangkan kata benda.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-de",
+      "copula"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "今日は暑いです。",
+        "kana": "きょうはあついです。",
+        "meaningId": "Hari ini panas.",
+        "highlight": null
+      },
+      {
+        "jp": "この部屋はきれいです。",
+        "kana": "このへやはきれいです。",
+        "meaningId": "Kamar ini bersih.",
+        "highlight": null
+      },
+      {
+        "jp": "その本は面白いです。",
+        "kana": "そのほんはおもしろいです。",
+        "meaningId": "Buku itu menarik.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n-wa-i-a-kunai-na-a-ja-arimasen",
+    "level": "N5",
+    "chapter": 4,
+    "pattern": "イA-くないです / ナA じゃありません",
+    "meaningId": "Bentuk negatif dari kata sifat (i-adjective dan na-adjective).",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「イA-くないです / ナA じゃありません」. Makna: Bentuk negatif dari kata sifat (i-adjective dan na-adjective).",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-de",
+      "negation",
+      "copula"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "今日は暑くないです。",
+        "kana": "きょうはあつくないです。",
+        "meaningId": "Hari ini tidak panas.",
+        "highlight": null
+      },
+      {
+        "jp": "この部屋はきれいじゃありません。",
+        "kana": "このへやはきれいじゃありません。",
+        "meaningId": "Kamar ini tidak bersih.",
+        "highlight": null
+      },
+      {
+        "jp": "その本は面白くないです。",
+        "kana": "そのほんはおもしろくないです。",
+        "meaningId": "Buku itu tidak menarik.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:a-n-modifier",
+    "level": "N5",
+    "chapter": 4,
+    "pattern": "イA ＋ N / ナA な ＋ N",
+    "meaningId": "Kata sifat yang langsung memodifikasi kata benda di depannya.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「イA ＋ N / ナA な ＋ N」. Makna: Kata sifat yang langsung memodifikasi kata benda di depannya.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "暑い日は水を飲みます。",
+        "kana": "あついひはみずをのみます。",
+        "meaningId": "Pada hari yang panas, saya minum air.",
+        "highlight": null
+      },
+      {
+        "jp": "きれいな部屋で勉強します。",
+        "kana": "きれいなへやでべんきょうします。",
+        "meaningId": "Saya belajar di kamar yang bersih.",
+        "highlight": null
+      },
+      {
+        "jp": "面白い本を読みます。",
+        "kana": "おもしろいほんをよみます。",
+        "meaningId": "Saya membaca buku yang menarik.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n-wa-season-a-desu",
+    "level": "N5",
+    "chapter": 4,
+    "pattern": "N は [季節/月]、A です",
+    "meaningId": "Menjelaskan keadaan cuaca atau musim.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N は [季節/月]、A です」. Makna: Menjelaskan keadaan cuaca atau musim.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-de",
+      "copula"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "夏は暑いです。",
+        "kana": "なつはあついです。",
+        "meaningId": "Musim panas itu panas.",
+        "highlight": null
+      },
+      {
+        "jp": "八月は暑い月です。",
+        "kana": "はちがつはあついつきです。",
+        "meaningId": "Agustus adalah bulan yang panas.",
+        "highlight": null
+      },
+      {
+        "jp": "冬はきれいな雪が降ります。",
+        "kana": "ふゆはきれいなゆきがふります。",
+        "meaningId": "Pada musim dingin, salju yang indah turun.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:totemo-sukoshi-a-desu",
+    "level": "N5",
+    "chapter": 4,
+    "pattern": "とても／少し A です",
+    "meaningId": "Kata keterangan penunjuk derajat ('sangat / sedikit').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「とても／少し A です」. Makna: Kata keterangan penunjuk derajat ('sangat / sedikit').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-de",
+      "copula"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "この本はとても面白いです。",
+        "kana": "このほんはとてもおもしろいです。",
+        "meaningId": "Buku ini sangat menarik.",
+        "highlight": null
+      },
+      {
+        "jp": "今日は少し暑いです。",
+        "kana": "きょうはすこしあついです。",
+        "meaningId": "Hari ini sedikit panas.",
+        "highlight": null
+      },
+      {
+        "jp": "この部屋はとても広くて、少し静かです。",
+        "kana": "このへやはとてもひろくて、すこししずかです。",
+        "meaningId": "Ruangan ini sangat luas dan sedikit tenang.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:amari-a-kunai-ja-arimasen",
+    "level": "N5",
+    "chapter": 4,
+    "pattern": "あまり A くない／じゃありません",
+    "meaningId": "Penyangkalan halus yang berarti 'tidak begitu / tidak terlalu'.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「あまり A くない／じゃありません」. Makna: Penyangkalan halus yang berarti 'tidak begitu / tidak terlalu'.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "negation"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "この映画はあまり面白くないです。",
+        "kana": "このえいがはあまりおもしろくないです。",
+        "meaningId": "Film ini tidak begitu menarik.",
+        "highlight": null
+      },
+      {
+        "jp": "今日の宿題はあまり難しくありません。",
+        "kana": "きょうのしゅくだいはあまりむずかしくありません。",
+        "meaningId": "PR hari ini tidak begitu sulit.",
+        "highlight": null
+      },
+      {
+        "jp": "その部屋はあまり広くなくて、少し寒いです。",
+        "kana": "そのへやはあまりひろくなくて、すこしさむいです。",
+        "meaningId": "Ruangan itu tidak begitu luas dan sedikit dingin.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n1-ni-n2-ga-arimasu-existence",
+    "level": "N5",
+    "chapter": 4,
+    "pattern": "N1(場所) に N2 があります",
+    "meaningId": "Menyatakan keberadaan benda mati di suatu tempat.",
+    "frame": "___(場所) に ___ があります",
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N1(場所) に N2 があります」. Makna: Menyatakan keberadaan benda mati di suatu tempat.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-ga",
+      "particle-ni"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "机の上に本があります。",
+        "kana": "つくえのうえにほんがあります。",
+        "meaningId": "Ada buku di atas meja.",
+        "highlight": null
+      },
+      {
+        "jp": "部屋にとても面白い本があります。",
+        "kana": "へやにとてもおもしろいほんがあります。",
+        "meaningId": "Ada buku yang sangat menarik di dalam kamar.",
+        "highlight": null
+      },
+      {
+        "jp": "教室にあまり難しくない本があります。",
+        "kana": "きょうしつにあまりむずかしくないほんがあります。",
+        "meaningId": "Ada buku yang tidak terlalu sulit di dalam kelas.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n-wa-n-no-direction-desu",
+    "level": "N5",
+    "chapter": 4,
+    "pattern": "N は N の [方向] です",
+    "meaningId": "Menyatakan arah posisi ruang (timur, barat, dalam, dll.).",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N は N の [方向] です」. Makna: Menyatakan arah posisi ruang (timur, barat, dalam, dll.).",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-de",
+      "copula"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "本は机の中です。",
+        "kana": "ほんはつくえのなかです。",
+        "meaningId": "Bukunya ada di dalam meja.",
+        "highlight": null
+      },
+      {
+        "jp": "机は部屋の右です。",
+        "kana": "つくえはへやのみぎです。",
+        "meaningId": "Mejanya ada di sebelah kanan ruangan.",
+        "highlight": null
+      },
+      {
+        "jp": "とても面白い本は机の右の中にあります。",
+        "kana": "とてもおもしろいほんはつくえのみぎのなかにあります。",
+        "meaningId": "Buku yang sangat menarik itu ada di dalam bagian kanan meja.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n1-kara-n2-made-donokurai",
+    "level": "N5",
+    "chapter": 4,
+    "pattern": "N1 から N2 までどのくらい",
+    "meaningId": "Menanyakan durasi atau jarak antara dua lokasi.",
+    "frame": "___ から ___ までどのくらい",
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N1 から N2 までどのくらい」. Makna: Menanyakan durasi atau jarak antara dua lokasi.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-de",
+      "comparison"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "家から駅までどのくらいですか。",
+        "kana": "いえからえきまでどのくらいですか。",
+        "meaningId": "Dari rumah sampai stasiun berapa lama?",
+        "highlight": null
+      },
+      {
+        "jp": "東京から大阪までどのくらいかかりますか。",
+        "kana": "とうきょうからおおさかまでどのくらいかかりますか。",
+        "meaningId": "Dari Tokyo sampai Osaka berapa lama?",
+        "highlight": null
+      },
+      {
+        "jp": "学校から図書館まで、歩いてどのくらいですか。",
+        "kana": "がっこうからとしょかんまで、あるいてどのくらいですか。",
+        "meaningId": "Dari sekolah sampai perpustakaan, kalau jalan kaki berapa lama?",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n-norimono-de",
+    "level": "N5",
+    "chapter": 4,
+    "pattern": "N(乗り物) で",
+    "meaningId": "Menunjukkan sarana transportasi ('naik / dengan [kendaraan]').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N(乗り物) で」. Makna: Menunjukkan sarana transportasi ('naik / dengan [kendaraan]').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-de"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "バスで学校へ行きます。",
+        "kana": "バスでがっこうへいきます。",
+        "meaningId": "Saya pergi ke sekolah naik bus.",
+        "highlight": null
+      },
+      {
+        "jp": "電車で東京から大阪まで行きます。",
+        "kana": "でんしゃでとうきょうからおおさかまでいきます。",
+        "meaningId": "Saya pergi dari Tokyo ke Osaka naik kereta.",
+        "highlight": null
+      },
+      {
+        "jp": "家から駅まで、自転車でどのくらいかかりますか。",
+        "kana": "いえからえきまで、じてんしゃでどのくらいかかりますか。",
+        "meaningId": "Dari rumah sampai stasiun, kalau naik sepeda berapa lama?",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:donna-n",
+    "level": "N5",
+    "chapter": 4,
+    "pattern": "どんな N",
+    "meaningId": "Menanyakan karakteristik atau jenis ('N yang seperti apa?').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「どんな N」. Makna: Menanyakan karakteristik atau jenis ('N yang seperti apa?').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "どんな食べ物が好きですか。",
+        "kana": "どんなたべものがすきですか。",
+        "meaningId": "Makanan seperti apa yang kamu suka?",
+        "highlight": null
+      },
+      {
+        "jp": "どんな電車で東京へ行きますか。",
+        "kana": "どんなでんしゃでとうきょうへいきますか。",
+        "meaningId": "Naik kereta yang seperti apa kamu pergi ke Tokyo?",
+        "highlight": null
+      },
+      {
+        "jp": "どんな乗り物で学校から家まで帰りますか。",
+        "kana": "どんなのりものでがっこうからいえまでかえりますか。",
+        "meaningId": "Naik kendaraan apa kamu pulang dari sekolah ke rumah?",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n-wa-dou-desuka",
+    "level": "N5",
+    "chapter": 4,
+    "pattern": "N はどうですか",
+    "meaningId": "Menanyakan pendapat atau menawarkan sesuatu.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N はどうですか」. Makna: Menanyakan pendapat atau menawarkan sesuatu.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-de",
+      "copula"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "日本の生活はどうですか。",
+        "kana": "にほんのせいかつはどうですか。",
+        "meaningId": "Bagaimana kehidupan di Jepang?",
+        "highlight": null
+      },
+      {
+        "jp": "新しい電車はどうですか。",
+        "kana": "あたらしいでんしゃはどうですか。",
+        "meaningId": "Bagaimana kereta yang baru itu?",
+        "highlight": null
+      },
+      {
+        "jp": "学校から駅まで自転車で行くのはどうですか。",
+        "kana": "がっこうからえきまでじてんしゃでいくのはどうですか。",
+        "meaningId": "Bagaimana kalau pergi dari sekolah ke stasiun naik sepeda?",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:soshite",
+    "level": "N5",
+    "chapter": 4,
+    "pattern": "そして",
+    "meaningId": "Kata hubung untuk menambahkan informasi ('Dan / Lalu').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「そして」. Makna: Kata hubung untuk menambahkan informasi ('Dan / Lalu').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "私はパンを食べます。そして、コーヒーを飲みます。",
+        "kana": "わたしはぱんをたべます。そして、こーひーをのみます。",
+        "meaningId": "Saya makan roti. Lalu, saya minum kopi.",
+        "highlight": null
+      },
+      {
+        "jp": "この本は面白いです。そして、とても安いです。",
+        "kana": "このほんはおもしろいです。そして、とてもやすいです。",
+        "meaningId": "Buku ini menarik. Dan, harganya sangat murah.",
+        "highlight": null
+      },
+      {
+        "jp": "昨日、公園へ行きました。そして、友達に会いました。",
+        "kana": "きのう、こうえんへいきました。そして、ともだちにあいました。",
+        "meaningId": "Kemarin, saya pergi ke taman. Lalu, saya bertemu teman.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:sentence-ga-sentence",
+    "level": "N5",
+    "chapter": 4,
+    "pattern": "～が、～",
+    "meaningId": "Kata hubung pertentangan ('tetapi / namun').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～が、～」. Makna: Kata hubung pertentangan ('tetapi / namun').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-ga"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "パンは食べますが、コーヒーは飲みません。",
+        "kana": "ぱんはたべますが、こーひーはのみません。",
+        "meaningId": "Saya makan roti, tetapi saya tidak minum kopi.",
+        "highlight": null
+      },
+      {
+        "jp": "この本は面白いですが、少し難しいです。",
+        "kana": "このほんはおもしろいですが、すこしむずかしいです。",
+        "meaningId": "Buku ini menarik, tetapi sedikit sulit.",
+        "highlight": null
+      },
+      {
+        "jp": "昨日公園へ行きましたが、友達には会いませんでした。",
+        "kana": "きのうこうえんへいきましたが、ともだちにはあいませんでした。",
+        "meaningId": "Kemarin saya pergi ke taman, tetapi saya tidak bertemu teman.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:sentence-ne",
+    "level": "N5",
+    "chapter": 4,
+    "pattern": "～ね",
+    "meaningId": "Partikel akhir kalimat untuk meminta persetujuan ('ya / bukan?').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～ね」. Makna: Partikel akhir kalimat untuk meminta persetujuan ('ya / bukan?').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "パンは美味しいですね。",
+        "kana": "ぱんはおいしいですね。",
+        "meaningId": "Rotinya enak, ya.",
+        "highlight": null
+      },
+      {
+        "jp": "今日はとても暑いですね。",
+        "kana": "きょうはとてもあついですね。",
+        "meaningId": "Hari ini sangat panas, ya.",
+        "highlight": null
+      },
+      {
+        "jp": "昨日公園へ行きましたが、楽しかったですね。",
+        "kana": "きのうこうえんへいきましたが、たのしかったですね。",
+        "meaningId": "Kemarin saya pergi ke taman, dan itu menyenangkan, ya.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:v-mashita-masendeshita",
+    "level": "N5",
+    "chapter": 5,
+    "pattern": "V ました／ませんでした",
+    "meaningId": "Bentuk lampau sopan kata kerja (positif / negatif).",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「V ました／ませんでした」. Makna: Bentuk lampau sopan kata kerja (positif / negatif).",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-de",
+      "negation",
+      "past-tense"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "昨日、日本語を勉強しました。",
+        "kana": "きのう、にほんごをべんきょうしました。",
+        "meaningId": "Kemarin, saya belajar bahasa Jepang.",
+        "highlight": null
+      },
+      {
+        "jp": "今朝、朝ご飯を食べませんでした。",
+        "kana": "けさ、あさごはんをたべませんでした。",
+        "meaningId": "Tadi pagi, saya tidak makan sarapan.",
+        "highlight": null
+      },
+      {
+        "jp": "先週、友達と映画を見ました。",
+        "kana": "せんしゅう、ともだちとえいがをみました。",
+        "meaningId": "Minggu lalu, saya menonton film bersama teman.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:a-n-past-tense",
+    "level": "N5",
+    "chapter": 5,
+    "pattern": "A/N でした／じゃありませんでした",
+    "meaningId": "Bentuk lampau dari kata sifat dan kata benda.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「A/N でした／じゃありませんでした」. Makna: Bentuk lampau dari kata sifat dan kata benda.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-de",
+      "negation",
+      "past-tense"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "昨日は暑かったです。",
+        "kana": "きのうはあつかったです。",
+        "meaningId": "Kemarin cuacanya panas.",
+        "highlight": null
+      },
+      {
+        "jp": "そのテストは簡単じゃありませんでした。",
+        "kana": "そのテストはかんたんじゃありませんでした。",
+        "meaningId": "Tes itu tidak mudah.",
+        "highlight": null
+      },
+      {
+        "jp": "先週の休みは楽しかったです。",
+        "kana": "せんしゅうのやすみはたのしかったです。",
+        "meaningId": "Liburan minggu lalu menyenangkan.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n-ga-suki-kirai-desu",
+    "level": "N5",
+    "chapter": 5,
+    "pattern": "N が好きです／嫌いです",
+    "meaningId": "Menyatakan kesukaan dan ketidaksukaan terhadap sesuatu.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N が好きです／嫌いです」. Makna: Menyatakan kesukaan dan ketidaksukaan terhadap sesuatu.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-ga",
+      "particle-de",
+      "copula"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "私は日本料理が好きです。",
+        "kana": "わたしはにほんりょうりがすきです。",
+        "meaningId": "Saya suka masakan Jepang.",
+        "highlight": null
+      },
+      {
+        "jp": "私は辛い食べ物が嫌いです。",
+        "kana": "わたしはからいたべものがきらいです。",
+        "meaningId": "Saya tidak suka makanan pedas.",
+        "highlight": null
+      },
+      {
+        "jp": "昨日食べた料理が好きでした。",
+        "kana": "きのうたべたりょうりがすきでした。",
+        "meaningId": "Saya menyukai masakan yang saya makan kemarin.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n-ga-hoshire-desu",
+    "level": "N5",
+    "chapter": 5,
+    "pattern": "N がほしいです",
+    "meaningId": "Menyatakan keinginan memiliki suatu barang ('ingin N').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N がほしいです」. Makna: Menyatakan keinginan memiliki suatu barang ('ingin N').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-ga",
+      "particle-de",
+      "copula"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "新しいカメラがほしいです。",
+        "kana": "あたらしいカメラがほしいです。",
+        "meaningId": "Saya ingin kamera baru.",
+        "highlight": null
+      },
+      {
+        "jp": "私は新しい車がほしいですが、高いです。",
+        "kana": "わたしはあたらしいくるまがほしいですが、たかいです。",
+        "meaningId": "Saya ingin mobil baru, tapi harganya mahal.",
+        "highlight": null
+      },
+      {
+        "jp": "昨日、ほしい本を買いました。",
+        "kana": "きのう、ほしいほんをかいました。",
+        "meaningId": "Kemarin, saya membeli buku yang saya inginkan.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:v-tai-desu",
+    "level": "N5",
+    "chapter": 5,
+    "pattern": "Vたいです",
+    "meaningId": "Menyatakan keinginan melakukan suatu tindakan ('ingin melakukan V').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「Vたいです」. Makna: Menyatakan keinginan melakukan suatu tindakan ('ingin melakukan V').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-de",
+      "copula"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "私は新しい本が読みたいです。",
+        "kana": "わたしはあたらしいほんがよみたいです。",
+        "meaningId": "Saya ingin membaca buku baru.",
+        "highlight": null
+      },
+      {
+        "jp": "冷たい水が飲みたいです。",
+        "kana": "つめたいみずがのみたいです。",
+        "meaningId": "Saya ingin minum air dingin.",
+        "highlight": null
+      },
+      {
+        "jp": "今日は早く家に帰りたいです。",
+        "kana": "きょうははやくうちにかえりたいです。",
+        "meaningId": "Saya ingin pulang ke rumah lebih awal hari ini.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:v-ni-ikimasu",
+    "level": "N5",
+    "chapter": 5,
+    "pattern": "V に行きます",
+    "meaningId": "Menyatakan tujuan pergi untuk melakukan suatu tindakan.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「V に行きます」. Makna: Menyatakan tujuan pergi untuk melakukan suatu tindakan.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-ni"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "デパートへ服を買いに行きます。",
+        "kana": "デパートへふくをかいにいきます。",
+        "meaningId": "Saya pergi ke toserba untuk membeli pakaian.",
+        "highlight": null
+      },
+      {
+        "jp": "友達と映画を見に行きます。",
+        "kana": "ともだちとえいがをみにいきます。",
+        "meaningId": "Saya pergi menonton film bersama teman.",
+        "highlight": null
+      },
+      {
+        "jp": "日本料理を食べに行きたいです。",
+        "kana": "にほんりょうりをたべにいきたいです。",
+        "meaningId": "Saya ingin pergi makan masakan Jepang.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:dokoka-e-ikimasu",
+    "level": "N5",
+    "chapter": 5,
+    "pattern": "どこかへ行きます",
+    "meaningId": "Pergi ke suatu tempat (tujuan tidak spesifik).",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「どこかへ行きます」. Makna: Pergi ke suatu tempat (tujuan tidak spesifik).",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-e"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "週末はどこかへ行きたいです。",
+        "kana": "しゅうまつはどこかへいきたいです。",
+        "meaningId": "Saya ingin pergi ke suatu tempat akhir pekan ini.",
+        "highlight": null
+      },
+      {
+        "jp": "どこかへ涼しい所に行きたいです。",
+        "kana": "どこかへすずしいところにいきたいです。",
+        "meaningId": "Saya ingin pergi ke suatu tempat yang sejuk.",
+        "highlight": null
+      },
+      {
+        "jp": "休みの日、どこかへ遊びに行きませんか。",
+        "kana": "やすみのひ、どこかへあそびにいきませんか。",
+        "meaningId": "Bagaimana kalau kita pergi bermain ke suatu tempat di hari libur?",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:doushite",
+    "level": "N5",
+    "chapter": 5,
+    "pattern": "どうして",
+    "meaningId": "Menanyakan alasan ('Mengapa? / Kenapa?').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「どうして」. Makna: Menanyakan alasan ('Mengapa? / Kenapa?').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "どうして学校へ行きますか。",
+        "kana": "どうしてがっこうへいきますか。",
+        "meaningId": "Mengapa kamu pergi ke sekolah?",
+        "highlight": null
+      },
+      {
+        "jp": "どうして日本料理を食べに行きたいですか。",
+        "kana": "どうしてにほんりょうりをたべにいきたいですか。",
+        "meaningId": "Mengapa kamu ingin pergi makan masakan Jepang?",
+        "highlight": null
+      },
+      {
+        "jp": "どうして週末にどこかへ行きたいですか。",
+        "kana": "どうしてしゅうまつにどこかへいきたいですか。",
+        "meaningId": "Mengapa kamu ingin pergi ke suatu tempat di akhir pekan?",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:sorekara",
+    "level": "N5",
+    "chapter": 5,
+    "pattern": "それから",
+    "meaningId": "Kata hubung urutan waktu ('setelah itu / kemudian').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「それから」. Makna: Kata hubung urutan waktu ('setelah itu / kemudian').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "朝ごはんを食べます。それから、学校へ行きます。",
+        "kana": "あさごはんをたべます。それから、がっこうへいきます。",
+        "meaningId": "Saya makan sarapan. Setelah itu, saya pergi ke sekolah.",
+        "highlight": null
+      },
+      {
+        "jp": "宿題をします。それから、テレビを見ます。",
+        "kana": "しゅくだいをします。それから、テレビをみます。",
+        "meaningId": "Saya mengerjakan PR. Setelah itu, saya menonton TV.",
+        "highlight": null
+      },
+      {
+        "jp": "本を読みました。それから、公園へ行きました。",
+        "kana": "ほんをよみました。それから、こうえんへいきました。",
+        "meaningId": "Saya membaca buku. Setelah itu, saya pergi ke taman.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n-to-verb",
+    "level": "N5",
+    "chapter": 5,
+    "pattern": "N(人) と V",
+    "meaningId": "Melakukan tindakan bersama dengan orang lain.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N(人) と V」. Makna: Melakukan tindakan bersama dengan orang lain.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "友達と映画を見ます。",
+        "kana": "ともだちとえいがをみます。",
+        "meaningId": "Saya menonton film bersama teman.",
+        "highlight": null
+      },
+      {
+        "jp": "友達と映画を見ます。それから、買い物をします。",
+        "kana": "ともだちとえいがをみます。それから、かいものをします。",
+        "meaningId": "Saya menonton film bersama teman. Setelah itu, saya pergi berbelanja.",
+        "highlight": null
+      },
+      {
+        "jp": "家族と日本へ行きました。それから、友達と観光しました。",
+        "kana": "かぞくとにほんへいきました。それから、ともだちとかんこうしました。",
+        "meaningId": "Saya pergi ke Jepang bersama keluarga. Setelah itu, saya berwisata bersama teman.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:sentence-kara-sentence",
+    "level": "N5",
+    "chapter": 5,
+    "pattern": "～から、～",
+    "meaningId": "Menyatakan sebab-akibat ('karena... maka...').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～から、～」. Makna: Menyatakan sebab-akibat ('karena... maka...').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "時間がありませんから、タクシーで行きます。",
+        "kana": "じかんがありませんから、タクシーでいきます。",
+        "meaningId": "Karena tidak ada waktu, saya pergi naik taksi.",
+        "highlight": null
+      },
+      {
+        "jp": "友達と遊びますから、宿題を早くします。",
+        "kana": "ともだちとあそびますから、しゅくだいちはやくします。",
+        "meaningId": "Karena saya akan bermain dengan teman, saya mengerjakan PR dengan cepat.",
+        "highlight": null
+      },
+      {
+        "jp": "疲れていますから、それから家で休みます。",
+        "kana": "つかれていますから、それからうちでやすみます。",
+        "meaningId": "Karena saya lelah, setelah itu saya akan beristirahat di rumah.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:v-masenka",
+    "level": "N5",
+    "chapter": 6,
+    "pattern": "V ませんか",
+    "meaningId": "Ajakan atau tawaran sopan ('Maukah melakukan V?').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「V ませんか」. Makna: Ajakan atau tawaran sopan ('Maukah melakukan V?').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "negation"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "一緒に昼ごはんを食べませんか。",
+        "kana": "いっしょにひるごはんをたべませんか。",
+        "meaningId": "Maukah Anda makan siang bersama saya?",
+        "highlight": null
+      },
+      {
+        "jp": "明日、映画を見に行きませんか。",
+        "kana": "あした、えいがをみにいきませんか。",
+        "meaningId": "Maukah Anda pergi menonton film besok?",
+        "highlight": null
+      },
+      {
+        "jp": "新しいレストランへ行きませんか。",
+        "kana": "あたらしいレストランへいきませんか。",
+        "meaningId": "Maukah Anda pergi ke restoran baru itu?",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:v-mashou",
+    "level": "N5",
+    "chapter": 6,
+    "pattern": "V ましょう",
+    "meaningId": "Ajakan atau kesepakatan melakukan sesuatu bersama ('Mari lakukan V').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「V ましょう」. Makna: Ajakan atau kesepakatan melakukan sesuatu bersama ('Mari lakukan V').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "ここで少し休みましょう。",
+        "kana": "ここですこしやすみましょう。",
+        "meaningId": "Mari kita istirahat sebentar di sini.",
+        "highlight": null
+      },
+      {
+        "jp": "一緒に美味しい料理を食べましょう。",
+        "kana": "いっしょにおいしいりょうりをたべましょう。",
+        "meaningId": "Mari kita makan masakan enak bersama-sama.",
+        "highlight": null
+      },
+      {
+        "jp": "明日、映画を見に行きましょう。",
+        "kana": "あした、えいがをみにいきましょう。",
+        "meaningId": "Mari kita pergi menonton film besok.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n-ga-arimasu-event-schedule",
+    "level": "N5",
+    "chapter": 6,
+    "pattern": "N があります (acara)",
+    "meaningId": "Menyatakan berlangsungnya suatu acara atau jadwal kegiatan.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N があります (acara)」. Makna: Menyatakan berlangsungnya suatu acara atau jadwal kegiatan.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-ga"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "明日、試験があります。",
+        "kana": "あした、しけんがあります。",
+        "meaningId": "Besok ada ujian.",
+        "highlight": null
+      },
+      {
+        "jp": "来週、日本のお祭りがあります。",
+        "kana": "らいしゅう、にほんのおまつりがあります。",
+        "meaningId": "Minggu depan ada festival Jepang.",
+        "highlight": null
+      },
+      {
+        "jp": "今日、楽しいパーティーがあります。",
+        "kana": "きょう、たのしいパーティーがあります。",
+        "meaningId": "Hari ini ada pesta yang menyenangkan.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n-basho-de-n-ga-arimasu",
+    "level": "N5",
+    "chapter": 6,
+    "pattern": "N1 で N2 があります",
+    "meaningId": "Menyatakan lokasi berlangsungnya suatu acara.",
+    "frame": "___ で ___ があります",
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N1 で N2 があります」. Makna: Menyatakan lokasi berlangsungnya suatu acara.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-ga",
+      "particle-de"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "公園で日本のお祭りがあります。",
+        "kana": "こうえんでにほんのおまつりがあります。",
+        "meaningId": "Ada festival Jepang di taman.",
+        "highlight": null
+      },
+      {
+        "jp": "学校で試験があります。",
+        "kana": "がっこうでしけんがあります。",
+        "meaningId": "Ada ujian di sekolah.",
+        "highlight": null
+      },
+      {
+        "jp": "新しいレストランでパーティーがあります。",
+        "kana": "あたらしいレストランでパーティーがあります。",
+        "meaningId": "Ada pesta di restoran baru itu.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n-ga-counter-arimasu",
+    "level": "N5",
+    "chapter": 6,
+    "pattern": "N があります (数量)",
+    "meaningId": "Menyatakan jumlah barang yang ada menggunakan kata bantu bilangan.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N があります (数量)」. Makna: Menyatakan jumlah barang yang ada menggunakan kata bantu bilangan.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-ga"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "机の上に本が三冊あります。",
+        "kana": "つくえのうえにほんがさんさつあります。",
+        "meaningId": "Ada tiga buah buku di atas meja.",
+        "highlight": null
+      },
+      {
+        "jp": "冷蔵庫の中に卵が二つあります。",
+        "kana": "れいぞうこのなかにたまごがふたつあります。",
+        "meaningId": "Ada dua butir telur di dalam kulkas.",
+        "highlight": null
+      },
+      {
+        "jp": "教室に学生が五人あります。",
+        "kana": "きょうしつにがくせいがごにんあります。",
+        "meaningId": "Ada lima orang murid di dalam kelas.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n1-de-n2-ga-ichiban-a-desu",
+    "level": "N5",
+    "chapter": 6,
+    "pattern": "N1 で N2 がいちばん A です",
+    "meaningId": "Menyatakan perbandingan teratas/paling ('N2 adalah yang paling A di N1').",
+    "frame": "___ で ___ がいちばん A です",
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N1 で N2 がいちばん A です」. Makna: Menyatakan perbandingan teratas/paling ('N2 adalah yang paling A di N1').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-ga",
+      "particle-de",
+      "copula"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "一年で夏がいちばん暑いです。",
+        "kana": "いちねんでなつがいちばんあついです。",
+        "meaningId": "Musim panas adalah yang paling panas dalam setahun.",
+        "highlight": null
+      },
+      {
+        "jp": "クラスで田中さんがいちばん背が高いです。",
+        "kana": "クラスでたなかさんがいちばんせがたかいです。",
+        "meaningId": "Tanaka-san adalah yang paling tinggi di kelas.",
+        "highlight": null
+      },
+      {
+        "jp": "果物の中でりんごがいちばん好きです。",
+        "kana": "くだもののなかでりんごがいちばんすきです。",
+        "meaningId": "Di antara buah-buahan, saya paling suka apel.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n1-wa-n2-yori-a-desu",
+    "level": "N5",
+    "chapter": 6,
+    "pattern": "N1 は N2 より A です",
+    "meaningId": "Membandingkan dua hal ('N1 lebih A daripada N2').",
+    "frame": "___ は ___ より A です",
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N1 は N2 より A です」. Makna: Membandingkan dua hal ('N1 lebih A daripada N2').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-de",
+      "comparison",
+      "copula"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "りんごはバナナより大きいです。",
+        "kana": "りんごはバナナよりおおきいです。",
+        "meaningId": "Apel lebih besar daripada pisang.",
+        "highlight": null
+      },
+      {
+        "jp": "昨日は今日より寒かったです。",
+        "kana": "きのうはきょうよりさむかったです。",
+        "meaningId": "Kemarin lebih dingin daripada hari ini.",
+        "highlight": null
+      },
+      {
+        "jp": "新幹線は電車より速いです。",
+        "kana": "しんかんせんはでんしゃよりはやいです。",
+        "meaningId": "Shinkansen lebih cepat daripada kereta biasa.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n1-to-n2-to-dochira-ga-a-desuka-hou-ga",
+    "level": "N5",
+    "chapter": 6,
+    "pattern": "N1 と N2 とどちらが A ですか / N のほうが A です",
+    "meaningId": "Menanyakan pilihan antara dua hal, dan memilih salah satunya.",
+    "frame": "___ と ___ とどちらが A ですか / N のほうが A です",
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N1 と N2 とどちらが A ですか / N のほうが A です」. Makna: Menanyakan pilihan antara dua hal, dan memilih salah satunya.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-ga",
+      "particle-de",
+      "copula"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "コーヒーと紅茶とどちらが好きですか。コーヒーのほうが好きです。",
+        "kana": "コーヒーとこうちゃとどちらがすきですか。コーヒーのほうがすきです。",
+        "meaningId": "Antara kopi dan teh, lebih suka yang mana? Saya lebih suka kopi.",
+        "highlight": null
+      },
+      {
+        "jp": "日本とタイとどちらが暑いですか。タイのほうが暑いです。",
+        "kana": "にほんとタイとどちらがあついですか。タイのほうがあついです。",
+        "meaningId": "Antara Jepang dan Thailand, mana yang lebih panas? Thailand lebih panas.",
+        "highlight": null
+      },
+      {
+        "jp": "夏と冬とどちらが好きですか。冬のほうが好きです。",
+        "kana": "なつとふゆとどちらがすきですか。ふゆのほうがすきです。",
+        "meaningId": "Antara musim panas dan musim dingin, lebih suka yang mana? Saya lebih suka musim dingin.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:v-mou-mashitaka",
+    "level": "N5",
+    "chapter": 6,
+    "pattern": "もう V ましたか",
+    "meaningId": "Menanyakan apakah suatu aksi sudah selesai dilakukan.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「もう V ましたか」. Makna: Menanyakan apakah suatu aksi sudah selesai dilakukan.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "past-tense"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "もう宿題をしましたか。",
+        "kana": "もうしゅくだいをしましたか。",
+        "meaningId": "Apakah kamu sudah mengerjakan PR?",
+        "highlight": null
+      },
+      {
+        "jp": "もう昼ごはんを食べましたか。",
+        "kana": "もうひるごはんをたべましたか。",
+        "meaningId": "Apakah kamu sudah makan siang?",
+        "highlight": null
+      },
+      {
+        "jp": "もうチケットを買いましたか。",
+        "kana": "もうちけっとをかいましたか。",
+        "meaningId": "Apakah kamu sudah membeli tiketnya?",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:sentence-yo",
+    "level": "N5",
+    "chapter": 6,
+    "pattern": "～よ",
+    "meaningId": "Partikel akhir kalimat untuk memberikan informasi baru atau penekanan.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～よ」. Makna: Partikel akhir kalimat untuk memberikan informasi baru atau penekanan.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "もう宿題をしましたよ。",
+        "kana": "もうしゅくだいをしましたよ。",
+        "meaningId": "Aku sudah mengerjakan PR, lho.",
+        "highlight": null
+      },
+      {
+        "jp": "もう昼ごはんを食べましたよ。",
+        "kana": "もうひるごはんをたべましたよ。",
+        "meaningId": "Aku sudah makan siang, kok.",
+        "highlight": null
+      },
+      {
+        "jp": "もうチケットを買いましたよ。明日行きましょう。",
+        "kana": "もうちけっとをかいましたよ。あしたゆきましょう。",
+        "meaningId": "Aku sudah beli tiketnya, lho. Ayo kita pergi besok!",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n1-wa-n2-ni-imasu-arimasu",
+    "level": "N5",
+    "chapter": 7,
+    "pattern": "N1 は N2 にいます／あります",
+    "meaningId": "Menyatakan keberadaan benda/orang spesifik ('N1 ada di N2').",
+    "frame": "___ は ___ にいます／あります",
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N1 は N2 にいます／あります」. Makna: Menyatakan keberadaan benda/orang spesifik ('N1 ada di N2').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-ni"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "田中さんは教室にいます。",
+        "kana": "たなかさんはきょうしつにいます。",
+        "meaningId": "Tanaka-san ada di dalam kelas.",
+        "highlight": null
+      },
+      {
+        "jp": "本は机の上にあります。",
+        "kana": "ほんはつくえのうえにあります。",
+        "meaningId": "Buku ada di atas meja.",
+        "highlight": null
+      },
+      {
+        "jp": "猫は庭にいます。",
+        "kana": "ねこはにわにいます。",
+        "meaningId": "Kucing ada di halaman.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n1-ni-n2-ga-imasu-arimasu",
+    "level": "N5",
+    "chapter": 7,
+    "pattern": "N1 に N2 がいます／あります",
+    "meaningId": "Menyatakan apa yang ada di suatu tempat ('Di N1 ada N2').",
+    "frame": "___ に ___ がいます／あります",
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N1 に N2 がいます／あります」. Makna: Menyatakan apa yang ada di suatu tempat ('Di N1 ada N2').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-ga",
+      "particle-ni"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "教室に田中さんがいます。",
+        "kana": "きょうしつにたなかさんがいます。",
+        "meaningId": "Di dalam kelas ada Tanaka-san.",
+        "highlight": null
+      },
+      {
+        "jp": "机の上に本があります。",
+        "kana": "つくえのうえにほんがあります。",
+        "meaningId": "Di atas meja ada buku.",
+        "highlight": null
+      },
+      {
+        "jp": "庭に猫がいます。",
+        "kana": "にわにねこがいます。",
+        "meaningId": "Di halaman ada kucing.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:v-te-kudasai",
+    "level": "N5",
+    "chapter": 7,
+    "pattern": "Vて ください",
+    "meaningId": "Meminta tolong atau instruksi secara sopan ('Tolong lakukan V').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「Vて ください」. Makna: Meminta tolong atau instruksi secara sopan ('Tolong lakukan V').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "教室に田中さんがいます。呼んでください。",
+        "kana": "きょうしつにたなかさんがいます。よんでください。",
+        "meaningId": "Tanaka-san ada di kelas. Tolong panggil dia.",
+        "highlight": null
+      },
+      {
+        "jp": "机の上に本があります。取ってください。",
+        "kana": "つくえのうえにほんがあります。とってください。",
+        "meaningId": "Ada buku di atas meja. Tolong ambilkan.",
+        "highlight": null
+      },
+      {
+        "jp": "庭に猫がいます。見てください。",
+        "kana": "にわにねこがいます。みてください。",
+        "meaningId": "Ada kucing di halaman. Tolong lihat.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:v-te-imasu",
+    "level": "N5",
+    "chapter": 7,
+    "pattern": "Vて います",
+    "meaningId": "Menyatakan tindakan yang sedang berlangsung atau keadaan.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「Vて います」. Makna: Menyatakan tindakan yang sedang berlangsung atau keadaan.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "田中さんは教室で本を読んでいます。",
+        "kana": "たなかさんはきょうしつでほんをよんでいます。",
+        "meaningId": "Tanaka-san sedang membaca buku di dalam kelas.",
+        "highlight": null
+      },
+      {
+        "jp": "猫が庭で寝ています。",
+        "kana": "ねこがにわでねています。",
+        "meaningId": "Kucing sedang tidur di halaman.",
+        "highlight": null
+      },
+      {
+        "jp": "机の上に本が置いてあります。",
+        "kana": "つくえのうえにほんがおいてあります。",
+        "meaningId": "Ada buku yang diletakkan di atas meja.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:v-mashouka",
+    "level": "N5",
+    "chapter": 7,
+    "pattern": "V ましょうか",
+    "meaningId": "Menawarkan bantuan secara sopan ('Bagaimana kalau saya lakukan V?').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「V ましょうか」. Makna: Menawarkan bantuan secara sopan ('Bagaimana kalau saya lakukan V?').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "窓を開けましょうか。",
+        "kana": "まどをあけましょうか。",
+        "meaningId": "Bagaimana kalau saya buka jendelanya?",
+        "highlight": null
+      },
+      {
+        "jp": "荷物を持ちましょうか。",
+        "kana": "にもつをもちましょうか。",
+        "meaningId": "Bagaimana kalau saya bawakan barangnya?",
+        "highlight": null
+      },
+      {
+        "jp": "手伝いましょうか。",
+        "kana": "てつだいましょうか。",
+        "meaningId": "Bagaimana kalau saya bantu?",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:v-kata",
+    "level": "N5",
+    "chapter": 7,
+    "pattern": "V方",
+    "meaningId": "Menyatakan cara melakukan suatu tindakan ('cara melakukan V').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「V方」. Makna: Menyatakan cara melakukan suatu tindakan ('cara melakukan V').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "漢字の書き方を教えてください。",
+        "kana": "かんじのかきかたをおしえてください。",
+        "meaningId": "Tolong ajari saya cara menulis Kanji.",
+        "highlight": null
+      },
+      {
+        "jp": "この薬の飲み方を説明しましょうか。",
+        "kana": "このくすりののみかたをせつめいしましょうか。",
+        "meaningId": "Bagaimana kalau saya jelaskan cara meminum obat ini?",
+        "highlight": null
+      },
+      {
+        "jp": "おいしいコーヒーの作り方を教えてください。",
+        "kana": "おいしいコーヒーのつくりかたをおしえてください。",
+        "meaningId": "Tolong ajari saya cara membuat kopi yang enak.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:mada-mou-existence",
+    "level": "N5",
+    "chapter": 7,
+    "pattern": "まだ／もう",
+    "meaningId": "Kata keterangan yang menyatakan 'belum / sudah'.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「まだ／もう」. Makna: Kata keterangan yang menyatakan 'belum / sudah'.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "宿題はもう終わりましたか。",
+        "kana": "しゅくだいはもうおわりましたか。",
+        "meaningId": "Apakah PR-nya sudah selesai?",
+        "highlight": null
+      },
+      {
+        "jp": "いいえ、まだ終わっていません。",
+        "kana": "いいえ、まだおわっていません。",
+        "meaningId": "Belum, saya belum menyelesaikannya.",
+        "highlight": null
+      },
+      {
+        "jp": "もうお昼ご飯を食べましたか。いいえ、まだです。",
+        "kana": "もうおひるごはんをたべましたか。いいえ、まだです。",
+        "meaningId": "Apakah sudah makan siang? Belum.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:dare-ga-subject-marker",
+    "level": "N5",
+    "chapter": 7,
+    "pattern": "誰が",
+    "meaningId": "Penanda subjek untuk kata tanya ('Siapa yang...?').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「誰が」. Makna: Penanda subjek untuk kata tanya ('Siapa yang...?').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-ga"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "誰が窓を開けましたか。",
+        "kana": "だれがまどをあけましたか。",
+        "meaningId": "Siapa yang membuka jendela?",
+        "highlight": null
+      },
+      {
+        "jp": "誰がこの漢字の書き方を知っていますか。",
+        "kana": "だれがこのかんじのかきかたをしっていますか。",
+        "meaningId": "Siapa yang tahu cara menulis Kanji ini?",
+        "highlight": null
+      },
+      {
+        "jp": "誰がもう宿題を終わらせましたか。",
+        "kana": "だれがもうしゅくだいをおわらせましたか。",
+        "meaningId": "Siapa yang sudah menyelesaikan PR?",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:dono-n-dore",
+    "level": "N5",
+    "chapter": 7,
+    "pattern": "どの N／どれ",
+    "meaningId": "N yang mana / yang mana (di antara tiga pilihan atau lebih).",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「どの N／どれ」. Makna: N yang mana / yang mana (di antara tiga pilihan atau lebih).",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "どの傘があなたの傘ですか。",
+        "kana": "どの かさが あなたの かさですか。",
+        "meaningId": "Payung yang mana milik Anda?",
+        "highlight": null
+      },
+      {
+        "jp": "この中でどれが一番おいしいですか。",
+        "kana": "この なかで どれが いちばん おいしいですか。",
+        "meaningId": "Di antara ini, yang mana yang paling enak?",
+        "highlight": null
+      },
+      {
+        "jp": "どのペンを使いますか。どれでもいいです。",
+        "kana": "どの ぺんを つかいますか。どれでも いいです。",
+        "meaningId": "Pena yang mana yang akan Anda gunakan? Yang mana saja boleh.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n-dougu-de",
+    "level": "N5",
+    "chapter": 7,
+    "pattern": "N(道具) で",
+    "meaningId": "Menunjukkan alat atau metode untuk melakukan suatu aksi ('dengan N').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N(道具) で」. Makna: Menunjukkan alat atau metode untuk melakukan suatu aksi ('dengan N').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-de"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "箸でご飯を食べます。",
+        "kana": "はしで ごはんを たべます。",
+        "meaningId": "Saya makan nasi dengan sumpit.",
+        "highlight": null
+      },
+      {
+        "jp": "どの箸で食べますか。この箸で食べます。",
+        "kana": "どの はしで たべますか。この はしで たべます。",
+        "meaningId": "Anda akan makan dengan sumpit yang mana? Saya akan makan dengan sumpit ini.",
+        "highlight": null
+      },
+      {
+        "jp": "どれで切りますか。このナイフで切ります。",
+        "kana": "どれで きりますか。この ないふで きります。",
+        "meaningId": "Anda akan memotong dengan yang mana? Saya akan memotong dengan pisau ini.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:v-te-imasu-job-habit",
+    "level": "N5",
+    "chapter": 8,
+    "pattern": "Vて います (pekerjaan/kebiasaan)",
+    "meaningId": "Menyatakan pekerjaan tetap atau kebiasaan rutin.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「Vて います (pekerjaan/kebiasaan)」. Makna: Menyatakan pekerjaan tetap atau kebiasaan rutin.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "私は日本語を教えています。",
+        "kana": "わたしはにほんごをおしえています。",
+        "meaningId": "Saya mengajar bahasa Jepang.",
+        "highlight": null
+      },
+      {
+        "jp": "父は銀行で働いています。",
+        "kana": "ちちはぎんこうではたらいています。",
+        "meaningId": "Ayah saya bekerja di bank.",
+        "highlight": null
+      },
+      {
+        "jp": "兄は毎日ジムで運動しています。",
+        "kana": "あにはまいにちじむでうんどうしています。",
+        "meaningId": "Kakak laki-laki saya berolahraga di gym setiap hari.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n1-wa-n2-ga-a-desu",
+    "level": "N5",
+    "chapter": 8,
+    "pattern": "N1 は N2 が A です",
+    "meaningId": "Menjelaskan bagian/atribut tubuh dari N1 (misal: 'Dia kakinya panjang').",
+    "frame": "___ は ___ が A です",
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N1 は N2 が A です」. Makna: Menjelaskan bagian/atribut tubuh dari N1 (misal: 'Dia kakinya panjang').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-ga",
+      "particle-de",
+      "copula"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "象は鼻が長いです。",
+        "kana": "ぞうははながながいです。",
+        "meaningId": "Gajah hidungnya panjang.",
+        "highlight": null
+      },
+      {
+        "jp": "あの人は目が大きいです。",
+        "kana": "あのひとはめがおおきいです。",
+        "meaningId": "Orang itu matanya besar.",
+        "highlight": null
+      },
+      {
+        "jp": "私の先生は日本語が上手です。",
+        "kana": "わたしのせんせいはにほんごがじょうずです。",
+        "meaningId": "Guru saya mahir bahasa Jepang.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:a-kute-a-de",
+    "level": "N5",
+    "chapter": 8,
+    "pattern": "Aくて、～ / Aで、～",
+    "meaningId": "Menghubungkan kata sifat untuk menjelaskan beberapa karakteristik.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「Aくて、～ / Aで、～」. Makna: Menghubungkan kata sifat untuk menjelaskan beberapa karakteristik.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-de"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "この料理は安くて、美味しいです。",
+        "kana": "このりょうりはやすくて、おいしいです。",
+        "meaningId": "Makanan ini murah dan enak.",
+        "highlight": null
+      },
+      {
+        "jp": "あの先生は親切で、日本語が上手です。",
+        "kana": "あのせんせいはしんせつで、にほんごがじょうずです。",
+        "meaningId": "Guru itu baik hati dan mahir bahasa Jepang.",
+        "highlight": null
+      },
+      {
+        "jp": "私の家は広くて、静かです。",
+        "kana": "わたしのいえはひろくて、しずかです。",
+        "meaningId": "Rumah saya luas dan tenang.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n-person-ni-n-o-agemasu-moraimasu-kuremasu",
+    "level": "N5",
+    "chapter": 8,
+    "pattern": "N1 に N2 を あげます／もらいます／くれます",
+    "meaningId": "Menyatakan tindakan memberi dan menerima barang.",
+    "frame": "___ に ___ を あげます／もらいます／くれます",
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N1 に N2 を あげます／もらいます／くれます」. Makna: Menyatakan tindakan memberi dan menerima barang.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-wo",
+      "particle-ni"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "私は友達にプレゼントをあげます。",
+        "kana": "わたしはともだちにぷれぜんとをあげます。",
+        "meaningId": "Saya memberikan hadiah kepada teman.",
+        "highlight": null
+      },
+      {
+        "jp": "私は先生に美味しいお菓子をもらいました。",
+        "kana": "わたしはせんせいにおいしいおかしをもらいました。",
+        "meaningId": "Saya menerima camilan enak dari guru.",
+        "highlight": null
+      },
+      {
+        "jp": "母は私に新しい服をくれました。",
+        "kana": "はははわたしにあたらしいふくをくれました。",
+        "meaningId": "Ibu memberikan baju baru untuk saya.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n-person-ga-counter-imasu",
+    "level": "N5",
+    "chapter": 8,
+    "pattern": "N がいます (数量)",
+    "meaningId": "Menyatakan jumlah orang yang ada.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N がいます (数量)」. Makna: Menyatakan jumlah orang yang ada.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-ga"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "教室に学生が三人います。",
+        "kana": "きょうしつにがくせいがさんにんいます。",
+        "meaningId": "Ada tiga orang siswa di dalam kelas.",
+        "highlight": null
+      },
+      {
+        "jp": "家に家族が四人います。",
+        "kana": "うちに かぞくが よにん います。",
+        "meaningId": "Ada empat orang anggota keluarga di rumah.",
+        "highlight": null
+      },
+      {
+        "jp": "公園に友達が二人います。",
+        "kana": "こうえんに ともだちが ふたり います。",
+        "meaningId": "Ada dua orang teman di taman.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:person-counter-de",
+    "level": "N5",
+    "chapter": 8,
+    "pattern": "～人で",
+    "meaningId": "Melakukan suatu aksi dengan jumlah orang tertentu.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～人で」. Makna: Melakukan suatu aksi dengan jumlah orang tertentu.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-de"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "三人で教室を掃除します。",
+        "kana": "さんにんで きょうしつを そうじします。",
+        "meaningId": "Kami bertiga akan membersihkan kelas.",
+        "highlight": null
+      },
+      {
+        "jp": "四人で一緒に晩ご飯を食べます。",
+        "kana": "よにんで いっしょに ばんごはんを たべます。",
+        "meaningId": "Kami berempat akan makan malam bersama.",
+        "highlight": null
+      },
+      {
+        "jp": "二人で公園へ散歩に行きます。",
+        "kana": "ふたりで こうえんへ さんぽに いきます。",
+        "meaningId": "Kami berdua akan pergi berjalan-jalan ke taman.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:v-jishokei-koto",
+    "level": "N5",
+    "chapter": 9,
+    "pattern": "V辞書形 こと",
+    "meaningId": "Mengubah kata kerja menjadi kata benda menggunakan 'koto'.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「V辞書形 こと」. Makna: Mengubah kata kerja menjadi kata benda menggunakan 'koto'.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "私の趣味は本を読むことです。",
+        "kana": "わたしのしゅみはほんをよむことです。",
+        "meaningId": "Hobi saya adalah membaca buku.",
+        "highlight": null
+      },
+      {
+        "jp": "寝ることは大切です。",
+        "kana": "ねることはたいせつです。",
+        "meaningId": "Tidur itu penting.",
+        "highlight": null
+      },
+      {
+        "jp": "日本語を勉強することは楽しいです。",
+        "kana": "にほんごをべんきょうすることはたのしいです。",
+        "meaningId": "Belajar bahasa Jepang itu menyenangkan.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:v-koto-ga-dekimasu",
+    "level": "N5",
+    "chapter": 9,
+    "pattern": "Vことができます",
+    "meaningId": "Menyatakan kemampuan atau potensi ('bisa/dapat melakukan V').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「Vことができます」. Makna: Menyatakan kemampuan atau potensi ('bisa/dapat melakukan V').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-ga",
+      "particle-de"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "私は漢字を書くことができます。",
+        "kana": "わたしはかんじをかくことができます。",
+        "meaningId": "Saya bisa menulis kanji.",
+        "highlight": null
+      },
+      {
+        "jp": "泳ぐことができますか。",
+        "kana": "およぐことができますか。",
+        "meaningId": "Apakah Anda bisa berenang?",
+        "highlight": null
+      },
+      {
+        "jp": "毎日、日本語を勉強することができます。",
+        "kana": "まいにち、にほんごをべんきょうすることができます。",
+        "meaningId": "Saya bisa belajar bahasa Jepang setiap hari.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:v-te-reason",
+    "level": "N5",
+    "chapter": 9,
+    "pattern": "Vて、～",
+    "meaningId": "Menghubungkan tindakan / menyatakan sebab-akibat sederhana.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「Vて、～」. Makna: Menghubungkan tindakan / menyatakan sebab-akibat sederhana.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "風邪をひいて、学校を休みます。",
+        "kana": "かぜをひいて、がっこうをやすみます。",
+        "meaningId": "Saya masuk angin, jadi saya libur sekolah.",
+        "highlight": null
+      },
+      {
+        "jp": "お腹がすいて、何も食べることができません。",
+        "kana": "おなかがすいて、なにもたべることができません。",
+        "meaningId": "Saya lapar, jadi saya tidak bisa makan apa-apa.",
+        "highlight": null
+      },
+      {
+        "jp": "本を読んで、新しいことを知ることができました。",
+        "kana": "ほんをよんで、あたらしいことをしることができました。",
+        "meaningId": "Saya membaca buku, dan (karenanya) saya bisa mengetahui hal baru.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:period-ni-counter",
+    "level": "N5",
+    "chapter": 9,
+    "pattern": "[期間] に [回数]",
+    "meaningId": "Menyatakan frekuensi dalam jangka waktu tertentu ('X kali dalam [jangka waktu]').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「[期間] に [回数]」. Makna: Menyatakan frekuensi dalam jangka waktu tertentu ('X kali dalam [jangka waktu]').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-ni"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "一週間に二回、運動します。",
+        "kana": "いっしゅうかんににかい、うんどうします。",
+        "meaningId": "Saya berolahraga dua kali seminggu.",
+        "highlight": null
+      },
+      {
+        "jp": "一ヶ月に三回、映画を見ることができます。",
+        "kana": "いっかげつにさんかい、えいがをみることができます。",
+        "meaningId": "Saya bisa menonton film tiga kali sebulan.",
+        "highlight": null
+      },
+      {
+        "jp": "疲れて、一日に一回も日本語を勉強することができませんでした。",
+        "kana": "つかれて、いちにちにいっかいもにほんごをべんきょうすることができませんでした。",
+        "meaningId": "Saya lelah, jadi hari ini saya tidak bisa belajar bahasa Jepang sekalipun.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:frequency-adverbs",
+    "level": "N5",
+    "chapter": 9,
+    "pattern": "いつも/よく/ときどき/あまり/全然",
+    "meaningId": "Kata keterangan penunjuk frekuensi kegiatan.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「いつも/よく/ときどき/あまり/全然」. Makna: Kata keterangan penunjuk frekuensi kegiatan.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "私はいつも朝ごはんを食べます。",
+        "kana": "わたしはいつもあさごはんをたべます。",
+        "meaningId": "Saya selalu makan sarapan.",
+        "highlight": null
+      },
+      {
+        "jp": "ときどき図書館で本を読みます。",
+        "kana": "ときどきとしょかんではんをよみます。",
+        "meaningId": "Saya terkadang membaca buku di perpustakaan.",
+        "highlight": null
+      },
+      {
+        "jp": "私はあまり肉を食べません。全然食べません。",
+        "kana": "わたしはあまりにくをたべません。ぜんぜんたべません。",
+        "meaningId": "Saya tidak terlalu banyak makan daging. Saya sama sekali tidak memakannya.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:douyatte",
+    "level": "N5",
+    "chapter": 9,
+    "pattern": "どうやって",
+    "meaningId": "Menanyakan cara atau rute ('bagaimana caranya?').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「どうやって」. Makna: Menanyakan cara atau rute ('bagaimana caranya?').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "どうやって学校へ行きますか。",
+        "kana": "どうやってがっこうへいきますか。",
+        "meaningId": "Bagaimana cara Anda pergi ke sekolah?",
+        "highlight": null
+      },
+      {
+        "jp": "どうやって日本語を勉強しますか。",
+        "kana": "どうやってにほんごをべんきょうしますか。",
+        "meaningId": "Bagaimana cara Anda belajar bahasa Jepang?",
+        "highlight": null
+      },
+      {
+        "jp": "どうやってこの漢字を書きますか。",
+        "kana": "どうやってこのかんじをかきますか。",
+        "meaningId": "Bagaimana cara menulis kanji ini?",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:demo",
+    "level": "N5",
+    "chapter": 9,
+    "pattern": "でも",
+    "meaningId": "Kata hubung di awal kalimat yang berarti 'tetapi / namun'.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「でも」. Makna: Kata hubung di awal kalimat yang berarti 'tetapi / namun'.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-de"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "私はいつも勉強します。でも、あまり上手になりません。",
+        "kana": "わたしはいつもべんきょうします。でも、あまりじょうずになりません。",
+        "meaningId": "Saya selalu belajar. Tapi, saya tidak terlalu mahir.",
+        "highlight": null
+      },
+      {
+        "jp": "ときどき日本へ行きたいです。でも、お金がありません。",
+        "kana": "ときどきにほんへいきたいです。でも、おかねがありません。",
+        "meaningId": "Terkadang saya ingin pergi ke Jepang. Tapi, saya tidak punya uang.",
+        "highlight": null
+      },
+      {
+        "jp": "これはどうやって作りますか。でも、とても難しそうです。",
+        "kana": "これはどうやってつくりますか。でも、とてもむずかしそうです。",
+        "meaningId": "Bagaimana cara membuat ini? Tapi, kelihatannya sangat sulit.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:v-naide-kudasai",
+    "level": "N5",
+    "chapter": 10,
+    "pattern": "Vないで ください",
+    "meaningId": "Meminta seseorang untuk tidak melakukan sesuatu ('Tolong jangan lakukan V').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「Vないで ください」. Makna: Meminta seseorang untuk tidak melakukan sesuatu ('Tolong jangan lakukan V').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-de",
+      "negation"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "ここで たばこを 吸わないで ください。",
+        "kana": "ここで たばこを すわないで ください。",
+        "meaningId": "Tolong jangan merokok di sini.",
+        "highlight": null
+      },
+      {
+        "jp": "この 本に 書かないで ください。",
+        "kana": "この ほんに かかないで ください。",
+        "meaningId": "Tolong jangan menulis di buku ini.",
+        "highlight": null
+      },
+      {
+        "jp": "教室で 大きい声で 話さないで ください。",
+        "kana": "きょうしつで おおきいこえで はなさないで ください。",
+        "meaningId": "Tolong jangan berbicara dengan suara keras di dalam kelas.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:v-temo-ii-desuka",
+    "level": "N5",
+    "chapter": 10,
+    "pattern": "Vても いいですか",
+    "meaningId": "Meminta izin untuk melakukan suatu tindakan ('Bolehkah saya melakukan V?').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「Vても いいですか」. Makna: Meminta izin untuk melakukan suatu tindakan ('Bolehkah saya melakukan V?').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-de",
+      "copula"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "ここで 写真を 撮っても いいですか。",
+        "kana": "ここで しゃしんを とっても いいですか。",
+        "meaningId": "Bolehkah saya mengambil foto di sini?",
+        "highlight": null
+      },
+      {
+        "jp": "窓を 開けても いいですか。",
+        "kana": "まどを あけても いいですか。",
+        "meaningId": "Bolehkah saya membuka jendela?",
+        "highlight": null
+      },
+      {
+        "jp": "すみません、ここで たばこを 吸っても いいですか。",
+        "kana": "すみません、ここで たばこを すっても いいですか。",
+        "meaningId": "Permisi, bolehkah saya merokok di sini?",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n-ga-v-te-imasu-state",
+    "level": "N5",
+    "chapter": 10,
+    "pattern": "N が Vて います (状態)",
+    "meaningId": "Menyatakan keadaan yang dihasilkan dari suatu tindakan sebelumnya.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N が Vて います (状態)」. Makna: Menyatakan keadaan yang dihasilkan dari suatu tindakan sebelumnya.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-ga"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "窓が 開けて あります。",
+        "kana": "まどが あけて あります。",
+        "meaningId": "Jendelanya sedang dalam keadaan terbuka.",
+        "highlight": null
+      },
+      {
+        "jp": "壁に 絵が かかって います。",
+        "kana": "かべに えが かかって います。",
+        "meaningId": "Ada gambar yang tergantung di dinding.",
+        "highlight": null
+      },
+      {
+        "jp": "机の上に 本が 置いて あります。",
+        "kana": "つくえのうえに ほんが おいて あります。",
+        "meaningId": "Ada buku yang diletakkan di atas meja.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:v-te-kimasu",
+    "level": "N5",
+    "chapter": 10,
+    "pattern": "Vて きます",
+    "meaningId": "Pergi untuk melakukan suatu aksi lalu kembali ('pergi dulu untuk...').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「Vて きます」. Makna: Pergi untuk melakukan suatu aksi lalu kembali ('pergi dulu untuk...').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "ちょっと コンビニへ 行って 来ます。",
+        "kana": "ちょっと コンビニへ いって きます。",
+        "meaningId": "Saya pergi ke minimarket sebentar lalu kembali.",
+        "highlight": null
+      },
+      {
+        "jp": "郵便局へ 手紙を 出して 来ます。",
+        "kana": "ゆうびんきょくへ てがみを だして きます。",
+        "meaningId": "Saya pergi ke kantor pos untuk mengirim surat lalu kembali.",
+        "highlight": null
+      },
+      {
+        "jp": "冷たい お茶を 買って 来ます。",
+        "kana": "つめたい おちゃを かって きます。",
+        "meaningId": "Saya pergi membeli teh dingin lalu kembali.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n-ga-miemasu-kikoemasu",
+    "level": "N5",
+    "chapter": 10,
+    "pattern": "N が見えます／聞こえます",
+    "meaningId": "Menyatakan sesuatu terlihat atau terdengar secara spontan/alami.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N が見えます／聞こえます」. Makna: Menyatakan sesuatu terlihat atau terdengar secara spontan/alami.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-ga"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "窓から山が見えます。",
+        "kana": "まどからやまがみえます。",
+        "meaningId": "Dari jendela, gunung terlihat.",
+        "highlight": null
+      },
+      {
+        "jp": "静かな部屋で鳥の声が聞こえます。",
+        "kana": "しずかなへやでとりのこえがきこえます。",
+        "meaningId": "Di kamar yang tenang, suara burung terdengar.",
+        "highlight": null
+      },
+      {
+        "jp": "あそこから海が見えますか。",
+        "kana": "あそこからうみがみえますか。",
+        "meaningId": "Apakah laut terlihat dari sana?",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:adjective-noun-ni-narimasu",
+    "level": "N5",
+    "chapter": 10,
+    "pattern": "Aくなります／Nになります",
+    "meaningId": "Menyatakan perubahan keadaan ('menjadi A/N').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「Aくなります／Nになります」. Makna: Menyatakan perubahan keadaan ('menjadi A/N').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-ni"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "天気が寒くなります。",
+        "kana": "てんきがさむくなります。",
+        "meaningId": "Cuacanya menjadi dingin.",
+        "highlight": null
+      },
+      {
+        "jp": "来年、二十歳になります。",
+        "kana": "らいねん、はたちになります。",
+        "meaningId": "Tahun depan, saya akan menjadi dua puluh tahun.",
+        "highlight": null
+      },
+      {
+        "jp": "窓から見える景色がきれいになります。",
+        "kana": "まどからみえるけしきがきれいになります。",
+        "meaningId": "Pemandangan yang terlihat dari jendela menjadi indah.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n-basho-o-movement",
+    "level": "N5",
+    "chapter": 10,
+    "pattern": "N(場所) を V",
+    "meaningId": "Melalui atau melintasi suatu area (misal: 'berjalan menyusuri jalan').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N(場所) を V」. Makna: Melalui atau melintasi suatu area (misal: 'berjalan menyusuri jalan').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-wo"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "公園を散歩します。",
+        "kana": "こうえんをさんぽします。",
+        "meaningId": "Saya berjalan-jalan di taman.",
+        "highlight": null
+      },
+      {
+        "jp": "橋を渡ります。",
+        "kana": "はしをわたります。",
+        "meaningId": "Saya menyeberangi jembatan.",
+        "highlight": null
+      },
+      {
+        "jp": "静かになった道を歩きます。",
+        "kana": "しずかになったみちをあるきます。",
+        "meaningId": "Saya berjalan menyusuri jalan yang sudah menjadi tenang.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n-wa-contrastive",
+    "level": "N5",
+    "chapter": 10,
+    "pattern": "N は (対比)",
+    "meaningId": "Menggunakan partikel 'wa' untuk menunjukkan perbandingan/kontras.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N は (対比)」. Makna: Menggunakan partikel 'wa' untuk menunjukkan perbandingan/kontras.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "肉は食べますが、魚は食べません。",
+        "kana": "にくはたべますが、さかなはたべません。",
+        "meaningId": "Saya makan daging, tetapi ikan tidak saya makan.",
+        "highlight": null
+      },
+      {
+        "jp": "今日は忙しいですが、明日は暇になります。",
+        "kana": "きょうはいそがしいですが、あしたはひまになります。",
+        "meaningId": "Hari ini saya sibuk, tetapi besok saya akan senggang.",
+        "highlight": null
+      },
+      {
+        "jp": "公園は歩きますが、道は歩きません。",
+        "kana": "こうえんはあるきますが、みちはあるきません。",
+        "meaningId": "Saya berjalan di taman, tetapi di jalan saya tidak berjalan.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:v-tari-v-tari-shimasu",
+    "level": "N5",
+    "chapter": 11,
+    "pattern": "Vたり Vたりします",
+    "meaningId": "Menyebutkan beberapa tindakan secara tidak berurutan ('melakukan aktivitas seperti A dan B').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「Vたり Vたりします」. Makna: Menyebutkan beberapa tindakan secara tidak berurutan ('melakukan aktivitas seperti A dan B').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "日曜日は本を読んだり、音楽を聞いたりします。",
+        "kana": "にちようびはほんをよんだり、おんがくをきいたりします。",
+        "meaningId": "Pada hari Minggu, saya melakukan hal-hal seperti membaca buku dan mendengarkan musik.",
+        "highlight": null
+      },
+      {
+        "jp": "休みの日には、買い物に行ったり、友達と会ったりします。",
+        "kana": "やすみのひには、かいものにいったり、ともだちとあったりします。",
+        "meaningId": "Pada hari libur, saya melakukan hal-hal seperti pergi belanja dan bertemu teman.",
+        "highlight": null
+      },
+      {
+        "jp": "昨日は掃除をしたり、料理を作ったりして忙しかったです。",
+        "kana": "きのうはそうじをしたり、りょうりをつくったりしていそがしかったです。",
+        "meaningId": "Kemarin saya sibuk melakukan hal-hal seperti membersihkan rumah dan memasak.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n1-wa-ga-n2-wa",
+    "level": "N5",
+    "chapter": 11,
+    "pattern": "N1 は～が、N2 は～",
+    "meaningId": "Perbandingan kontras langsung antara dua kata benda/topik.",
+    "frame": "___ は～が、___ は～",
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N1 は～が、N2 は～」. Makna: Perbandingan kontras langsung antara dua kata benda/topik.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-ga"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "兄は背が高いですが、弟は背が低いです。",
+        "kana": "あにはせがたかいですが、おとうとはせがひくいです。",
+        "meaningId": "Kakak laki-laki saya tinggi, tetapi adik laki-laki saya pendek.",
+        "highlight": null
+      },
+      {
+        "jp": "日本料理は好きですが、辛い料理はあまり好きではありません。",
+        "kana": "にほんりょうりはすきですが、からいりょうりはあまりすきではありません。",
+        "meaningId": "Saya suka masakan Jepang, tetapi saya tidak begitu suka masakan pedas.",
+        "highlight": null
+      },
+      {
+        "jp": "昨日は本を読んだりしましたが、今日は映画を見たりします。",
+        "kana": "きのうはほんをよんだりしましたが、きょうはえいがをみたりします。",
+        "meaningId": "Kemarin saya melakukan hal seperti membaca buku, tetapi hari ini saya akan melakukan hal seperti menonton film.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:a-n-v-toki",
+    "level": "N5",
+    "chapter": 11,
+    "pattern": "とき",
+    "meaningId": "Menyatakan waktu atau kondisi kejadian ('saat/ketika...').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「とき」. Makna: Menyatakan waktu atau kondisi kejadian ('saat/ketika...').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "暇なとき、本を読みます。",
+        "kana": "ひまなとき、ほんをよみます。",
+        "meaningId": "Saat saya senggang, saya membaca buku.",
+        "highlight": null
+      },
+      {
+        "jp": "学生のとき、よく友達と遊びました。",
+        "kana": "がくせいのとき、よくともだちとあそびました。",
+        "meaningId": "Saat saya masih pelajar, saya sering bermain dengan teman-teman.",
+        "highlight": null
+      },
+      {
+        "jp": "疲れたとき、温かいお茶を飲んだり、音楽を聞いたりします。",
+        "kana": "つかれたとき、あたたかいおちゃをのんだり、おんがくをきいたりします。",
+        "meaningId": "Saat saya lelah, saya melakukan hal seperti minum teh hangat dan mendengarkan musik.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:doushimasuka",
+    "level": "N5",
+    "chapter": 11,
+    "pattern": "どうしますか",
+    "meaningId": "Menanyakan apa yang akan dilakukan dalam suatu kondisi.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「どうしますか」. Makna: Menanyakan apa yang akan dilakukan dalam suatu kondisi.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "雨が降りました。どうしますか。",
+        "kana": "あめがふりました。どうしますか。",
+        "meaningId": "Hujan turun. Apa yang akan kamu lakukan?",
+        "highlight": null
+      },
+      {
+        "jp": "暇なとき、どうしますか。",
+        "kana": "ひまなとき、どうしますか。",
+        "meaningId": "Apa yang kamu lakukan saat senggang?",
+        "highlight": null
+      },
+      {
+        "jp": "疲れたとき、どうしますか。寝たり、映画を見たりしますか。",
+        "kana": "つかれたとき、どうしますか。ねたり、えいがをみたりしますか。",
+        "meaningId": "Apa yang kamu lakukan saat lelah? Apakah kamu tidur atau menonton film?",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:casual-speech",
+    "level": "N5",
+    "chapter": 12,
+    "pattern": "普通体／友達言葉",
+    "meaningId": "Gaya bahasa informal/akrab di antara teman atau keluarga.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「普通体／友達言葉」. Makna: Gaya bahasa informal/akrab di antara teman atau keluarga.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "明日、一緒に映画を見に行かない？",
+        "kana": "あした、いっしょにえいがをみにいかない？",
+        "meaningId": "Besok, mau pergi nonton film bareng tidak?",
+        "highlight": null
+      },
+      {
+        "jp": "昨日、何を食べたの？",
+        "kana": "きのう、なにをたべたの？",
+        "meaningId": "Kemarin makan apa?",
+        "highlight": null
+      },
+      {
+        "jp": "今日は忙しいから、行けないよ。",
+        "kana": "きょうはいそがしいから、いけないよ。",
+        "meaningId": "Hari ini sibuk, jadi tidak bisa pergi.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:plain-form-ndesu",
+    "level": "N5",
+    "chapter": 12,
+    "pattern": "普通形 んです",
+    "meaningId": "Menjelaskan alasan, memberikan penekanan, atau meminta kejelasan.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「普通形 んです」. Makna: Menjelaskan alasan, memberikan penekanan, atau meminta kejelasan.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-de",
+      "copula"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "明日、映画に行かないんだ。",
+        "kana": "あした、えいがにいかないんだ。",
+        "meaningId": "Sebenarnya, besok saya tidak pergi menonton film.",
+        "highlight": null
+      },
+      {
+        "jp": "昨日、たくさん食べたんだ。",
+        "kana": "きのう、たくさんたべたんだ。",
+        "meaningId": "Sebenarnya, kemarin saya makan banyak.",
+        "highlight": null
+      },
+      {
+        "jp": "今日は忙しいんだ。だから行けないよ。",
+        "kana": "きょうはいそがしいんだ。だからいけないよ。",
+        "meaningId": "Sebenarnya hari ini saya sibuk. Makanya tidak bisa pergi.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:v-hou-ga-ii-desu",
+    "level": "N5",
+    "chapter": 12,
+    "pattern": "Vほうがいいです",
+    "meaningId": "Memberikan saran atau nasihat ('sebaiknya / lebih baik melakukan...').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「Vほうがいいです」. Makna: Memberikan saran atau nasihat ('sebaiknya / lebih baik melakukan...').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-ga",
+      "particle-de",
+      "copula"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "明日、映画を見に行ったほうがいいですよ。",
+        "kana": "あした、えいがをみにいったほうがいいですよ。",
+        "meaningId": "Sebaiknya besok kamu pergi menonton film.",
+        "highlight": null
+      },
+      {
+        "jp": "野菜をたくさん食べたほうがいいですよ。",
+        "kana": "やさいをたくさんたべたほうがいいですよ。",
+        "meaningId": "Sebaiknya kamu makan banyak sayur.",
+        "highlight": null
+      },
+      {
+        "jp": "忙しいなら、今日は休んだほうがいいですよ。",
+        "kana": "いそがしいなら、きょうはやすんだほうがいいですよ。",
+        "meaningId": "Kalau sibuk, sebaiknya hari ini kamu istirahat.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:v-before",
+    "level": "N5",
+    "chapter": 12,
+    "pattern": "V前に",
+    "meaningId": "Tindakan yang terjadi sebelum kejadian lain ('sebelum melakukan...').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「V前に」. Makna: Tindakan yang terjadi sebelum kejadian lain ('sebelum melakukan...').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-ni"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "映画を見る前に、チケットを買います。",
+        "kana": "えいがをみるまえに、チケットをかいます。",
+        "meaningId": "Sebelum menonton film, saya akan membeli tiket.",
+        "highlight": null
+      },
+      {
+        "jp": "食べる前に、手を洗ったほうがいいですよ。",
+        "kana": "たべるまえに、てをあらったほうがいいですよ。",
+        "meaningId": "Sebelum makan, sebaiknya cuci tangan.",
+        "highlight": null
+      },
+      {
+        "jp": "忙しくなる前に、この仕事を終わらせるんだ。",
+        "kana": "いそがしくなるまえに、このしごとをおわらせるんだ。",
+        "meaningId": "Sebelum jadi sibuk, saya akan menyelesaikan pekerjaan ini.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:v-te-kara",
+    "level": "N5",
+    "chapter": 12,
+    "pattern": "Vてから",
+    "meaningId": "Tindakan yang dilakukan setelah aksi sebelumnya selesai ('setelah melakukan...').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「Vてから」. Makna: Tindakan yang dilakukan setelah aksi sebelumnya selesai ('setelah melakukan...').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "te-form"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "手を洗ってから、ご飯を食べます。",
+        "kana": "てをあらってから、ごはんをたべます。",
+        "meaningId": "Setelah mencuci tangan, saya akan makan.",
+        "highlight": null
+      },
+      {
+        "jp": "宿題をしてから、テレビを見たいです。",
+        "kana": "しゅくだいをしてから、テレビをみたいです。",
+        "meaningId": "Setelah mengerjakan PR, saya ingin menonton TV.",
+        "highlight": null
+      },
+      {
+        "jp": "日本語を勉強してから、日本へ行きたいです。",
+        "kana": "にほんごをべんきょうしてから、にほんへいきたいです。",
+        "meaningId": "Setelah belajar bahasa Jepang, saya ingin pergi ke Jepang.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:v-ta-koto-ga-arimasu",
+    "level": "N5",
+    "chapter": 13,
+    "pattern": "Vた ことがあります",
+    "meaningId": "Menyatakan pengalaman di masa lalu ('pernah melakukan V').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「Vた ことがあります」. Makna: Menyatakan pengalaman di masa lalu ('pernah melakukan V').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-ga"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "日本料理を食べたことがあります。",
+        "kana": "にほんりょうりを たべた ことが あります。",
+        "meaningId": "Saya pernah makan masakan Jepang.",
+        "highlight": null
+      },
+      {
+        "jp": "北海道へ行ったことがあります。",
+        "kana": "ほっかいどうへ いった ことが あります。",
+        "meaningId": "Saya pernah pergi ke Hokkaido.",
+        "highlight": null
+      },
+      {
+        "jp": "富士山に登ったことがあります。",
+        "kana": "ふじさんに のぼった ことが あります。",
+        "meaningId": "Saya pernah mendaki Gunung Fuji.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:plain-form-noun-modifier",
+    "level": "N5",
+    "chapter": 13,
+    "pattern": "普通形 ＋ N",
+    "meaningId": "Memodifikasi kata benda menggunakan klausa kata kerja bentuk biasa.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「普通形 ＋ N」. Makna: Memodifikasi kata benda menggunakan klausa kata kerja bentuk biasa.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "昨日食べた料理は美味しかったです。",
+        "kana": "きのう たべた りょうりは おいしかったです。",
+        "meaningId": "Makanan yang saya makan kemarin enak.",
+        "highlight": null
+      },
+      {
+        "jp": "私が行ったことがある国は日本です。",
+        "kana": "わたしが いった ことが ある くには にほんです。",
+        "meaningId": "Negara yang pernah saya kunjungi adalah Jepang.",
+        "highlight": null
+      },
+      {
+        "jp": "富士山に登ったことがある人は少ないです。",
+        "kana": "ふじさんに のぼった ことが ある ひとは すくないです。",
+        "meaningId": "Sedikit orang yang pernah mendaki Gunung Fuji.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:shitteimasu-shirimasen",
+    "level": "N5",
+    "chapter": 13,
+    "pattern": "知っています／知りません",
+    "meaningId": "Menyatakan status tahu atau tidak tahu.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「知っています／知りません」. Makna: Menyatakan status tahu atau tidak tahu.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "negation"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "私はその料理を知っています。",
+        "kana": "わたしは その りょうりを しっています。",
+        "meaningId": "Saya tahu masakan itu.",
+        "highlight": null
+      },
+      {
+        "jp": "昨日食べた料理の名前を知っていますか。",
+        "kana": "きのう たべた りょうりの なまえを しっていますか。",
+        "meaningId": "Apakah Anda tahu nama makanan yang Anda makan kemarin?",
+        "highlight": null
+      },
+      {
+        "jp": "富士山に登ったことがある人は知りません。",
+        "kana": "ふじさんに のぼった ことが ある ひとは しりません。",
+        "meaningId": "Saya tidak kenal orang yang pernah mendaki Gunung Fuji.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n1-to-iu-n2",
+    "level": "N5",
+    "chapter": 13,
+    "pattern": "N1 という N2",
+    "meaningId": "Menyebut nama atau mengidentifikasi benda ('N2 yang bernama N1').",
+    "frame": "___ という ___",
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N1 という N2」. Makna: Menyebut nama atau mengidentifikasi benda ('N2 yang bernama N1').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "すき焼きという料理を知っています。",
+        "kana": "すきやきと いう りょうりを しっています。",
+        "meaningId": "Saya tahu masakan yang bernama Sukiyaki.",
+        "highlight": null
+      },
+      {
+        "jp": "昨日食べた、すき焼きという料理は美味しかったです。",
+        "kana": "きのう たべた、すきやきと いう りょうりは おいしかったです。",
+        "meaningId": "Masakan yang bernama Sukiyaki yang saya makan kemarin enak.",
+        "highlight": null
+      },
+      {
+        "jp": "北海道という場所に行ったことがあります。",
+        "kana": "ほっかいどうと いう ばしょに いった ことが あります。",
+        "meaningId": "Saya pernah pergi ke tempat yang bernama Hokkaido.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:v-to",
+    "level": "N5",
+    "chapter": 14,
+    "pattern": "V辞書形 と、～",
+    "meaningId": "Pengandaian konsekuensi alamiah ('begitu / jika... maka...').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「V辞書形 と、～」. Makna: Pengandaian konsekuensi alamiah ('begitu / jika... maka...').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "春になると、花がさきます。",
+        "kana": "はるになると、はながさきます。",
+        "meaningId": "Jika musim semi tiba, bunga-bunga bermekaran.",
+        "highlight": null
+      },
+      {
+        "jp": "このボタンを押すと、ドアが開きます。",
+        "kana": "このボタンをおすと、ドアがあきます。",
+        "meaningId": "Jika menekan tombol ini, pintunya terbuka.",
+        "highlight": null
+      },
+      {
+        "jp": "右に曲がると、銀行があります。",
+        "kana": "みぎにまがると、ぎんこうがあります。",
+        "meaningId": "Jika belok ke kanan, ada bank di sana.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:v-te-wa-ikemasen",
+    "level": "N5",
+    "chapter": 14,
+    "pattern": "Vてはいけません",
+    "meaningId": "Menyatakan larangan keras ('tidak boleh melakukan V').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「Vてはいけません」. Makna: Menyatakan larangan keras ('tidak boleh melakukan V').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "negation"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "ここで写真を撮ってはいけません。",
+        "kana": "ここでしゃしんをとってはいけません。",
+        "meaningId": "Tidak boleh mengambil foto di sini.",
+        "highlight": null
+      },
+      {
+        "jp": "右に曲がると危ないですから、走ってはいけません。",
+        "kana": "みぎにまがるとあぶないですから、はしってはいけません。",
+        "meaningId": "Karena berbahaya jika belok ke kanan, tidak boleh berlari.",
+        "highlight": null
+      },
+      {
+        "jp": "このボタンを押してはいけません。",
+        "kana": "このボタンをおしてはいけません。",
+        "meaningId": "Tidak boleh menekan tombol ini.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:v-nakereba-narimasen",
+    "level": "N5",
+    "chapter": 14,
+    "pattern": "Vなければなりません",
+    "meaningId": "Menyatakan keharusan atau kewajiban ('harus melakukan V').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「Vなければなりません」. Makna: Menyatakan keharusan atau kewajiban ('harus melakukan V').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "negation"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "毎日、日本語を勉強しなければなりません。",
+        "kana": "まいにち、にほんごをべんきょうしなければなりません。",
+        "meaningId": "Saya harus belajar bahasa Jepang setiap hari.",
+        "highlight": null
+      },
+      {
+        "jp": "春になると、新しい服を買わなければなりません。",
+        "kana": "はるになると、あたらしいふくをかわなければなりません。",
+        "meaningId": "Jika musim semi tiba, saya harus membeli baju baru.",
+        "highlight": null
+      },
+      {
+        "jp": "銀行へ行って、お金をおろさなければなりません。",
+        "kana": "ぎんこうへいって、おかねをおろさなければなりません。",
+        "meaningId": "Saya harus pergi ke bank dan menarik uang.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:v-nakute-mo-ii-desu",
+    "level": "N5",
+    "chapter": 14,
+    "pattern": "Vなくてもいいです",
+    "meaningId": "Menyatakan tidak adanya keharusan ('tidak usah melakukan V').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「Vなくてもいいです」. Makna: Menyatakan tidak adanya keharusan ('tidak usah melakukan V').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-de",
+      "copula"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "明日は学校へ行かなくてもいいです。",
+        "kana": "あしたはがっこうへいかなくてもいいです。",
+        "meaningId": "Besok tidak usah pergi ke sekolah.",
+        "highlight": null
+      },
+      {
+        "jp": "このボタンを押さなくてもいいです。",
+        "kana": "このボタンをおさなくてもいいです。",
+        "meaningId": "Tidak usah menekan tombol ini.",
+        "highlight": null
+      },
+      {
+        "jp": "春になると暖かくなりますから、コートを着なくてもいいです。",
+        "kana": "はるになるとあたたかくなりますから、コートをきなくてもいいです。",
+        "meaningId": "Karena jika musim semi tiba udara menjadi hangat, jadi tidak usah memakai mantel.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:plain-form-to-omoimasu",
+    "level": "N5",
+    "chapter": 14,
+    "pattern": "普通形 と思います",
+    "meaningId": "Menyatakan pendapat atau dugaan ('Saya kira / pikir...').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「普通形 と思います」. Makna: Menyatakan pendapat atau dugaan ('Saya kira / pikir...').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "明日は雨が降ると思います。",
+        "kana": "あしたはあめがふるとおもいます。",
+        "meaningId": "Saya pikir besok akan turun hujan.",
+        "highlight": null
+      },
+      {
+        "jp": "この映画は面白いと思います。",
+        "kana": "このえいがはおもしろいとおもいます。",
+        "meaningId": "Saya pikir film ini menarik.",
+        "highlight": null
+      },
+      {
+        "jp": "彼は日本へ行きたいと思っていると思います。",
+        "kana": "かれはにほんへいきたいとおもっているとおもいます。",
+        "meaningId": "Saya pikir dia ingin pergi ke Jepang.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:to-iimasu",
+    "level": "N5",
+    "chapter": 14,
+    "pattern": "「～」と言います",
+    "meaningId": "Mengutip ucapan langsung atau tidak langsung ('berkata...').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「「～」と言います」. Makna: Mengutip ucapan langsung atau tidak langsung ('berkata...').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "先生は「明日テストがあります」と言いました。",
+        "kana": "せんせいは「あしたテストがあります」といいました。",
+        "meaningId": "Guru berkata, \"Besok ada ujian.\"",
+        "highlight": null
+      },
+      {
+        "jp": "彼は「この映画は面白い」と言います。",
+        "kana": "かれは「このえいがはおもしろい」といいます。",
+        "meaningId": "Dia berkata, \"Film ini menarik.\"",
+        "highlight": null
+      },
+      {
+        "jp": "私は彼に「日本へ行きたい」と言いました。",
+        "kana": "わたしはかれに「にほんへいきたい」といいました。",
+        "meaningId": "Saya berkata kepadanya, \"Saya ingin pergi ke Jepang.\"",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:plain-form-soudes",
+    "level": "N5",
+    "chapter": 15,
+    "pattern": "普通形 そうです",
+    "meaningId": "Menyatakan kabar angin / kabar burung ('katanya...').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「普通形 そうです」. Makna: Menyatakan kabar angin / kabar burung ('katanya...').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-de",
+      "copula"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "天気予報によると、明日は雨だそうです。",
+        "kana": "てんきよほうによると、あしたはあめだそうです。",
+        "meaningId": "Menurut prakiraan cuaca, katanya besok akan hujan.",
+        "highlight": null
+      },
+      {
+        "jp": "田中さんは、新しい車を買ったそうです。",
+        "kana": "たなかさんは、あたらしいくるまをかったそうです。",
+        "meaningId": "Katanya Pak Tanaka telah membeli mobil baru.",
+        "highlight": null
+      },
+      {
+        "jp": "あの店はとてもおいしいそうですから、行ってみます。",
+        "kana": "あのみせはとてもおいしいそうですから、いってみます。",
+        "meaningId": "Katanya toko itu sangat enak, jadi saya akan coba pergi ke sana.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:tara-conditional",
+    "level": "N5",
+    "chapter": 15,
+    "pattern": "～たら",
+    "meaningId": "Pengandaian kondisi masa lampau ('jika / kalau...').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～たら」. Makna: Pengandaian kondisi masa lampau ('jika / kalau...').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "past-tense"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "明日、時間があったら、映画を見に行きます。",
+        "kana": "あした、じかんがあったら、えいがをみにいきます。",
+        "meaningId": "Kalau besok ada waktu, saya akan pergi menonton film.",
+        "highlight": null
+      },
+      {
+        "jp": "日本に着いたら、電話をしてください。",
+        "kana": "にほんについたら、でんわをしてください。",
+        "meaningId": "Kalau sudah sampai di Jepang, tolong telepon saya.",
+        "highlight": null
+      },
+      {
+        "jp": "雨が降ったら、外で遊ぶのはやめましょう。",
+        "kana": "あめがふったら、そとであそぶのはやめましょう。",
+        "meaningId": "Kalau hujan, mari kita berhenti bermain di luar.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:temo-conditional",
+    "level": "N5",
+    "chapter": 15,
+    "pattern": "～ても",
+    "meaningId": "Pengandaian pertentangan ('walaupun / biarpun...').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～ても」. Makna: Pengandaian pertentangan ('walaupun / biarpun...').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "明日、雨が降っても、テニスをします。",
+        "kana": "あした、あめがふっても、テニスをします。",
+        "meaningId": "Walaupun besok hujan, saya akan tetap bermain tenis.",
+        "highlight": null
+      },
+      {
+        "jp": "高くても、このコンピューターがほしいです。",
+        "kana": "たかくても、このコンピューターがほしいです。",
+        "meaningId": "Biarpun mahal, saya ingin komputer ini.",
+        "highlight": null
+      },
+      {
+        "jp": "何回聞いても、わかりません。",
+        "kana": "なんかいきいても、わかりません。",
+        "meaningId": "Walaupun saya bertanya berkali-kali, saya tetap tidak mengerti.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:v-te-imasu-state-continued",
+    "level": "N5",
+    "chapter": 15,
+    "pattern": "Vて います (状態の継続)",
+    "meaningId": "Keadaan kondisi yang terus berlanjut.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「Vて います (状態の継続)」. Makna: Keadaan kondisi yang terus berlanjut.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "私は今、東京に住んでいます。",
+        "kana": "わたしはいま、とうきょうにすんでいます。",
+        "meaningId": "Sekarang saya tinggal di Tokyo.",
+        "highlight": null
+      },
+      {
+        "jp": "彼は結婚指輪をしています。",
+        "kana": "かれはけっこんゆびわをしています。",
+        "meaningId": "Dia sedang memakai cincin pernikahan.",
+        "highlight": null
+      },
+      {
+        "jp": "窓が開いていますから、閉めてください。",
+        "kana": "まどがあいていますから、しめてください。",
+        "meaningId": "Jendelanya sedang terbuka, jadi tolong tutup.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "bunpou:n-de-reason",
+    "level": "N5",
+    "chapter": 15,
+    "pattern": "N で (原因)",
+    "meaningId": "Menunjukkan sebab atau alasan terjadinya peristiwa ('karena N').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「N で (原因)」. Makna: Menunjukkan sebab atau alasan terjadinya peristiwa ('karena N').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-de"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "風邪で学校を休みます。",
+        "kana": "かぜでがっこうをやすみます。",
+        "meaningId": "Saya absen sekolah karena sakit flu.",
+        "highlight": null
+      },
+      {
+        "jp": "事故で電車が遅れました。",
+        "kana": "じこででんしゃがおくれました。",
+        "meaningId": "Kereta terlambat karena ada kecelakaan.",
+        "highlight": null
+      },
+      {
+        "jp": "地震で家が壊れました。",
+        "kana": "じしんのいえがこわれました。",
+        "meaningId": "Rumah rusak karena gempa bumi.",
+        "highlight": null
+      }
+    ],
+    "provenance": "bunpou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:dictionary:ことができる",
+    "level": "N4",
+    "chapter": null,
+    "pattern": "～ことができる",
+    "meaningId": "Menyatakan kemampuan atau kemungkinan untuk melakukan sesuatu.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～ことができる」. Makna: Menyatakan kemampuan atau kemungkinan untuk melakukan sesuatu.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-ga",
+      "particle-de",
+      "form-dictionary"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "日本語を話すことができます。",
+        "kana": "にほんごをはなすことができます。",
+        "meaningId": "Saya bisa berbicara bahasa Jepang.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:dictionary:ことになる",
+    "level": "N3",
+    "chapter": null,
+    "pattern": "～ことになる",
+    "meaningId": "Menyatakan bahwa suatu keputusan telah ditetapkan (biasanya oleh faktor luar/peraturan).",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～ことになる」. Makna: Menyatakan bahwa suatu keputusan telah ditetapkan (biasanya oleh faktor luar/peraturan).",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-ni",
+      "form-dictionary"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "来月から日本へ出張することになりました。",
+        "kana": "らいげつからにほんへしゅっちょうすることになりました。",
+        "meaningId": "Telah diputuskan bahwa saya akan dinas ke Jepang mulai bulan depan.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:dictionary:ことにする",
+    "level": "N3",
+    "chapter": null,
+    "pattern": "～ことにする",
+    "meaningId": "Menyatakan keputusan pribadi untuk melakukan atau tidak melakukan sesuatu.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～ことにする」. Makna: Menyatakan keputusan pribadi untuk melakukan atau tidak melakukan sesuatu.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-ni",
+      "form-dictionary"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "毎日３０分歩くことにします。",
+        "kana": "まいにち３０ぷんあるくことにします。",
+        "meaningId": "Saya memutuskan untuk berjalan kaki 30 menit setiap hari.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:dictionary:ことはない",
+    "level": "N2",
+    "chapter": null,
+    "pattern": "～ことはない",
+    "meaningId": "Menunjukkan bahwa tidak ada kebutuhan atau kewajiban untuk melakukan sesuatu.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～ことはない」. Makna: Menunjukkan bahwa tidak ada kebutuhan atau kewajiban untuk melakukan sesuatu.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "negation",
+      "form-dictionary"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "心配することはありませんよ。",
+        "kana": "しんぱいすることはありませんよ。",
+        "meaningId": "Tidak perlu khawatir kok.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:dictionary:こと",
+    "level": "N5",
+    "chapter": null,
+    "pattern": "～こと",
+    "meaningId": "Mengubah kata kerja menjadi frasa kata benda (nominalisasi).",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～こと」. Makna: Mengubah kata kerja menjadi frasa kata benda (nominalisasi).",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "form-dictionary"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "私の趣味は映画を見ることです。",
+        "kana": "わたしのしゅみはえいがをみることです。",
+        "meaningId": "Hobi saya adalah menonton film.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:dictionary:前に-まえに",
+    "level": "N5",
+    "chapter": null,
+    "pattern": "～前に (～まえに)",
+    "meaningId": "Menunjukkan bahwa tindakan A terjadi sebelum tindakan B.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～前に (～まえに)」. Makna: Menunjukkan bahwa tindakan A terjadi sebelum tindakan B.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-ni",
+      "form-dictionary"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "ご飯を食べる前に、薬を飲みます。",
+        "kana": "ごはんをたべるまえに、くすりをのみます。",
+        "meaningId": "Sebelum makan nasi, saya minum obat.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:dictionary:と",
+    "level": "N4",
+    "chapter": null,
+    "pattern": "～と",
+    "meaningId": "Menunjukkan konsekuensi alami atau pengandaian ('Ketika/Jika melakukan X, Y akan terjadi').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～と」. Makna: Menunjukkan konsekuensi alami atau pengandaian ('Ketika/Jika melakukan X, Y akan terjadi').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "form-dictionary"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "このボタンを押すと、水が出ます。",
+        "kana": "このぼたんをおすと、みずがでます。",
+        "meaningId": "Jika menekan tombol ini, air akan keluar.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:dictionary:と思う-意見・推量",
+    "level": "N5",
+    "chapter": null,
+    "pattern": "～と思う (意見・推量)",
+    "meaningId": "Menyatakan pendapat pribadi atau dugaan ('Saya pikir/kira...').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～と思う (意見・推量)」. Makna: Menyatakan pendapat pribadi atau dugaan ('Saya pikir/kira...').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "form-dictionary"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "東京の地下鉄は複雑だと思います。",
+        "kana": "とうきょうのちかてつはふくざつだとおモいます。",
+        "meaningId": "Saya pikir kereta bawah tanah Tokyo rumit.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:dictionary:と言う-という",
+    "level": "N5",
+    "chapter": null,
+    "pattern": "～と言う (～という)",
+    "meaningId": "Digunakan untuk melaporkan perkataan seseorang atau mengutip sebuah frasa ('mengatakan bahwa...').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～と言う (～という)」. Makna: Digunakan untuk melaporkan perkataan seseorang atau mengutip sebuah frasa ('mengatakan bahwa...').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "form-dictionary"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "「おいしい」は英語で「delicious」と言います。",
+        "kana": "「おいしい」はえいごで「delicious」といいます。",
+        "meaningId": "「Oishii」 dalam bahasa Inggris diucapkan 「delicious」.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:dictionary:そうだ-伝聞",
+    "level": "N4",
+    "chapter": null,
+    "pattern": "～そうだ (伝聞)",
+    "meaningId": "Menyatakan kabar angin atau melaporkan informasi yang didengar dari sumber lain ('Kabarnya...', 'Katanya...').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～そうだ (伝聞)」. Makna: Menyatakan kabar angin atau melaporkan informasi yang didengar dari sumber lain ('Kabarnya...', 'Katanya...').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "form-dictionary"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "明日、台風が来るそうです。",
+        "kana": "あした、たいふうがくるそうです。",
+        "meaningId": "Kabarnya besok topan akan datang.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:dictionary:とき-辞書形",
+    "level": "N5",
+    "chapter": null,
+    "pattern": "～とき (辞書形)",
+    "meaningId": "Menunjukkan waktu ketika suatu tindakan terjadi.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～とき (辞書形)」. Makna: Menunjukkan waktu ketika suatu tindakan terjadi.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "form-dictionary"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "料理を作るとき、本を見ます。",
+        "kana": "りょうりをつくるとき、ほんをみます。",
+        "meaningId": "Ketika membuat masakan, saya melihat buku.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:dictionary:名詞-修飾-辞書形",
+    "level": "N5",
+    "chapter": null,
+    "pattern": "～名詞 (修飾 - 辞書形)",
+    "meaningId": "Memodifikasi kata benda menggunakan kata kerja bentuk kamus.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～名詞 (修飾 - 辞書形)」. Makna: Memodifikasi kata benda menggunakan kata kerja bentuk kamus.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "form-dictionary"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "これは私がよく読む雑誌です。",
+        "kana": "これはわたしがよくよむざっしです。",
+        "meaningId": "Ini adalah majalah yang sering saya baca.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:masu:ながら",
+    "level": "N4",
+    "chapter": null,
+    "pattern": "～ながら",
+    "meaningId": "Menunjukkan melakukan dua pekerjaan secara bersamaan.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～ながら」. Makna: Menunjukkan melakukan dua pekerjaan secara bersamaan.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-ga",
+      "form-masu"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "音楽を聞きながら勉強します。",
+        "kana": "おんがくをききながらべんきょうします。",
+        "meaningId": "Saya belajar sambil mendengarkan musik.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:masu:たい",
+    "level": "N5",
+    "chapter": null,
+    "pattern": "～たい",
+    "meaningId": "Menyatakan keinginan untuk melakukan sesuatu.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～たい」. Makna: Menyatakan keinginan untuk melakukan sesuatu.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "past-tense",
+      "form-masu"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "ラーメンを食べたいです。",
+        "kana": "らーめんをたべたいです。",
+        "meaningId": "Saya ingin makan ramen.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:masu:やすい-にくい",
+    "level": "N4",
+    "chapter": null,
+    "pattern": "～やすい / ～にくい",
+    "meaningId": "Menyatakan bahwa sesuatu mudah atau sulit dilakukan.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～やすい / ～にくい」. Makna: Menyatakan bahwa sesuatu mudah atau sulit dilakukan.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-ni",
+      "form-masu"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "このペンは書きやすいです。",
+        "kana": "このぺんはかきやすいです。",
+        "meaningId": "Pena ini mudah ditulis.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:masu:ます-ません",
+    "level": "N5",
+    "chapter": null,
+    "pattern": "～ます / ～ません",
+    "meaningId": "Menyatakan tindakan atau keadaan masa kini atau masa depan dalam bentuk sopan.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～ます / ～ません」. Makna: Menyatakan tindakan atau keadaan masa kini atau masa depan dalam bentuk sopan.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "negation",
+      "form-masu"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "アンナさんは毎日、朝ご飯を食べますか。 —— いいえ、食べません。",
+        "kana": "アンナさんはまいにち、あさごはんをたべますか。 —— いいえ、たべません。",
+        "meaningId": "Apakah Anna makan sarapan setiap hari? —— Tidak, dia tidak makan sarapan.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:masu:ました-ませんでした",
+    "level": "N5",
+    "chapter": null,
+    "pattern": "～ました / ～ませんでした",
+    "meaningId": "Menyatakan tindakan atau keadaan masa lampau dalam bentuk sopan.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～ました / ～ませんでした」. Makna: Menyatakan tindakan atau keadaan masa lampau dalam bentuk sopan.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-de",
+      "negation",
+      "past-tense",
+      "form-masu"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "昨日、勉強しませんでした。",
+        "kana": "きのう、べんきょうしませんでした。",
+        "meaningId": "Kemarin, saya tidak belajar.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:masu:に行きます-来ます-帰ります",
+    "level": "N5",
+    "chapter": null,
+    "pattern": "～に行きます / 来ます / 帰ります",
+    "meaningId": "Menyatakan tujuan pergi, datang, atau pulang ke suatu tempat.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～に行きます / 来ます / 帰ります」. Makna: Menyatakan tujuan pergi, datang, atau pulang ke suatu tempat.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-ni",
+      "form-masu"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "週末、友達と渋谷へお酒を飲みに行きます。",
+        "kana": "しゅうまつ、ともだちとしぶやへおさけをのみにいきます。",
+        "meaningId": "Akhir pekan, saya pergi ke Shibuya dengan teman untuk minum alkohol.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:masu:ませんか",
+    "level": "N5",
+    "chapter": null,
+    "pattern": "～ませんか",
+    "meaningId": "Ajakan atau saran yang sopan ('Bagaimana kalau kita...?').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～ませんか」. Makna: Ajakan atau saran yang sopan ('Bagaimana kalau kita...?').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "negation",
+      "form-masu"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "今晩、一緒にご飯を食べに行きませんか。",
+        "kana": "こんばん、いっしょにごはんをたべにいきませんか。",
+        "meaningId": "Bagaimana kalau malam ini kita pergi makan bersama?",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:masu:ましょう",
+    "level": "N5",
+    "chapter": null,
+    "pattern": "～ましょう",
+    "meaningId": "Ajakan atau kesepakatan yang sopan ('Mari kita...').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～ましょう」. Makna: Ajakan atau kesepakatan yang sopan ('Mari kita...').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "form-masu"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "5時に会いましょう。",
+        "kana": "ごじにあいましょう。",
+        "meaningId": "Mari bertemu jam 5.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:masu:ましょうか",
+    "level": "N5",
+    "chapter": null,
+    "pattern": "～ましょうか",
+    "meaningId": "Menawarkan bantuan untuk melakukan sesuatu ('Bagaimana jika saya bantu...?').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～ましょうか」. Makna: Menawarkan bantuan untuk melakukan sesuatu ('Bagaimana jika saya bantu...?').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "form-masu"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "手伝いましょうか。",
+        "kana": "てつだいまようか。",
+        "meaningId": "Bagaimana kalau saya bantu?",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:masu:方-かた",
+    "level": "N4",
+    "chapter": null,
+    "pattern": "～方 (～かた)",
+    "meaningId": "Menyatakan cara atau metode melakukan sesuatu.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～方 (～かた)」. Makna: Menyatakan cara atau metode melakukan sesuatu.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "form-masu"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "料理の作り方を教えてください。",
+        "kana": "りょうりのつくりかたをおしえてください。",
+        "meaningId": "Tolong ajarkan saya cara membuat masakan ini.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:te:てください",
+    "level": "N5",
+    "chapter": null,
+    "pattern": "～てください",
+    "meaningId": "Permohonan sopan untuk melakukan sesuatu.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～てください」. Makna: Permohonan sopan untuk melakukan sesuatu.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "te-form",
+      "form-te"
+    ],
+    "commonMistakes": [
+      {
+        "bad": "走る → 走て (hashite)",
+        "good": "走る → 走って (hashitte)",
+        "noteId": "hashiru adalah pengecualian Godan."
+      },
+      {
+        "bad": "帰る → 帰て (kaete)",
+        "good": "帰る → 帰って (kaette)",
+        "noteId": "kaeru adalah pengecualian Godan."
+      }
+    ],
+    "examples": [
+      {
+        "jp": "ここに書いてください。",
+        "kana": "ここにかいてください。",
+        "meaningId": "Tolong tulis di sini.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:te:てもいい",
+    "level": "N5",
+    "chapter": null,
+    "pattern": "～てもいい",
+    "meaningId": "Menyatakan izin untuk melakukan sesuatu.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～てもいい」. Makna: Menyatakan izin untuk melakukan sesuatu.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "form-te"
+    ],
+    "commonMistakes": [
+      {
+        "bad": "走る → 走て (hashite)",
+        "good": "走る → 走って (hashitte)",
+        "noteId": "hashiru adalah pengecualian Godan."
+      },
+      {
+        "bad": "帰る → 帰て (kaete)",
+        "good": "帰る → 帰って (kaette)",
+        "noteId": "kaeru adalah pengecualian Godan."
+      }
+    ],
+    "examples": [
+      {
+        "jp": "テレビを見てもいいですか。",
+        "kana": "てれびをみてもいいですか。",
+        "meaningId": "Boleh kah saya menonton TV?",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:te:てはいけません",
+    "level": "N5",
+    "chapter": null,
+    "pattern": "～てはいけません",
+    "meaningId": "Menyatakan larangan keras (tidak boleh melakukan X).",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～てはいけません」. Makna: Menyatakan larangan keras (tidak boleh melakukan X).",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "negation",
+      "form-te"
+    ],
+    "commonMistakes": [
+      {
+        "bad": "走る → 走て (hashite)",
+        "good": "走る → 走って (hashitte)",
+        "noteId": "hashiru adalah pengecualian Godan."
+      },
+      {
+        "bad": "帰る → 帰て (kaete)",
+        "good": "帰る → 帰って (kaette)",
+        "noteId": "kaeru adalah pengecualian Godan."
+      }
+    ],
+    "examples": [
+      {
+        "jp": "ここで写真を撮ってはいけません。",
+        "kana": "ここでしゃしんをとってはいけません。",
+        "meaningId": "Tidak boleh mengambil foto di sini.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:te:ています",
+    "level": "N4",
+    "chapter": null,
+    "pattern": "～ています",
+    "meaningId": "Menyatakan aksi yang sedang berlangsung atau keadaan saat ini.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～ています」. Makna: Menyatakan aksi yang sedang berlangsung atau keadaan saat ini.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "form-te"
+    ],
+    "commonMistakes": [
+      {
+        "bad": "走る → 走て (hashite)",
+        "good": "走る → 走って (hashitte)",
+        "noteId": "hashiru adalah pengecualian Godan."
+      },
+      {
+        "bad": "帰る → 帰て (kaete)",
+        "good": "帰る → 帰って (kaette)",
+        "noteId": "kaeru adalah pengecualian Godan."
+      }
+    ],
+    "examples": [
+      {
+        "jp": "今、本を読んでいます。",
+        "kana": "いま、ほんをよんでいます。",
+        "meaningId": "Saya sedang membaca buku sekarang.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:te:て",
+    "level": "N5",
+    "chapter": null,
+    "pattern": "～て、～",
+    "meaningId": "Menghubungkan beberapa tindakan secara berurutan.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～て、～」. Makna: Menghubungkan beberapa tindakan secara berurutan.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "form-te"
+    ],
+    "commonMistakes": [
+      {
+        "bad": "走る → 走て (hashite)",
+        "good": "走る → 走って (hashitte)",
+        "noteId": "hashiru adalah pengecualian Godan."
+      },
+      {
+        "bad": "帰る → 帰て (kaete)",
+        "good": "帰る → 帰って (kaette)",
+        "noteId": "kaeru adalah pengecualian Godan."
+      }
+    ],
+    "examples": [
+      {
+        "jp": "週末、友達とご飯を食べて、映画を見ます。",
+        "kana": "しゅうまつ、ともだちとごはんをたべて、えいがをみます。",
+        "meaningId": "Akhir pekan, saya makan bersama teman lalu menonton film.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:te:てから",
+    "level": "N5",
+    "chapter": null,
+    "pattern": "～てから",
+    "meaningId": "Menunjukkan bahwa tindakan B terjadi setelah tindakan A selesai.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～てから」. Makna: Menunjukkan bahwa tindakan B terjadi setelah tindakan A selesai.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "te-form",
+      "form-te"
+    ],
+    "commonMistakes": [
+      {
+        "bad": "走る → 走て (hashite)",
+        "good": "走る → 走って (hashitte)",
+        "noteId": "hashiru adalah pengecualian Godan."
+      },
+      {
+        "bad": "帰る → 帰て (kaete)",
+        "good": "帰る → 帰って (kaette)",
+        "noteId": "kaeru adalah pengecualian Godan."
+      }
+    ],
+    "examples": [
+      {
+        "jp": "歯を磨いてから、寝ます。",
+        "kana": "はをみがいてから、ねます。",
+        "meaningId": "Setelah menggosok gigi, saya tidur.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:te:まだ-ていません",
+    "level": "N5",
+    "chapter": null,
+    "pattern": "まだ ～ていません",
+    "meaningId": "Menyatakan bahwa suatu tindakan belum dilakukan.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「まだ ～ていません」. Makna: Menyatakan bahwa suatu tindakan belum dilakukan.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "negation",
+      "form-te"
+    ],
+    "commonMistakes": [
+      {
+        "bad": "走る → 走て (hashite)",
+        "good": "走る → 走って (hashitte)",
+        "noteId": "hashiru adalah pengecualian Godan."
+      },
+      {
+        "bad": "帰る → 帰て (kaete)",
+        "good": "帰る → 帰って (kaette)",
+        "noteId": "kaeru adalah pengecualian Godan."
+      }
+    ],
+    "examples": [
+      {
+        "jp": "まだ昼ご飯を食べていません。",
+        "kana": "まだひるごはんをたべていません。",
+        "meaningId": "Saya belum makan siang.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:te:てきます",
+    "level": "N4",
+    "chapter": null,
+    "pattern": "～てきます",
+    "meaningId": "Menunjukkan pergi untuk melakukan sesuatu lalu kembali.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～てきます」. Makna: Menunjukkan pergi untuk melakukan sesuatu lalu kembali.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "form-te"
+    ],
+    "commonMistakes": [
+      {
+        "bad": "走る → 走て (hashite)",
+        "good": "走る → 走って (hashitte)",
+        "noteId": "hashiru adalah pengecualian Godan."
+      },
+      {
+        "bad": "帰る → 帰て (kaete)",
+        "good": "帰る → 帰って (kaette)",
+        "noteId": "kaeru adalah pengecualian Godan."
+      }
+    ],
+    "examples": [
+      {
+        "jp": "コンビニでジュースを買ってきます。",
+        "kana": "こんびにでじゅーすをかってきます。",
+        "meaningId": "Saya pergi membeli jus di minimarket sebentar (lalu kembali).",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:ta:たことがある",
+    "level": "N4",
+    "chapter": null,
+    "pattern": "～たことがある",
+    "meaningId": "Menunjukkan adanya pengalaman pernah melakukan sesuatu.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～たことがある」. Makna: Menunjukkan adanya pengalaman pernah melakukan sesuatu.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-ga",
+      "past-tense",
+      "form-ta"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "富士山に登ったことがあります。",
+        "kana": "ふじさんにのぼったことがあります。",
+        "meaningId": "Saya pernah mendaki Gunung Fuji.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:ta:たほうがいい",
+    "level": "N4",
+    "chapter": null,
+    "pattern": "～たほうがいい",
+    "meaningId": "Memberikan nasihat/saran (lebih baik melakukan X).",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～たほうがいい」. Makna: Memberikan nasihat/saran (lebih baik melakukan X).",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-ga",
+      "past-tense",
+      "form-ta"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "早く寝たほうがいいですよ。",
+        "kana": "はやくねたほうがいいですよ。",
+        "meaningId": "Lebih baik kamu tidur cepat.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:ta:たり-たりする",
+    "level": "N5",
+    "chapter": null,
+    "pattern": "～たり ～たりする",
+    "meaningId": "Menyebutkan beberapa tindakan sebagai contoh tanpa urutan kronologis.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～たり ～たりする」. Makna: Menyebutkan beberapa tindakan sebagai contoh tanpa urutan kronologis.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "past-tense",
+      "form-ta"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "休みの日、家で本を読んだり音楽を聞いたりしています。",
+        "kana": "やすみのひ、いえでほんをよんだりおんがくをきいたりしています。",
+        "meaningId": "Pada hari libur, saya membaca buku dan mendengarkan musik di rumah.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:ta:とき-タ形",
+    "level": "N5",
+    "chapter": null,
+    "pattern": "～とき (タ形)",
+    "meaningId": "Menunjukkan waktu ketika suatu tindakan telah selesai.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～とき (タ形)」. Makna: Menunjukkan waktu ketika suatu tindakan telah selesai.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "form-ta"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "イタリアへ行ったとき、この帽子を買いました。",
+        "kana": "イタリアへいったとき、このぼうしをかいました。",
+        "meaningId": "Ketika pergi ke Italia, saya membeli topi ini.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:ta:名詞-修飾-タ形",
+    "level": "N5",
+    "chapter": null,
+    "pattern": "～名詞 (修飾 - タ形)",
+    "meaningId": "Memodifikasi kata benda menggunakan kata kerja bentuk lampau biasa.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～名詞 (修飾 - タ形)」. Makna: Memodifikasi kata benda menggunakan kata kerja bentuk lampau biasa.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "form-ta"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "これは私が昨日食べたケーキです。",
+        "kana": "これはわたしがきのうたべたケーキです。",
+        "meaningId": "Ini adalah kue yang saya makan kemarin.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:nai:ないでください",
+    "level": "N5",
+    "chapter": null,
+    "pattern": "～ないでください",
+    "meaningId": "Permohonan sopan untuk tidak melakukan sesuatu.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～ないでください」. Makna: Permohonan sopan untuk tidak melakukan sesuatu.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-de",
+      "negation",
+      "form-nai"
+    ],
+    "commonMistakes": [
+      {
+        "bad": "ある → あらない (aranai)",
+        "good": "ある → ない (nai)",
+        "noteId": "aru langsung berubah menjadi nai."
+      }
+    ],
+    "examples": [
+      {
+        "jp": "写真を撮らないでください。",
+        "kana": "しゃしんをとらないでください。",
+        "meaningId": "Tolong jangan mengambil foto.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:nai:なければならない",
+    "level": "N4",
+    "chapter": null,
+    "pattern": "～なければならない",
+    "meaningId": "Menyatakan kewajiban atau keharusan (harus melakukan).",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～なければならない」. Makna: Menyatakan kewajiban atau keharusan (harus melakukan).",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "negation",
+      "form-nai"
+    ],
+    "commonMistakes": [
+      {
+        "bad": "ある → あらない (aranai)",
+        "good": "ある → ない (nai)",
+        "noteId": "aru langsung berubah menjadi nai."
+      }
+    ],
+    "examples": [
+      {
+        "jp": "宿題をしなければなりません。",
+        "kana": "しゅくだいをしなければなりません。",
+        "meaningId": "Saya harus mengerjakan PR.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:nai:なくてもいい",
+    "level": "N4",
+    "chapter": null,
+    "pattern": "～なくてもいい",
+    "meaningId": "Menunjukkan bahwa melakukan sesuatu bersifat opsional (tidak harus).",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～なくてもいい」. Makna: Menunjukkan bahwa melakukan sesuatu bersifat opsional (tidak harus).",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "form-nai"
+    ],
+    "commonMistakes": [
+      {
+        "bad": "ある → あらない (aranai)",
+        "good": "ある → ない (nai)",
+        "noteId": "aru langsung berubah menjadi nai."
+      }
+    ],
+    "examples": [
+      {
+        "jp": "無理して来なくてもいいですよ。",
+        "kana": "むりしてこなくてもいいですよ。",
+        "meaningId": "Kamu tidak harus memaksakan diri datang.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:nai:ないほうがいい",
+    "level": "N4",
+    "chapter": null,
+    "pattern": "～ないほうがいい",
+    "meaningId": "Memberikan nasihat/saran untuk tidak melakukan sesuatu (lebih baik tidak melakukan X).",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～ないほうがいい」. Makna: Memberikan nasihat/saran untuk tidak melakukan sesuatu (lebih baik tidak melakukan X).",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-ga",
+      "negation",
+      "form-nai"
+    ],
+    "commonMistakes": [
+      {
+        "bad": "ある → あらない (aranai)",
+        "good": "ある → ない (nai)",
+        "noteId": "aru langsung berubah menjadi nai."
+      }
+    ],
+    "examples": [
+      {
+        "jp": "あまりお酒を飲まないほうがいいです。",
+        "kana": "あまりおさけをのまないほうがいいです。",
+        "meaningId": "Lebih baik tidak terlalu banyak minum minuman beralkohol.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:nai:とき-ナイ形",
+    "level": "N5",
+    "chapter": null,
+    "pattern": "～とき (ナイ形)",
+    "meaningId": "Menunjukkan waktu ketika suatu tindakan tidak terjadi.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～とき (ナイ形)」. Makna: Menunjukkan waktu ketika suatu tindakan tidak terjadi.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "form-nai"
+    ],
+    "commonMistakes": [
+      {
+        "bad": "ある → あらない (aranai)",
+        "good": "ある → ない (nai)",
+        "noteId": "aru langsung berubah menjadi nai."
+      }
+    ],
+    "examples": [
+      {
+        "jp": "アルバイトがないとき、友達と遊びます。",
+        "kana": "アルバイトがないとき、ともだちとあそびます。",
+        "meaningId": "Ketika tidak ada kerja paruh waktu, saya bermain dengan teman.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:nai:名詞-修飾-ナイ形",
+    "level": "N5",
+    "chapter": null,
+    "pattern": "～名詞 (修飾 - ナイ形)",
+    "meaningId": "Memodifikasi kata benda menggunakan kata kerja bentuk negatif biasa.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～名詞 (修飾 - ナイ形)」. Makna: Memodifikasi kata benda menggunakan kata kerja bentuk negatif biasa.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "form-nai"
+    ],
+    "commonMistakes": [
+      {
+        "bad": "ある → あらない (aranai)",
+        "good": "ある → ない (nai)",
+        "noteId": "aru langsung berubah menjadi nai."
+      }
+    ],
+    "examples": [
+      {
+        "jp": "行かない場所を教えてください。",
+        "kana": "いかないばしょをおしえてください。",
+        "meaningId": "Tolong beri tahu saya tempat yang tidak kamu datangi.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:potential:可能形-ようになる",
+    "level": "N4",
+    "chapter": null,
+    "pattern": "～（可能形）ようになる",
+    "meaningId": "Menunjukkan pencapaian di mana seseorang mulai menjadi bisa melakukan sesuatu.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～（可能形）ようになる」. Makna: Menunjukkan pencapaian di mana seseorang mulai menjadi bisa melakukan sesuatu.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "particle-ni",
+      "form-potential"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "練習して、泳げるようになりました。",
+        "kana": "れんしゅうして、およげるようになりました。",
+        "meaningId": "Setelah berlatih, saya menjadi bisa berenang.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:volitional:意向形-と思う",
+    "level": "N4",
+    "chapter": null,
+    "pattern": "～（意向形）と思う",
+    "meaningId": "Menyatakan niat subjektif atau rencana untuk melakukan sesuatu.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～（意向形）と思う」. Makna: Menyatakan niat subjektif atau rencana untuk melakukan sesuatu.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "form-volitional"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "来年、日本へ留学しようと思っています。",
+        "kana": "らいねん、にほんへりゅうがくしようとおもっています。",
+        "meaningId": "Saya berniat untuk kuliah di Jepang tahun depan.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:imperative:なさい",
+    "level": "N4",
+    "chapter": null,
+    "pattern": "～なさい",
+    "meaningId": "Bentuk perintah yang sopan tapi tegas, sering digunakan oleh orang tua atau guru.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～なさい」. Makna: Bentuk perintah yang sopan tapi tegas, sering digunakan oleh orang tua atau guru.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "form-imperative"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "早く宿題をしなさい。",
+        "kana": "はやくしゅくだいをしなさい。",
+        "meaningId": "Cepat kerjakan PR-mu.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:prohibitive:てはいけない",
+    "level": "N4",
+    "chapter": null,
+    "pattern": "～てはいけない",
+    "meaningId": "Cara kasual standar untuk menyatakan bahwa sesuatu dilarang.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～てはいけない」. Makna: Cara kasual standar untuk menyatakan bahwa sesuatu dilarang.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "te-form",
+      "negation",
+      "form-prohibitive"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "ここに入ってはいけない。",
+        "kana": "ここにはいってはいけない。",
+        "meaningId": "Tidak boleh masuk ke sini.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:passive:受身形-て困る-迷惑受身",
+    "level": "N3",
+    "chapter": null,
+    "pattern": "～（受身形）て困る / 迷惑受身",
+    "meaningId": "Menunjukkan keadaan terganggu oleh tindakan pasif orang lain (suffering passive).",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～（受身形）て困る / 迷惑受身」. Makna: Menunjukkan keadaan terganggu oleh tindakan pasif orang lain (suffering passive).",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "form-passive"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "雨に降られて、濡れてしまいました。",
+        "kana": "あめにふられて、ぬれてしまいました。",
+        "meaningId": "Saya kehujanan, dan berakhir menjadi basah kuyup.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:causative:使役形-てください",
+    "level": "N3",
+    "chapter": null,
+    "pattern": "～（使役形）てください",
+    "meaningId": "Permohonan sopan meminta izin untuk membiarkan pembicara melakukan sesuatu.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～（使役形）てください」. Makna: Permohonan sopan meminta izin untuk membiarkan pembicara melakukan sesuatu.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "te-form",
+      "form-causative"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "私に紹介させてください。",
+        "kana": "わたしにしょうかいさせてください。",
+        "meaningId": "Tolong izinkan saya memperkenalkan diri.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:causativePassive:使役受身-て困った",
+    "level": "N3",
+    "chapter": null,
+    "pattern": "～（使役受身）て困った",
+    "meaningId": "Menyatakan kesusahan karena dipaksa melakukan suatu pekerjaan.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～（使役受身）て困った」. Makna: Menyatakan kesusahan karena dipaksa melakukan suatu pekerjaan.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "form-causativePassive"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "昨日、お酒をたくさん飲ませられました。",
+        "kana": "きのう、おさけをたくさんのませられました。",
+        "meaningId": "Kemarin, saya dipaksa meminum banyak sake.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:ba:ば-ほど",
+    "level": "N3",
+    "chapter": null,
+    "pattern": "～ば～ほど",
+    "meaningId": "Menyatakan 'semakin X, semakin Y'.",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～ば～ほど」. Makna: Menyatakan 'semakin X, semakin Y'.",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "comparison",
+      "form-ba"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "日本語は勉強すればするほど難しくなります。",
+        "kana": "にほんごはべんきょうすればするほどむずかしくなります。",
+        "meaningId": "Bahasa Jepang semakin dipelajari semakin menjadi sulit.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  },
+  {
+    "legacyId": "katsuyou:ba:ばよかった",
+    "level": "N3",
+    "chapter": null,
+    "pattern": "～ばよかった",
+    "meaningId": "Menyatakan penyesalan ('Seharusnya saya melakukan X').",
+    "frame": null,
+    "writingTask": "Tulis satu kalimat bahasa Jepang yang memakai pola「～ばよかった」. Makna: Menyatakan penyesalan ('Seharusnya saya melakukan X').",
+    "constraints": null,
+    "expectedForms": null,
+    "weaknessTags": [
+      "form-ba"
+    ],
+    "commonMistakes": null,
+    "examples": [
+      {
+        "jp": "もっと早く起きればよかったです。",
+        "kana": "もっとはやくおきればよかったです。",
+        "meaningId": "Seharusnya saya bangun tidur lebih cepat.",
+        "highlight": null
+      }
+    ],
+    "provenance": "katsuyou",
+    "verified": true
+  }
+]
