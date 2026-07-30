@@ -20,6 +20,17 @@ export type VocabPayload = {
   imageFile: string | null;
 };
 
+/** Muatan tampilan untuk kartu kanji (Kanji Tamago). */
+export type KanjiPayload = {
+  character: string;
+  readings: string;
+  meaning: string;
+  chapter: string;
+  topic: string;
+  category: string;
+  examples: { word: string; yomi: string; imi: string }[] | null;
+};
+
 /** SrsState dengan Date diserialisasi. */
 export type SrsStateDto = Omit<SrsState, "lastReviewedAt" | "dueAt"> & {
   lastReviewedAt: string | null;
@@ -31,7 +42,8 @@ export type ReviewCardDto = {
   itemId: string;
   kind: ReviewKind;
   direction: ReviewDirection;
-  vocab: VocabPayload | null;
+  vocab?: VocabPayload | null;
+  kanji?: KanjiPayload | null;
   /** State FSRS saat ini, HANYA untuk preview interval di client.
    *  Server tidak mempercayai nilai ini; ia membaca ulang dari database. */
   state: SrsStateDto;

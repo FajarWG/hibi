@@ -1,8 +1,13 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { redirect } from "next/navigation";
+import { GraduationCapIcon } from "@phosphor-icons/react/dist/ssr";
 
+import { prisma } from "@/lib/db";
 import { getSession } from "@/lib/session";
+import { getKanjiSessionCounts } from "@/features/srs/queue";
 import { getKanjiLibrary, type KanjiStatus } from "@/features/kanji/library";
+import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = { title: "Kanji" };
@@ -18,8 +23,16 @@ export default async function KanjiPage() {
   const session = await getSession();
   if (!session) redirect("/login");
 
-  const chapters = await getKanjiLibrary(session.userId);
+  const user = await prisma.user.findUnique({
+    where: { id: session.userId },
+    select: { timezone: true },
+  });
+  const [chapters, counts] = await Promise.all([
+    getKanjiLibrary(session.userId),
+    getKanjiSessionCounts(session.userId, user?.timezone ?? "Asia/Tokyo"),
+  ]);
   const total = chapters.reduce((sum, c) => sum + c.total, 0);
+  const toReview = counts.due + counts.fresh;
 
   return (
     <div className="space-y-8">
@@ -29,9 +42,31 @@ export default async function KanjiPage() {
         </h1>
         <p className="max-w-[60ch] text-sm text-muted-foreground">
           <span className="font-mono tabular-nums">{total}</span> kanji and
-          vocabulary items across {chapters.length} chapters. Stroke order and
-          quizzes come next; this is your coverage map.
+          vocabulary items across {chapters.length} chapters.
         </p>
+      </section>
+
+      <section className="flex flex-col gap-4 rounded-xl border border-border bg-card p-6 sm:flex-row sm:items-center sm:justify-between">
+        <div className="flex items-center gap-4">
+          <div className="flex size-12 items-center justify-center rounded-xl bg-primary/10 text-primary">
+            <GraduationCapIcon size={24} weight="duotone" />
+          </div>
+          <div>
+            <p className="font-mono text-3xl font-semibold tabular-nums">
+              {toReview}
+            </p>
+            <p className="text-sm text-muted-foreground">
+              {counts.due} due · {counts.fresh} new
+            </p>
+          </div>
+        </div>
+        <Button asChild={toReview > 0} size="lg" disabled={toReview === 0}>
+          {toReview > 0 ? (
+            <Link href="/kanji/session">Start review</Link>
+          ) : (
+            <span>All caught up</span>
+          )}
+        </Button>
       </section>
 
       {chapters.map((chapter) => (

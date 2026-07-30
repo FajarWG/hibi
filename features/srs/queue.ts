@@ -1,6 +1,7 @@
 import "server-only";
 
 import { prisma } from "@/lib/db";
+import { newState } from "@/features/srs/scheduler";
 import { startOfDayInZone } from "@/features/timer/clock";
 import type {
   ReviewCardDto,
@@ -148,4 +149,118 @@ export async function getDueSummary(
       .map(([deck, due]) => ({ deck, due }))
       .sort((a, b) => b.due - a.due),
   };
+}
+
+
+// ─────────────────────────────────────────
+// Kanji review queue (kind KANJI)
+//
+// Berbeda dari vocab: kanji hasil seed belum punya ReviewState, jadi antrean
+// juga memunculkan item BARU (belum pernah dilihat), bukan hanya yang due.
+// submitReview membuat ReviewState pada review pertama.
+// ─────────────────────────────────────────
+
+type KanjiRow = {
+  character: string;
+  readings: string;
+  meaning: string;
+  chapter: string;
+  topic: string;
+  category: string;
+  examples: unknown;
+};
+
+function kanjiCard(
+  itemId: string,
+  stateId: string,
+  kanji: KanjiRow,
+  state: SrsStateDto,
+): ReviewCardDto {
+  return {
+    stateId,
+    itemId,
+    kind: "KANJI",
+    direction: "RECOGNIZE",
+    kanji: {
+      character: kanji.character,
+      readings: kanji.readings,
+      meaning: kanji.meaning,
+      chapter: kanji.chapter,
+      topic: kanji.topic,
+      category: kanji.category,
+      examples:
+        (kanji.examples as
+          | { word: string; yomi: string; imi: string }[]
+          | null) ?? null,
+    },
+    state,
+  };
+}
+
+export async function getKanjiReviewQueue(
+  userId: string,
+  timezone: string,
+  options: { limit?: number; newLimit?: number } = {},
+): Promise<ReviewCardDto[]> {
+  const cutoff = endOfTodayInZone(new Date(), timezone);
+
+  const dueStates = await prisma.reviewState.findMany({
+    where: {
+      userId,
+      direction: "RECOGNIZE",
+      dueAt: { lt: cutoff },
+      item: { kind: "KANJI" },
+    },
+    orderBy: { dueAt: "asc" },
+    take: options.limit ?? 30,
+    include: { item: { include: { kanji: true } } },
+  });
+  const due = dueStates.flatMap((row) =>
+    row.item.kanji
+      ? [kanjiCard(row.itemId, row.id, row.item.kanji, serializeState(row))]
+      : [],
+  );
+
+  const freshState = serializeState(newState(new Date()));
+  const newItems = await prisma.reviewItem.findMany({
+    where: {
+      kind: "KANJI",
+      kanji: { isNot: null },
+      states: { none: { userId, direction: "RECOGNIZE" } },
+    },
+    orderBy: { createdAt: "asc" },
+    take: options.newLimit ?? 15,
+    include: { kanji: true },
+  });
+  const fresh = newItems.flatMap((item) =>
+    item.kanji
+      ? [kanjiCard(item.id, `new:${item.id}`, item.kanji, freshState)]
+      : [],
+  );
+
+  return [...due, ...fresh];
+}
+
+export async function getKanjiSessionCounts(
+  userId: string,
+  timezone: string,
+): Promise<{ due: number; fresh: number }> {
+  const cutoff = endOfTodayInZone(new Date(), timezone);
+  const [due, fresh] = await Promise.all([
+    prisma.reviewState.count({
+      where: {
+        userId,
+        direction: "RECOGNIZE",
+        dueAt: { lt: cutoff },
+        item: { kind: "KANJI" },
+      },
+    }),
+    prisma.reviewItem.count({
+      where: {
+        kind: "KANJI",
+        states: { none: { userId, direction: "RECOGNIZE" } },
+      },
+    }),
+  ]);
+  return { due, fresh };
 }
