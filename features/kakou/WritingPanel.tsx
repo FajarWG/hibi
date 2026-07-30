@@ -29,7 +29,9 @@ export type PracticeGrammar = {
 
 export function WritingPanel({ grammar }: { grammar: PracticeGrammar }) {
   const [text, setText] = useState("");
-  const [tier, setTier] = useState<"mechanical" | "paste-back">("mechanical");
+  const [tier, setTier] = useState<"mechanical" | "paste-back" | "ai">(
+    "mechanical",
+  );
   const [pasteBack, setPasteBack] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [done, setDone] = useState<string | null>(null);
@@ -60,22 +62,55 @@ export function WritingPanel({ grammar }: { grammar: PracticeGrammar }) {
 
   function submit() {
     setError(null);
-    let corrections: unknown[] = [];
-    let scores: unknown = null;
-    if (tier === "paste-back") {
-      try {
-        const parsed = JSON.parse(pasteBack) as {
-          corrections?: unknown[];
-          scores?: unknown;
-        };
-        corrections = parsed.corrections ?? [];
-        scores = parsed.scores ?? null;
-      } catch {
-        setError("JSON tidak valid. Tempel blok JSON dari AI eksternal.");
-        return;
-      }
-    }
     startTransition(async () => {
+      let corrections: unknown[] = [];
+      let scores: unknown = null;
+
+      if (tier === "paste-back") {
+        try {
+          const parsed = JSON.parse(pasteBack) as {
+            corrections?: unknown[];
+            scores?: unknown;
+          };
+          corrections = parsed.corrections ?? [];
+          scores = parsed.scores ?? null;
+        } catch {
+          setError("JSON tidak valid. Tempel blok JSON dari AI eksternal.");
+          return;
+        }
+      } else if (tier === "ai") {
+        try {
+          const resp = await fetch("/api/ai/writing-review", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              text,
+              pattern: grammar.pattern,
+              meaning: grammar.meaningId,
+            }),
+          });
+          if (!resp.ok) {
+            setError(
+              resp.status === 503
+                ? "AI tidak aktif (GEMINI_API_KEY kosong)."
+                : resp.status === 429
+                  ? "Terlalu banyak permintaan. Coba lagi sebentar."
+                  : "Review AI gagal. Coba tingkat lain.",
+            );
+            return;
+          }
+          const data = (await resp.json()) as {
+            corrections?: unknown[];
+            scores?: unknown;
+          };
+          corrections = data.corrections ?? [];
+          scores = data.scores ?? null;
+        } catch {
+          setError("Tidak dapat menghubungi layanan AI.");
+          return;
+        }
+      }
+
       try {
         const res = await submitWriting({
           grammarId: grammar.id,
@@ -85,7 +120,13 @@ export function WritingPanel({ grammar }: { grammar: PracticeGrammar }) {
           scores,
           flaggedWeak,
         });
-        setDone(`Tersimpan. ${res.weaknessesUpdated} titik lemah diperbarui.`);
+        const scoreNote =
+          scores && typeof scores === "object" && "accuracy" in scores
+            ? ` Akurasi ${(scores as { accuracy: number }).accuracy}.`
+            : "";
+        setDone(
+          `Tersimpan. ${res.weaknessesUpdated} titik lemah diperbarui.${scoreNote}`,
+        );
       } catch {
         setError("Gagal menyimpan. Periksa format koreksi lalu coba lagi.");
       }
@@ -194,6 +235,14 @@ export function WritingPanel({ grammar }: { grammar: PracticeGrammar }) {
           >
             Paste-back AI
           </Button>
+          <Button
+            type="button"
+            variant={tier === "ai" ? "default" : "outline"}
+            size="sm"
+            onClick={() => setTier("ai")}
+          >
+            AI review
+          </Button>
         </div>
 
         {tier === "paste-back" && (
@@ -209,6 +258,12 @@ export function WritingPanel({ grammar }: { grammar: PracticeGrammar }) {
               className="w-full resize-y rounded-lg border border-border bg-background p-3 font-mono text-xs outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50"
             />
           </div>
+        )}
+
+        {tier === "ai" && (
+          <p className="text-sm text-muted-foreground">
+            AI akan mereview tulisan Anda lalu menyimpan koreksi dan skor.
+          </p>
         )}
       </section>
 

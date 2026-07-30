@@ -23,6 +23,7 @@
     "grammar:seed": "bun scripts/grammar/seed-bank.ts"
   },
   "dependencies": {
+    "@google/genai": "2.14.0",
     "@phosphor-icons/react": "2.1.10",
     "@prisma/adapter-pg": "7.9.1",
     "@prisma/client": "7.9.1",

@@ -23,7 +23,7 @@ const correctionSchema = z.object({
 const submitSchema = z.object({
   grammarId: z.string().min(1).max(64),
   text: z.string().max(5000),
-  tier: z.enum(["mechanical", "paste-back"]),
+  tier: z.enum(["mechanical", "paste-back", "ai"]),
   corrections: z.array(correctionSchema).max(50).default([]),
   scores: z
     .object({
