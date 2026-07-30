@@ -21,7 +21,7 @@ export default async function TalkPage() {
         </h1>
         <p className="max-w-[60ch] text-sm text-muted-foreground">
           Real-time spoken practice. Pick a scenario and level. The API key
-          stays on the server — the browser only gets a short-lived token.
+          stays on the server. The browser only gets a short-lived token.
         </p>
         {!aiEnabled && (
           <p className="rounded-lg bg-muted px-3 py-2 text-sm text-muted-foreground">

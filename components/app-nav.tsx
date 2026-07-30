@@ -21,7 +21,7 @@ export function AppNav({ username }: { username: string }) {
   const pathname = usePathname();
 
   return (
-    <header className="sticky top-0 z-30 border-b border-border bg-background/85 backdrop-blur">
+    <header className="sticky top-0 z-30 border-b-2 border-foreground bg-background">
       {/* Tinggi ditahan di bawah 80px dan isinya satu baris di desktop. */}
       <div className="mx-auto flex h-16 w-full max-w-6xl items-center gap-4 px-4 sm:px-6">
         <Link href="/today" className="font-heading text-base font-semibold tracking-tight">
@@ -39,9 +39,9 @@ export function AppNav({ username }: { username: string }) {
                     href={link.href}
                     aria-current={active ? "page" : undefined}
                     className={cn(
-                      "inline-flex h-8 items-center rounded-md px-2.5 text-sm whitespace-nowrap transition-colors",
+                      "inline-flex h-8 items-center px-3 font-heading text-xs font-bold tracking-wide whitespace-nowrap transition-colors",
                       active
-                        ? "bg-accent text-accent-foreground"
+                        ? "bg-primary text-primary-foreground"
                         : "text-muted-foreground hover:bg-muted hover:text-foreground",
                     )}
                   >

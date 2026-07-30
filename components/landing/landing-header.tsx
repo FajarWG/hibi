@@ -5,14 +5,14 @@ import { ThemeToggle } from "@/components/theme-toggle";
 
 export function LandingHeader() {
   return (
-    <header className="fixed inset-x-0 top-0 z-30 border-b border-border/50 bg-background/80 backdrop-blur-lg">
+    <header className="fixed inset-x-0 top-0 z-30 border-b-2 border-foreground bg-background">
       <nav
         className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6"
         aria-label="Main navigation"
       >
         <Link
           href="/"
-          className="text-lg font-semibold tracking-tight text-foreground"
+          className="font-heading text-lg font-bold tracking-tight text-foreground"
         >
           Hibi
         </Link>

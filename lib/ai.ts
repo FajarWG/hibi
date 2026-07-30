@@ -112,6 +112,143 @@ export async function reviewWriting(input: {
 }
 
 
+/**
+ * Error khusus saat kuota/token AI kita habis (RESOURCE_EXHAUSTED / 429).
+ * Dipakai route untuk memberi sinyal ke UI agar beralih ke jalur manual
+ * (pengguna menyalin prompt lalu memeriksa fotonya di AI miliknya sendiri).
+ */
+export class AiQuotaError extends Error {
+  constructor(message = "AI quota exhausted") {
+    super(message);
+    this.name = "AiQuotaError";
+  }
+}
+
+function isQuotaError(cause: unknown): boolean {
+  const message = (cause instanceof Error ? cause.message : String(cause)).toLowerCase();
+  return (
+    message.includes("quota") ||
+    message.includes("resource_exhausted") ||
+    message.includes("resource exhausted") ||
+    message.includes("exhausted") ||
+    message.includes("429") ||
+    message.includes("rate limit")
+  );
+}
+
+export type WritingPhotoReviewResult = WritingReviewResult & {
+  /** Teks tulisan tangan yang dibaca AI dari foto. */
+  transcript: string;
+};
+
+const photoResultSchema = z.object({
+  transcript: z.string().max(5000).default(""),
+  corrections: z
+    .array(
+      z.object({
+        issue: z.string().max(500),
+        suggestion: z.string().max(500),
+        category: z.string().max(64),
+      }),
+    )
+    .max(30)
+    .default([]),
+  scores: z.object({
+    accuracy: z.number(),
+    complexity: z.number(),
+    naturalness: z.number(),
+  }),
+});
+
+/**
+ * Review tulisan tangan dari FOTO buku catatan (Gemini multimodal). Membaca
+ * aksara Jepang di foto, lalu menilai tiap bagian terhadap pola yang dilatih.
+ * Melempar {@link AiQuotaError} bila kuota AI kita habis.
+ */
+export async function reviewWritingPhoto(input: {
+  imageBase64: string;
+  mimeType: string;
+  pattern: string;
+  meaning: string;
+  parts: string[];
+}): Promise<WritingPhotoReviewResult> {
+  const ai = getClient();
+
+  const partsText = input.parts.length
+    ? input.parts.map((part, i) => `${i + 1}. ${part}`).join("\n")
+    : "(tidak ada rincian bagian)";
+
+  let response;
+  try {
+    response = await ai.models.generateContent({
+      model: "gemini-2.5-flash",
+      contents: [
+        {
+          inlineData: {
+            data: input.imageBase64,
+            mimeType: input.mimeType,
+          },
+        },
+        [
+          `Foto ini berisi tulisan tangan bahasa Jepang di buku catatan siswa.`,
+          `Pola tata bahasa yang dilatih: 「${input.pattern}」(${input.meaning}).`,
+          `Siswa diminta menulis 3 bagian berikut:\n${partsText}`,
+          "Baca seluruh tulisan tangan di foto (field transcript). Bila ada bagian yang tidak terbaca, tulis [tidak terbaca].",
+          "Nilai tulisannya. Untuk tiap kesalahan beri: issue (deskripsi singkat), suggestion (perbaikan), dan category (slug pendek seperti particle-wo, te-form, word-order, politeness). Beri skor accuracy, complexity, naturalness (0-100).",
+        ].join("\n"),
+      ],
+      config: {
+        systemInstruction:
+          "Anda guru bahasa Jepang yang teliti dan mampu membaca tulisan tangan. Balasan penjelasan (transcript apa adanya; issue/suggestion dalam bahasa Indonesia). Jujur namun mendukung.",
+        responseMimeType: "application/json",
+        responseSchema: {
+          type: Type.OBJECT,
+          properties: {
+            transcript: { type: Type.STRING },
+            corrections: {
+              type: Type.ARRAY,
+              items: {
+                type: Type.OBJECT,
+                properties: {
+                  issue: { type: Type.STRING },
+                  suggestion: { type: Type.STRING },
+                  category: { type: Type.STRING },
+                },
+                required: ["issue", "suggestion", "category"],
+              },
+            },
+            scores: {
+              type: Type.OBJECT,
+              properties: {
+                accuracy: { type: Type.NUMBER },
+                complexity: { type: Type.NUMBER },
+                naturalness: { type: Type.NUMBER },
+              },
+              required: ["accuracy", "complexity", "naturalness"],
+            },
+          },
+          required: ["transcript", "corrections", "scores"],
+        },
+      },
+    });
+  } catch (cause) {
+    if (isQuotaError(cause)) throw new AiQuotaError();
+    throw cause;
+  }
+
+  const parsed = photoResultSchema.parse(JSON.parse(response.text ?? "{}"));
+  return {
+    transcript: parsed.transcript,
+    corrections: parsed.corrections,
+    scores: {
+      accuracy: clampScore(parsed.scores.accuracy),
+      complexity: clampScore(parsed.scores.complexity),
+      naturalness: clampScore(parsed.scores.naturalness),
+    },
+  };
+}
+
+
 /** Model Gemini Live untuk percakapan suara real-time. */
 export const TALK_MODEL = "gemini-2.0-flash-live-001";
 

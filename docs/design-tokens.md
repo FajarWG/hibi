@@ -2,15 +2,15 @@
 
 ## Design read
 
-Personal daily-practice tool for a serious Japanese learner. Calm product language, focused sessions, restrained motion.
+Personal daily-practice tool for a serious Japanese learner, in a **web-brutalist** language: square corners, thick strong borders, hard offset shadows (no blur), monospace-forward headings and labels, high contrast, one loud flat accent. Focused sessions stay dense and functional.
 
-| Surface | Design variance | Motion intensity | Visual density |
+| Surface | Rawness | Motion intensity | Visual density |
 |---|---:|---:|---:|
-| Marketing and auth | 8 | 6 | 3 |
-| App shell | 5 | 4 | 5 |
-| Focused study session | 3 | 3 | 3 |
+| Marketing and auth | 7 | 4 | 5 |
+| App shell | 7 | 3 | 6 |
+| Focused study session | 8 | 2 | 6 |
 
-The installed `design-taste-frontend` skill is used fully for marketing and auth surfaces. Product surfaces use shadcn/ui as the design system while retaining the skill's anti-slop rules.
+The installed `design-taste-frontend` skill is a brutalist skill and is used across all surfaces. Product surfaces still use shadcn/ui as the component base, restyled to the brutalist primitives below.
 
 ## Component system
 
@@ -46,18 +46,19 @@ Do not reuse these for decorative UI.
 
 ## Shape
 
-- Cards and panels: 12px (`rounded-xl`).
-- Inputs: 8px (`rounded-lg`).
-- Compact controls: scale derived from the same 12px base.
-- Floating timer and intentionally pill-shaped controls: full radius.
+- **Square corners everywhere.** `--radius` is `0`, so every `rounded-*` utility resolves to 0. Do not add explicit `rounded-full`/`rounded-*` unless a control's behavior truly requires it (documented).
+- **Thick, strong borders.** Default border is `2px` in the strong foreground color (the unlayered `.border` rule in `globals.css` bumps every `border` utility to 2px). Structural dividers use `border-2`/`border-4` on the foreground. Faint hairline-gray borders are not used.
+- **Hard offset shadows, no blur.** Use `.shadow-brutal` (`4px 4px 0 0 foreground`) or `.shadow-brutal-sm` (`3px 3px 0`). Never soft blurred shadows.
+- **Press-into-shadow.** Interactive elements shift into their shadow on `:active` (Button variants do this; `.press-brutal` is the reusable helper).
 
-A pill is used only when its behavior justifies it. Do not turn every badge or card into a pill.
+A pill/full radius is used only when behavior justifies it (e.g. the floating timer), and is the documented exception.
 
 ## Type
 
-- Interface: Geist.
+- Interface body: Geist (sans), for readable long text.
+- **Headings and labels: Geist Mono, uppercase** — applied via the `font-heading` utility (`--font-heading` is the mono family; `globals.css` adds `text-transform: uppercase`). This is the brutalist display voice.
 - Numbers and elapsed time: Geist Mono with tabular figures.
-- Japanese text: Noto Sans JP, applied explicitly with `font-jp` and `lang="ja"`.
+- Japanese text: Noto Sans JP, applied explicitly with `font-jp` and `lang="ja"`, and kept `normal-case` so kana/kanji are never uppercased.
 - No serif.
 - UI copy is English. Japanese meanings and glosses are Indonesian.
 

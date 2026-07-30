@@ -63,6 +63,7 @@ export function useTalkSession(scenario: string, level: TalkLevel) {
   const micStreamRef = useRef<MediaStream | null>(null);
   const micCtxRef = useRef<AudioContext | null>(null);
   const playCtxRef = useRef<AudioContext | null>(null);
+  const analyserRef = useRef<AnalyserNode | null>(null);
   const playHeadRef = useRef(0);
   const userBufRef = useRef("");
   const modelBufRef = useRef("");
@@ -74,6 +75,7 @@ export function useTalkSession(scenario: string, level: TalkLevel) {
     micStreamRef.current = null;
     micCtxRef.current = null;
     playCtxRef.current = null;
+    analyserRef.current = null;
   }, []);
 
   const playAudio = useCallback((base64: string) => {
@@ -85,7 +87,14 @@ export function useTalkSession(scenario: string, level: TalkLevel) {
     buffer.getChannelData(0).set(float);
     const source = ctx.createBufferSource();
     source.buffer = buffer;
-    source.connect(ctx.destination);
+    // Alirkan audio lewat analyser (source → analyser → speaker) supaya avatar
+    // VRM bisa membaca amplitudo untuk lip sync, sekaligus tetap terdengar.
+    const analyser = analyserRef.current;
+    if (analyser) {
+      source.connect(analyser);
+    } else {
+      source.connect(ctx.destination);
+    }
     const startAt = Math.max(ctx.currentTime, playHeadRef.current);
     source.start(startAt);
     playHeadRef.current = startAt + buffer.duration;
@@ -212,6 +221,11 @@ export function useTalkSession(scenario: string, level: TalkLevel) {
 
       const playCtx = new AudioContext({ sampleRate: OUT_RATE });
       playCtxRef.current = playCtx;
+      const analyser = playCtx.createAnalyser();
+      analyser.fftSize = 1024;
+      analyser.smoothingTimeConstant = 0.3;
+      analyser.connect(playCtx.destination);
+      analyserRef.current = analyser;
       playHeadRef.current = playCtx.currentTime;
     } catch (cause) {
       const name = (cause as { name?: string }).name;
@@ -247,5 +261,5 @@ export function useTalkSession(scenario: string, level: TalkLevel) {
     }
   }, [scenario, level, turns, teardown]);
 
-  return { status, turns, liveUser, liveModel, amplitude, error, start, stop };
+  return { status, turns, liveUser, liveModel, amplitude, analyser: analyserRef, error, start, stop };
 }

@@ -23,7 +23,8 @@ const correctionSchema = z.object({
 const submitSchema = z.object({
   grammarId: z.string().min(1).max(64),
   text: z.string().max(5000),
-  tier: z.enum(["mechanical", "paste-back", "ai"]),
+  tier: z.enum(["mechanical", "paste-back", "ai", "photo", "photo-manual"]),
+  transcript: z.string().max(5000).optional(),
   corrections: z.array(correctionSchema).max(50).default([]),
   scores: z
     .object({
@@ -69,6 +70,7 @@ export async function submitWriting(
       reviews: {
         create: {
           tier: data.tier,
+          transcript: data.transcript ?? null,
           corrections: data.corrections as unknown as Prisma.InputJsonValue,
           scores: data.scores
             ? (data.scores as Prisma.InputJsonValue)

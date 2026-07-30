@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import dynamic from "next/dynamic";
 import { MicrophoneIcon, StopIcon } from "@phosphor-icons/react";
 
 import { Button } from "@/components/ui/button";
@@ -8,6 +9,16 @@ import { cn } from "@/lib/utils";
 import { Avatar } from "@/features/talk/Avatar";
 import { useTalkSession, type TalkStatus } from "@/features/talk/useTalkSession";
 import type { TalkLevel } from "@/features/talk/scenarios";
+
+/**
+ * Avatar VRM 3D bersifat client-only dan berat (three.js). Dimuat lazy supaya
+ * tidak ikut ke rute lain atau berjalan saat SSR. Selagi berkas VRM diunduh,
+ * tampilkan avatar blob ringan sebagai fallback.
+ */
+const VRMAvatar = dynamic(() => import("@/features/talk/VRMAvatar"), {
+  ssr: false,
+  loading: () => <Avatar amplitude={0} active={false} />,
+});
 
 const STATUS_LABEL: Record<TalkStatus, string> = {
   idle: "Ready",
@@ -54,7 +65,7 @@ export function TalkRoom({
   level: TalkLevel;
   title: string;
 }) {
-  const { status, turns, liveUser, liveModel, amplitude, error, start, stop } =
+  const { status, turns, liveUser, liveModel, analyser, error, start, stop } =
     useTalkSession(scenario, level);
   const active = status === "live";
   const idle = status === "idle" || status === "ended" || status === "error";
@@ -76,7 +87,9 @@ export function TalkRoom({
         </Link>
       </div>
 
-      <Avatar amplitude={amplitude} active={active} />
+      <div className="relative mx-auto h-64 w-full max-w-md overflow-hidden rounded-2xl border border-border bg-gradient-to-b from-muted/40 to-background sm:h-80">
+        <VRMAvatar analyser={analyser} lookAtCursor={active} />
+      </div>
 
       {error && (
         <p className="text-center text-sm text-destructive">{error}</p>

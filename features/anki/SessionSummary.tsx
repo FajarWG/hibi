@@ -67,7 +67,7 @@ export function SessionSummary({
         {flushState === "error" && (
           <div className="space-y-2">
             <p className="flex items-center justify-center gap-1.5 text-destructive">
-              <WarningCircleIcon weight="fill" /> Couldn&apos;t save yet — your
+              <WarningCircleIcon weight="fill" /> Couldn&apos;t save yet. Your
               answers are stored locally.
             </p>
             <Button type="button" variant="outline" size="sm" onClick={onRetry}>
