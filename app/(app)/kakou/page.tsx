@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { redirect } from "next/navigation";
 
 import { getSession } from "@/lib/session";
@@ -82,26 +83,28 @@ export default async function KakouPage() {
 
           <ul className="divide-y divide-border overflow-hidden rounded-xl border border-border">
             {level.points.map((point) => (
-              <li
-                key={point.id}
-                className="flex items-center justify-between gap-4 bg-card px-4 py-2.5"
-              >
-                <div className="min-w-0">
-                  <p lang="ja" className="truncate font-jp text-sm">
-                    {point.pattern}
-                  </p>
-                  <p className="truncate text-xs text-muted-foreground">
-                    {point.meaningId}
-                  </p>
-                </div>
-                <span
-                  className={cn(
-                    "shrink-0 rounded-full px-2 py-0.5 text-xs font-medium",
-                    STATUS_META[point.status].badge,
-                  )}
+              <li key={point.id}>
+                <Link
+                  href={`/kakou/practice/${point.id}`}
+                  className="flex items-center justify-between gap-4 bg-card px-4 py-2.5 transition-colors hover:bg-muted"
                 >
-                  {STATUS_META[point.status].label}
-                </span>
+                  <div className="min-w-0">
+                    <p lang="ja" className="truncate font-jp text-sm">
+                      {point.pattern}
+                    </p>
+                    <p className="truncate text-xs text-muted-foreground">
+                      {point.meaningId}
+                    </p>
+                  </div>
+                  <span
+                    className={cn(
+                      "shrink-0 rounded-full px-2 py-0.5 text-xs font-medium",
+                      STATUS_META[point.status].badge,
+                    )}
+                  >
+                    {STATUS_META[point.status].label}
+                  </span>
+                </Link>
               </li>
             ))}
           </ul>

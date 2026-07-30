@@ -53,8 +53,10 @@ model User {
   createdAt    DateTime @default(now())
   updatedAt    DateTime @updatedAt
 
-  timers       StudyTimer[]
-  reviewStates ReviewState[]
+  timers          StudyTimer[]
+  reviewStates    ReviewState[]
+  writingSessions WritingSession[]
+  weaknesses      Weakness[]
 
   @@map("hibi_user")
 }
@@ -255,4 +257,55 @@ model KanjiEntry {
   @@unique([chapter, category, character])
   @@index([chapter])
   @@map("hibi_kanji_entry")
+}
+
+
+// ─────────────────────────────────────────
+// Kakou writing sessions + feedback loop (Weakness)
+// ─────────────────────────────────────────
+model WritingSession {
+  id          String    @id @default(cuid())
+  userId      String
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  grammarId   String? // pola yang dilatih (konteks, tanpa FK)
+  mode        String    @default("grammar") // grammar | free | vocab
+  level       String?
+  prompt      Json // snapshot task yang ditampilkan
+  text        String?   @db.Text // tulisan user
+  status      String    @default("ACTIVE") // ACTIVE | COMPLETED
+  startedAt   DateTime  @default(now())
+  completedAt DateTime?
+
+  reviews WritingReview[]
+
+  @@index([userId, startedAt])
+  @@map("hibi_writing_session")
+}
+
+model WritingReview {
+  id          String         @id @default(cuid())
+  sessionId   String
+  session     WritingSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  tier        String // mechanical | paste-back | ai
+  corrections Json // [{ span, issue, suggestion, category }]
+  scores      Json? // { accuracy, complexity, naturalness }
+  transcript  String?        @db.Text
+  createdAt   DateTime       @default(now())
+
+  @@index([sessionId])
+  @@map("hibi_writing_review")
+}
+
+// Titik lemah yang membuat prompt adaptif berfungsi. Tidak ada di Nihongo Flow.
+model Weakness {
+  id       String   @id @default(cuid())
+  userId   String
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  category String
+  hits     Int      @default(1)
+  lastSeen DateTime @default(now())
+
+  @@unique([userId, category])
+  @@index([userId, hits])
+  @@map("hibi_weakness")
 }
