@@ -101,3 +101,54 @@ export async function submitWriting(
   revalidatePath("/kakou");
   return { sessionId: session.id, weaknessesUpdated: tags.size };
 }
+
+
+const reinforceSchema = z.object({
+  words: z.array(z.string().max(64)).min(1).max(10),
+  text: z.string().max(5000),
+  tier: z.enum(["mechanical", "paste-back"]),
+  corrections: z.array(correctionSchema).max(50).default([]),
+});
+
+/** Simpan sesi Vocabulary Reinforcement (mode "vocab", tanpa grammarId). */
+export async function submitReinforcement(
+  input: unknown,
+): Promise<SubmitWritingResult> {
+  const userId = await requireUserId();
+  const data = reinforceSchema.parse(input);
+
+  const session = await prisma.writingSession.create({
+    data: {
+      userId,
+      mode: "vocab",
+      prompt: { words: data.words } as Prisma.InputJsonValue,
+      text: data.text,
+      status: "COMPLETED",
+      completedAt: new Date(),
+      reviews: {
+        create: {
+          tier: data.tier,
+          corrections: data.corrections as unknown as Prisma.InputJsonValue,
+          scores: Prisma.DbNull,
+        },
+      },
+    },
+    select: { id: true },
+  });
+
+  const tags = new Set<string>();
+  for (const correction of data.corrections) {
+    if (correction.category) tags.add(correction.category);
+  }
+  const now = new Date();
+  for (const category of tags) {
+    await prisma.weakness.upsert({
+      where: { userId_category: { userId, category } },
+      update: { hits: { increment: 1 }, lastSeen: now },
+      create: { userId, category },
+    });
+  }
+
+  revalidatePath("/kakou");
+  return { sessionId: session.id, weaknessesUpdated: tags.size };
+}

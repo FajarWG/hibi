@@ -49,6 +49,12 @@ export default async function KakouPage() {
           <span className="font-mono tabular-nums">{grandTotal}</span> patterns
           from the reviewed Bunpou and Katsuyou sources.
         </p>
+        <Link
+          href="/kakou/reinforce"
+          className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:underline"
+        >
+          Vocabulary reinforcement →
+        </Link>
       </section>
 
       {library.map((level) => (
